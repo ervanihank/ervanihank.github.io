@@ -19,7 +19,7 @@ const translations = {
     quickJournalText: "This is my little corner of the world where I save my personal movie and book archive.",
     aboutTitle: "About",
     aboutIntroMerged:
-      '<p>I’m Erva Nihan Kandemir Yıldıran, a Postdoctoral Fellow at Teachers College, Columbia University, and a cognitive scientist. I study the cognitive and educational processes that shape how learning unfolds, and it is a question that has followed me through different stages of my work.</p><p>I did not arrive at this question in a straight line. I started in psychology, with a minor in biology, moved into cognitive science, spent time thinking about perception, and eventually found my way into learning and education. I have come to enjoy these crossings, because they tend to open up the kinds of questions I care about most, how learning can be better supported, how education can be more equitable, and how evidence can be turned into something that matters in practice.</p><p>Outside of research, I keep returning to books and films, and to the small details that linger after them. I like collecting those moments and writing them down.</p>',
+      '<p>I’m Erva Nihan Kandemir Yıldıran, a Postdoctoral Fellow at Teachers College, Columbia University, and a cognitive scientist. I study the cognitive and educational processes that shape how learning unfolds, and it is a question that has followed me through different stages of my work.</p><p>Outside of research, I keep returning to books and films, and to the small details that linger after them. I like collecting those moments and writing them down.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",
@@ -156,7 +156,7 @@ const translations = {
     quickJournalText: "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     aboutTitle: "Hakkında",
     aboutIntroMerged:
-      '<p>Ben Erva Nihan Kandemir Yıldıran. Columbia University Teachers College\'da doktora sonrası araştırmacıyım ve bir bilişsel bilimciyim. Daha da özelde, öğrenmenin bilişsel ve eğitsel koşullar altında nasıl şekillendiğini çalışıyorum; bu soru da çalışma hayatımın farklı aşamalarında peşimi hiç bırakmadı.</p><p>Buraya dümdüz bir yoldan gelmedim. Önce psikoloji ve biyoloji eğitimi aldım, ardından bilişsel bilime geçip insan algısı üzerine çalıştım, sonra da yolum öğrenme ve eğitime çıktı. Hâlâ bu alanlar arasında dolaşmayı seviyorum, çünkü en ilginç sorular çoğu zaman tam da bu kesişimlerde ortaya çıkıyor: öğrenme nasıl daha iyi desteklenebilir, eğitim nasıl daha eşit hale getirilebilir ve kanıt gerçek hayatta nasıl daha işe yarar bir şeye dönüştürülebilir?</p><p>Araştırma yapmadığım zamanlarda ise kitaplara, filmlere ve insanda iz bırakan küçük ayrıntılara geri dönüyorum. Onları bir yerde toplamayı ve yazıya dökmeyi seviyorum.</p>',
+      '<p>Ben Erva Nihan Kandemir Yıldıran. Columbia University Teachers College\'da doktora sonrası araştırmacıyım ve bir bilişsel bilimciyim. Daha da özelde, öğrenmenin bilişsel ve eğitsel koşullar altında nasıl şekillendiğini çalışıyorum; bu soru da çalışma hayatımın farklı aşamalarında peşimi hiç bırakmadı.</p><p>Araştırma yapmadığım zamanlarda ise kitaplara, filmlere ve insanda iz bırakan küçük ayrıntılara geri dönüyorum. Onları bir yerde toplamayı ve yazıya dökmeyi seviyorum.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",
