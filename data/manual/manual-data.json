@@ -1,0 +1,359 @@
+{
+  "_instructions": {
+    "purpose": "This is the only file you edit manually for journal data.",
+    "workflow": [
+      "Auto-imported Goodreads, Letterboxd, and book club data are merged with this file.",
+      "Use manualEntries to add books, films, or book club entries that do not exist in the exports.",
+      "Use overrides to patch an existing auto-imported item by its id or slug.",
+      "Use disabled to hide an auto-imported item without deleting source exports."
+    ],
+    "localAssets": {
+      "bookCovers": "assets/images/covers/books/",
+      "bookClubPhotos": "assets/images/bookclub/",
+      "homeImages": "assets/images/home/",
+      "researchImages": "assets/images/research/",
+      "institutionLogos": "assets/images/institutions/",
+      "documents": "assets/docs/"
+    },
+    "coverRule": "For a custom local cover or photo, set coverUrl or photoUrl to a relative path such as assets/images/covers/books/my-book.webp."
+  },
+  "_examples": {
+    "manualBook": {
+      "id": "example-manual-book",
+      "type": "book",
+      "title": {
+        "en": "Example Book Title",
+        "tr": "Ornek Kitap Basligi"
+      },
+      "creator": "Author Name",
+      "country": "turkey",
+      "countryLabel": {
+        "en": "Turkey",
+        "tr": "Türkiye"
+      },
+      "year": "2026",
+      "readDate": "2026-04-07",
+      "rating": "5/5",
+      "coverUrl": "assets/images/covers/books/example-manual-book.webp",
+      "note": {
+        "en": "Short card note.",
+        "tr": "Kisa kart notu."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>Longer HTML note if needed.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Gerekirse daha uzun HTML notu.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": ["example"],
+        "tr": ["ornek"]
+      }
+    },
+    "manualFilm": {
+      "id": "example-manual-film",
+      "type": "film",
+      "title": {
+        "en": "Example Film Title",
+        "tr": "Ornek Film Basligi"
+      },
+      "creator": "Director Name",
+      "country": "france",
+      "countryLabel": {
+        "en": "France",
+        "tr": "Fransa"
+      },
+      "year": "2026",
+      "watchedDate": "2026-04-07",
+      "rating": "4.5/5",
+      "coverUrl": "https://example.com/poster.jpg",
+      "note": {
+        "en": "Short card note.",
+        "tr": "Kisa kart notu."
+      },
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>Longer HTML note if needed.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Gerekirse daha uzun HTML notu.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": ["example"],
+        "tr": ["ornek"]
+      }
+    },
+    "manualBookClubEntry": {
+      "slug": "example-book-club-entry",
+      "book": "Ornek Kitap",
+      "englishTitle": "Example Book",
+      "authors": ["Author Name"],
+      "date": "April 2026",
+      "sortKey": "2026-04",
+      "moderator": "Erva",
+      "photoUrl": "assets/images/bookclub/example-book-club-entry.jpeg"
+    },
+    "bookOverride": {
+      "example-existing-book-id": {
+        "coverUrl": "assets/images/covers/books/example-existing-book-id.webp"
+      }
+    }
+  },
+  "manualEntries": {
+    "books": [],
+    "films": [],
+    "bookClub": []
+  },
+  "overrides": {
+    "booksById": {},
+    "filmsById": {
+      "little-miss-sunshine-2006": {
+        "creator": "Jonathan Dayton, Valerie Faris",
+        "country": "unitedStates",
+        "countryLabel": {
+          "en": "United States",
+          "tr": "Amerika Birleşik Devletleri"
+        }
+      },
+      "sentimental-value-2025": {
+        "creator": "Joachim Trier",
+        "country": "norway",
+        "countryLabel": {
+          "en": "Norway",
+          "tr": "Norveç"
+        }
+      },
+      "it-was-just-an-accident-2025": {
+        "creator": "Jafar Panahi",
+        "country": "iran",
+        "countryLabel": {
+          "en": "İran",
+          "tr": "İran"
+        }
+      },
+      "pierrot-le-fou-1965": {
+        "creator": "Jean-Luc Godard",
+        "country": "france",
+        "countryLabel": {
+          "en": "France",
+          "tr": "Fransa"
+        }
+      },
+      "once-upon-a-time-in-anatolia-2011": {
+        "creator": "Nuri Bilge Ceylan",
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "black-mirror-b-te-noire-2025": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-fifteen-million-merits-2011": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-nosedive-2016": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-playtest-2016": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-shut-up-and-dance-2016": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-the-entire-history-of-you-2011": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-the-national-anthem-2011": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-the-waldo-moment-2013": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "black-mirror-white-bear-2013": {
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "sen-bir-meleksin-1969": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "water-and-fire-2013": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "you-re-my-home-2012": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "habil-qabil-2003": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "demirk-rat-chief-1991": {
+        "creator": "Can Dundar, Bulent Capli",
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "demirk-rat-crisis-1991": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "demirk-rat-the-goverment-1991": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "demirk-rat-victory-1991": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "demirk-rat-fight-1991": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "decision-to-leave-2022": {
+        "creator": "Park Chan-wook",
+        "country": "southKorea",
+        "countryLabel": {
+          "en": "South Korea",
+          "tr": "Güney Kore"
+        }
+      },
+      "submarine-2010": {
+        "creator": "Richard Ayoade",
+        "country": "unitedKingdom",
+        "countryLabel": {
+          "en": "United Kingdom",
+          "tr": "Birleşik Krallık"
+        }
+      },
+      "bihter-a-forbidden-passion-2023": {
+        "creator": "Caner Alper, Mehmet Binay",
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "the-banshees-of-inisherin-2022": {
+        "creator": "Martin McDonagh",
+        "country": "ireland",
+        "countryLabel": {
+          "en": "Ireland",
+          "tr": "İrlanda"
+        }
+      },
+      "eiffel-2021": {
+        "creator": "Martin Bourboulon",
+        "country": "france",
+        "countryLabel": {
+          "en": "France",
+          "tr": "Fransa"
+        }
+      },
+      "scenes-from-a-marriage-2021": {
+        "creator": "Hagai Levi",
+        "country": "unitedStates",
+        "countryLabel": {
+          "en": "United States",
+          "tr": "Amerika Birleşik Devletleri"
+        }
+      },
+      "noah-land-2019": {
+        "creator": "Cenk Erturk",
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      },
+      "pieces-of-a-woman-2020": {
+        "creator": "Kornel Mundruczo",
+        "country": "canada",
+        "countryLabel": {
+          "en": "Canada",
+          "tr": "Kanada"
+        }
+      },
+      "g-nco-2017": {
+        "country": "turkey",
+        "countryLabel": {
+          "en": "Turkey",
+          "tr": "Türkiye"
+        }
+      }
+    },
+    "bookClubBySlug": {}
+  },
+  "disabled": {
+    "bookIds": [],
+    "filmIds": [],
+    "bookClubSlugs": []
+  }
+}

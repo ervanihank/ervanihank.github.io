@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journal | Erva Nihan Kandemir</title>
+    <meta name="description" content="Film and book journal of Erva Nihan Kandemir." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="left-rail">
+        <a class="ek-mark" href="index.html" aria-label="Home">
+          Home
+        </a>
+        <nav class="site-nav" aria-label="Main navigation" data-i18n-aria-label="navAria">
+          <a href="index.html#about" data-i18n="navAbout">About</a>
+          <a href="index.html#work" data-i18n="navResearch">Research</a>
+          <a href="index.html#journal" data-i18n="navCorner">Personal Archive</a>
+          <a href="index.html#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language switcher">
+          <button class="lang-button is-active" data-lang-switch="en" type="button">EN</button>
+          <button class="lang-button" data-lang-switch="tr" type="button">TR</button>
+        </div>
+      </aside>
+
+      <div class="main-column">
+        <main>
+          <section class="section section-reveal page-hero">
+            <h1 data-i18n="journalPageTitle">My movie and book library</h1>
+            <p data-i18n="journalIntro">
+              Search this archive by country, author or director, rating, publication or release year, and read or watch year.
+            </p>
+          </section>
+
+          <section class="section section-reveal" id="journal-library">
+            <div class="journal-controls">
+              <div class="advanced-filters basic-filters" aria-label="Basic search filters">
+                <label class="filter-field">
+                  <span data-i18n="filterSearchLabel">Search</span>
+                  <input
+                    type="text"
+                    id="filter-query"
+                    class="search-box"
+                    placeholder="Search title, notes, keywords, quotes..."
+                    data-i18n-placeholder="journalSearchPlaceholder"
+                  />
+                </label>
+                <label class="filter-field">
+                  <span data-i18n="filterCountryLabel">Country</span>
+                  <select id="filter-country" class="search-box"></select>
+                </label>
+              </div>
+              <p id="search-stats" class="journal-hint search-stats" aria-live="polite"></p>
+            </div>
+            <div id="country-map" class="country-map" aria-label="Country map"></div>
+            <div class="scoped-controls" aria-label="Scoped search filters">
+              <p id="scope-country-hint" class="journal-hint" aria-live="polite"></p>
+              <div class="scope-switch" aria-label="Search inside selector">
+                <button id="scope-all" type="button" class="library-scope-button" data-i18n="filterScopeAll">All entries</button>
+                <button id="scope-book" type="button" class="library-scope-button" data-i18n="filterScopeBooks">Book shelf</button>
+                <button id="scope-film" type="button" class="library-scope-button" data-i18n="filterScopeFilms">Movie shelf</button>
+              </div>
+              <div class="advanced-filters" aria-label="Advanced scoped filters">
+                <label class="filter-field">
+                  <span id="filter-creator-label" data-i18n="creatorSearchLabel">Author / Director</span>
+                  <select id="filter-creator" class="search-box"></select>
+                </label>
+                <label class="filter-field">
+                  <span data-i18n="filterMinRatingLabel">Min Rating</span>
+                  <select id="filter-min-rating" class="search-box"></select>
+                </label>
+                <label class="filter-field">
+                  <span id="filter-release-label" data-i18n="filterReleaseYearLabel">Release / Publication Year</span>
+                  <select id="filter-release-year" class="search-box"></select>
+                </label>
+                <label class="filter-field">
+                  <span id="filter-activity-label" data-i18n="filterActivityYearLabel">Watched / Read Year</span>
+                  <select id="filter-activity-year" class="search-box"></select>
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <section class="section section-reveal" id="film-shelf">
+            <div class="section-heading">
+              <h2 data-i18n="filmShelfTitle">Movie Shelf</h2>
+            </div>
+            <p id="film-shelf-context" class="journal-hint"></p>
+            <div id="film-shelf-grid" class="journal-grid" aria-live="polite"></div>
+          </section>
+
+          <section class="section section-reveal" id="book-shelf">
+            <div class="section-heading">
+              <h2 data-i18n="bookShelfTitle">Book Shelf</h2>
+            </div>
+            <p id="book-shelf-context" class="journal-hint"></p>
+            <div id="book-shelf-grid" class="journal-grid" aria-live="polite"></div>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <p data-i18n="footerText">Last updated in 2026-04-04</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="site-data.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

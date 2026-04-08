@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=3cm]{geometry}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{amsthm, amsfonts, amssymb, amsmath}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{tikz-cd}
+%\usepackage{fouriernc}
+
+
+\newtheorem{thm}{Théorème}
+\newtheorem*{dem}{Preuve}
+\newtheoremstyle{pourrk}{10pt}{10pt}{}{}{\em}{:}{ }{}
+\theoremstyle{pourrk}
+\newtheorem*{rmq}{Remarque}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\Sn}{\mathcal{S}}
+\newcommand{\SO}{\mathbf{SO}(3)}
+
+
+
+\begin{document}
+
+\title{\textbf{Modélisation déjeuner}}
+\date{}
+\maketitle
+\emph{Avertissement: ceci est un calcul naïf réalisé par un \textbf{non-profesionnel}. Pour éviter la propagation du Covid-19, portez un masque.}\\
+~\\
+
+
+\centerline{\textbf{Données}}
+~\\
+Le nombre de nouveaux cas Covid par jour en France est de 25 000 en moyenne et le délai de contagieusité est d'une semaine. De plus le population française est d'environ 70 millions d'habitants. Ainsi la probabilité $p$ qu'un individu vacciné soit positif et contagieux à un moment donné est 
+$$p = \frac{7\times 25000}{70000000}\times \underbrace{0.1}_{\text{protection vaccin}} \simeq 0.02\%.$$
+Étant données deux personnes, une saine vaccinée et une contaminée contagieuse, la probabilité de contamination est (dans le pire des cas) $$p_c\simeq 10\%.$$
+
+
+\centerline{\textbf{Modélisation}}
+~\\
+On note $n$ le nombre de personnes présentes dans une petite population. Si $X$ est le nombre de personnes contaminées, alors $X$ suit une loi binomiale de paramêtres $(n,p)$:
+$$X\sim \mathcal{B}(n,p).$$
+Ici on suppose déjà que les variables sont indépendantes (peu probable). \\
+
+\centerline{\textbf{Calcul théorique}}
+~\\
+Supposons qu'on se donne une population $\left\lbrace a_1,\dots,a_n\right\rbrace$ de $n$ personnes se rencontrant, avec $n$ petit. On suppose que $a_1,\dots,a_X$ sont contaminées et $a_{X+1},\dots,a_n$ sont sains (et vaccinés). 
+Pour qu'il n'y ait pas de contamination lors d'une réunion, il faut que $a_1$ ne contamine pas $a_{X+1},a_{X+2},\dots,a_n$ puis que $a_2$ ne contamine pas $a_{X+1},\dots,a_n$ etc jusqu'à $a_n$. La probabilité de non contamination est donc 
+$$\mathbb{P}(\text{Non contamination avec }X\text{ contagieux})=(1-p_c)^{X(n-X)}=\underbrace{(1-p_c)\times \dots \times (1-p_c)}_{X(n-X)\text{ fois}}.$$
+Pour nous la valeur de $X$ est aléatoire. On obtient pour probabilité de contamination : 
+$$\boxed{\mathbb{P}=1-\sum_{k=0}^n{n\choose k}p^k(1-p)^{n-k}(1-p_c)^{k(n-k)}.}$$
+
+\centerline{\textbf{Application numérique}}
+~\\
+Pour $n=20$, le logiciel de calcul \emph{WolframAlpha} donne 
+
+$$\boxed{\mathbb{P}=0.00345395=0.3\%.}$$
+
+%sum 20!/(k!(20-k)!)0.002^k(1-0.002)^(20-k)0.05^(k(20-k)),k=0 to 20
+
+
+
+
+\end{document}

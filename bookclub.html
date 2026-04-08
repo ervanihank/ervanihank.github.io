@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Club | Erva Nihan Kandemir</title>
+    <meta name="description" content="Book club reading list with moderators and session notes." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="left-rail">
+        <a class="ek-mark" href="index.html" aria-label="Home">
+          Home
+        </a>
+        <nav class="site-nav" aria-label="Main navigation" data-i18n-aria-label="navAria">
+          <a href="index.html#about" data-i18n="navAbout">About</a>
+          <a href="index.html#work" data-i18n="navResearch">Research</a>
+          <a href="index.html#journal" data-i18n="navCorner">Personal Archive</a>
+          <a href="index.html#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language switcher">
+          <button class="lang-button is-active" data-lang-switch="en" type="button">EN</button>
+          <button class="lang-button" data-lang-switch="tr" type="button">TR</button>
+        </div>
+      </aside>
+
+      <div class="main-column">
+        <main>
+          <a href="index.html#journal" class="back-link" data-i18n="backToHome">← Back to Homepage</a>
+
+          <section class="section section-reveal page-hero">
+            <h1 data-i18n="bookClubTitle">Book Club</h1>
+            <p data-i18n="bookClubIntro">What began in 2023 as a small gathering of three friends has gradually grown into a circle that now stretches across countries and time zones. Yet, distance and difference have not kept us apart. For over three years, we have continued reading and discussing together. Over time, our group has expanded, and today we continue this journey with Berfin, Zeyneb, Seda, Zeynep, Rana, and myself. We remain open to curious readers who find joy in books as we do.</p>
+          </section>
+
+          <section class="section section-reveal">
+            <p class="journal-hint" id="bookclub-count" aria-live="polite"></p>
+            <p class="timeline-period" id="bookclub-timeline" aria-live="polite"></p>
+            <div id="bookclub-grid" class="bookclub-grid" aria-live="polite"></div>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <p data-i18n="footerText">Last updated in 2026-04-04</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="site-data.js"></script>
+    <script src="bookclub.js"></script>
+  </body>
+</html>

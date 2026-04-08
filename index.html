@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erva Nihan Kandemir</title>
+    <meta
+      name="description"
+      content="Personal website of Erva Nihan Kandemir: research, writing, and journal notes on films and books."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="left-rail">
+        <a class="ek-mark" href="index.html" aria-label="Home">
+          Home
+        </a>
+        <nav class="site-nav" aria-label="Main navigation" data-i18n-aria-label="navAria">
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#work" data-i18n="navResearch">Research</a>
+          <a href="#journal" data-i18n="navCorner">Personal Archive</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language switcher">
+          <button class="lang-button is-active" data-lang-switch="en" type="button">EN</button>
+          <button class="lang-button" data-lang-switch="tr" type="button">TR</button>
+        </div>
+      </aside>
+
+      <div class="main-column">
+        <main>
+          <section class="hero section-reveal">
+            <div class="hero-copy">
+              <h1 data-i18n="heroName">ERVA NIHAN KANDEMIR</h1>
+              <h2 class="hero-welcome" data-i18n="heroWelcome">Welcome To My Webpage!</h2>
+              <p class="hero-text hero-intro-inline" data-i18n="heroSiteIntro">
+                On this website, I share my research, reading life, and personal notes on books and films.
+              </p>
+            </div>
+            <figure class="hero-photo-wrap">
+              <img
+                src="assets/images/profile/erva_resized_for_scholar.jpg"
+                alt="Portrait of Erva Nihan Kandemir"
+                class="hero-photo"
+              />
+            </figure>
+          </section>
+
+          <section class="section section-reveal about-section" id="about">
+            <div class="section-heading">
+              <h2 class="section-title-with-icon">
+                <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="8" r="3"></circle>
+                  <path d="M6 19c0-3.2 2.7-5 6-5s6 1.8 6 5"></path>
+                </svg>
+                <span data-i18n="aboutTitle">About</span>
+              </h2>
+            </div>
+            <div class="about-card">
+              <div class="about-copy" data-i18n-html="aboutIntroMerged">
+                <p>I'm Erva Nihan Kandemir Yildiran. Postdoctoral Fellow at Teachers College, Columbia University. I study learning analytics, educational systems, and evidence-informed decision making. I started in psychology with a biology minor, then moved into cognitive science and education data. I enjoy turning complex evidence into useful and human-centered stories. Outside research, I read books and keep a personal film and book journal.</p>
+              </div>
+              <p class="section-end-cta">
+                <span class="about-cv-note" data-i18n="aboutCvPrompt">Take a look at my CV for a fuller view of my academic path, research, and teaching.</span>
+              </p>
+              <p class="section-end-cta section-end-cta-right">
+                <a href="cv.html" class="rail-action-link rail-action-link-brown" data-i18n="openCvButton">Open CV</a>
+              </p>
+            </div>
+          </section>
+
+          <section class="section section-reveal" id="work">
+            <div class="section-heading">
+              <h2 class="section-title-with-icon">
+                <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  <line x1="9" y1="7" x2="15" y2="7"></line>
+                  <line x1="9" y1="11" x2="15" y2="11"></line>
+                </svg>
+                <span data-i18n="workTitle">Research</span>
+              </h2>
+            </div>
+
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-item-content">
+                  <span class="timeline-period" data-i18n="periodPresent">2025 - Present</span>
+                  <h3 data-i18n="timelinePostdoc">Postdoctoral Fellow</h3>
+                  <p class="timeline-institutions">Teachers College, Columbia University, New York</p>
+                </div>
+                <div class="timeline-item-logos" aria-label="Institution logos">
+                  <img class="school-logo" src="assets/images/institutions/tc.jpeg" alt="Teachers College logo" loading="lazy" />
+                  <img class="school-logo" src="assets/images/institutions/columbia.png" alt="Columbia University logo" loading="lazy" />
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-item-content">
+                  <span class="timeline-period">2022 - 2025</span>
+                  <h3 data-i18n="timelinePhd">PhD in Cognitive Science</h3>
+                  <p class="timeline-institutions">CNRS and ENS-PSL, Paris</p>
+                </div>
+                <div class="timeline-item-logos" aria-label="Institution logos">
+                  <img class="school-logo" src="assets/images/institutions/cnrs.svg" alt="CNRS logo" loading="lazy" />
+                  <img class="school-logo" src="assets/images/institutions/ens_psl.png" alt="ENS-PSL logo" loading="lazy" />
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-item-content">
+                  <span class="timeline-period">2020 - 2022</span>
+                  <h3 data-i18n="timelineMaster">Master's in Cognitive Science</h3>
+                  <p class="timeline-institutions">ENS-PSL and Universite de Paris Cite</p>
+                </div>
+                <div class="timeline-item-logos" aria-label="Institution logos">
+                  <img class="school-logo" src="assets/images/institutions/ens_psl.png" alt="ENS-PSL logo" loading="lazy" />
+                  <img class="school-logo" src="assets/images/institutions/unipariscite.png" alt="Universite Paris Cite logo" loading="lazy" />
+                </div>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-item-content">
+                  <span class="timeline-period">2016 - 2020</span>
+                  <h3 data-i18n="timelinePsychology">Bachelor's in Psychology</h3>
+                  <p class="timeline-institutions">Middle East Technical University (METU), Ankara</p>
+                </div>
+                <div class="timeline-item-logos" aria-label="Institution logos">
+                  <img class="school-logo" src="assets/images/institutions/metu.png" alt="METU logo" loading="lazy" />
+                </div>
+              </article>
+            </div>
+
+            <div class="publication-list homepage-publications">
+              <h3 data-i18n="publicationTitle">Selected Publications</h3>
+              <ul>
+                <li>
+                  <strong>Kandemir, E. N.</strong>, Gurgand, L., Esposito, E., &amp; Ramus, F. (2026).
+                  <em>A Meta-Analysis of the Impact of Feedback Timing on Learning Outcomes in Computer-Assisted Learning.</em>
+                  <em>Educational Psychology Review</em>, 38, 13.
+                  <a href="https://doi.org/10.1007/s10648-026-10117-8" target="_blank" rel="noreferrer"
+                    >https://doi.org/10.1007/s10648-026-10117-8</a
+                  >
+                </li>
+                <li>
+                  <strong>Kandemir, E. N.</strong>, Vie, J. J., Sanchez-Ayte, A., Palombi, O., &amp; Ramus, F. (2026).
+                  <em>Investigating the Influence of Training Difficulty on the Learning Outcomes of Medical Students.</em>
+                  <em>Journal of Computer Assisted Learning</em>, 42(1), e70172.
+                  <a href="https://doi.org/10.1002/jcal.70172" target="_blank" rel="noreferrer"
+                    >https://doi.org/10.1002/jcal.70172</a
+                  >
+                </li>
+                <li>
+                  <strong>Kandemir, E. N.</strong>, Vie, J. J., Sanchez-Ayte, A., Palombi, O., &amp; Ramus, F. (2024, March).
+                  <em>Adaptation of the Multi-Concept Multivariate Elo Rating System to Medical Students' Training Data.</em>
+                  Proceedings of the 14th Learning Analytics and Knowledge Conference (pp. 123-133).
+                  <a href="https://doi.org/10.1145/3636555.3636858" target="_blank" rel="noreferrer"
+                    >https://doi.org/10.1145/3636555.3636858</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <p class="section-end-cta section-end-cta-right">
+              <a href="research.html" class="rail-action-link rail-action-link-brown" data-i18n="workMoreButton">More about my research</a>
+            </p>
+          </section>
+
+          <section class="section section-reveal" id="journal">
+            <div class="archive-feature">
+              <figure class="archive-feature-photo">
+                <img src="assets/images/home/archive.jpg" alt="Erva in a bookstore" loading="lazy" />
+              </figure>
+              <div class="archive-feature-content">
+                <div class="section-heading">
+                  <h2 class="section-title-with-icon archive-feature-title">
+                    <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <circle cx="12" cy="12" r="1"></circle>
+                      <path d="M12 1v6m0 6v6"></path>
+                      <path d="M4.22 4.22l4.24 4.24m2.12 2.12l4.24 4.24M1 12h6m6 0h6"></path>
+                      <path d="M4.22 19.78l4.24-4.24m2.12-2.12l4.24-4.24M19.78 19.78l-4.24-4.24m-2.12-2.12l-4.24-4.24"></path>
+                    </svg>
+                    <span data-i18n="journalHomeTitle">Personal Archive</span>
+                  </h2>
+                </div>
+                <div class="archive-feature-text">
+                  <p data-i18n="archiveIntro1">For as long as I can remember, I've wanted a library of my own.</p>
+                  <p data-i18n="archiveIntro2">Because to me, libraries are memories, little life stories on their own.</p>
+                  <p data-i18n="archiveIntro3">Maybe that's why, in every city I've lived in, I built small libraries, quiet accumulations of books gathered along the way. But each new beginning also meant leaving something behind. Shelves emptied, books dispersed. Leaving a library behind almost feels like losing memories.</p>
+                  <p data-i18n="archiveIntro4">So I started looking for something more lasting. More portable.</p>
+                  <p data-i18n="archiveIntro5">This space is the result: a digital archive of books and films, my own small library, reimagined.</p>
+                  <p data-i18n="archiveIntro6">Here, I keep track of what I read and watch, along with notes, lines I love, and fragments that stay with me.</p>
+                  <p data-i18n="archiveIntro7">In a way, this page is my personal timeline, a record not only of what I remember, but of what I choose to remember.</p>
+                  <p data-i18n="archiveIntro8">Maybe something here will stay with you, too.</p>
+                  <p data-i18n="archiveIntro9">Welcome.</p>
+                </div>
+                <p class="section-end-cta section-end-cta-right archive-feature-action-row">
+                  <a href="journal.html?type=film" class="rail-action-link rail-action-link-brown" data-i18n="journalExplore">Go to My Full Archive</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="home-latest-grid">
+              <article class="home-latest-panel">
+                <h3 class="section-title-with-icon">
+                  <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <line x1="8" y1="5" x2="8" y2="19"></line>
+                    <line x1="16" y1="5" x2="16" y2="19"></line>
+                  </svg>
+                  <span data-i18n="latestFilmsTitle">Latest Watched Films</span>
+                </h3>
+                <p data-i18n="latestFilmsText">Imported from my Letterboxd diary with watch date, release year, country, rating, and review notes.</p>
+                <div id="latest-films-grid-home" class="latest-films-grid" aria-live="polite"></div>
+              </article>
+
+              <article class="home-latest-panel">
+                <h3 class="section-title-with-icon">
+                  <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21V5.5z"></path>
+                    <line x1="8" y1="7" x2="16" y2="7"></line>
+                    <line x1="8" y1="11" x2="16" y2="11"></line>
+                  </svg>
+                  <span data-i18n="latestBooksTitle">Latest Read Books</span>
+                </h3>
+                <p data-i18n="latestBooksText">The three most recent books from my personal reading shelf.</p>
+                <div id="latest-books-grid-home" class="latest-films-grid" aria-live="polite"></div>
+              </article>
+            </div>
+
+            <article class="bookclub-card bookclub-feature" id="bookclub-card">
+              <div class="bookclub-feature-content">
+                <div class="section-heading">
+                  <h3 class="section-title-with-icon">
+                    <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <circle cx="8" cy="9" r="2"></circle>
+                      <circle cx="16" cy="9" r="2"></circle>
+                      <path d="M4 19c0-2.2 1.8-4 4-4"></path>
+                      <path d="M20 19c0-2.2-1.8-4-4-4"></path>
+                      <path d="M8 13h8"></path>
+                    </svg>
+                    <span data-i18n="journalBookClub">Book Club</span>
+                  </h3>
+                </div>
+                <p data-i18n="journalBookClubText">Recent book club reads and moderators.</p>
+                <ul id="bookclub-list" class="bookclub-list" aria-live="polite"></ul>
+                <p class="section-end-cta">
+                  <a href="bookclub.html" class="rail-action-link rail-action-link-brown" data-i18n="journalBookClubArchive">Go to My Full Book Club Archive</a>
+                </p>
+              </div>
+              <figure class="bookclub-feature-photo">
+                <img src="assets/images/home/flower.jpg" alt="Flowers by a window" loading="lazy" />
+              </figure>
+            </article>
+          </section>
+
+          <section class="section section-reveal" id="contact">
+            <h2 class="section-title-with-icon">
+              <svg class="section-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 6.5h16v11H4z"></path>
+                <path d="m5 8 7 5 7-5"></path>
+              </svg>
+              <span data-i18n="contactTitle">Contact</span>
+            </h2>
+            <p data-i18n="contactText">
+              I am always happy to connect for research collaborations, interdisciplinary projects, and thoughtful
+              conversations around learning and education.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:ek3563@tc.columbia.edu">ek3563@tc.columbia.edu</a>
+              <a href="https://www.linkedin.com/in/erva-nihan-kandemir" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/ervanihank" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </section>
+
+          <figure class="archive-feature-cat archive-feature-cat-end section-reveal">
+            <img src="assets/images/home/cat.jpg" alt="Cat resting on a windowsill" loading="lazy" />
+          </figure>
+        </main>
+
+        <footer class="site-footer">
+          <p data-i18n="footerText">Last updated in 2026-04-04</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="site-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
