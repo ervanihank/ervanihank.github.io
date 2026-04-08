@@ -1,4 +1,4 @@
-:root {
+:root { 
   --bg-main: #dfe9ec;
   --rail: #8b7a6f;
   --ink: #2b292e;
@@ -273,7 +273,7 @@ p {
   margin: 0;
   justify-self: center;
 }
-
+/* dsdjjdjj */
 .hero-photo {
   width: min(360px, 74vw);
   aspect-ratio: 1;
