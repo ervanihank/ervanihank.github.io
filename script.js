@@ -19,7 +19,7 @@ const translations = {
     quickJournalText: "This is my little corner of the world where I save my personal movie and book archive.",
     aboutTitle: "About",
     aboutIntroMerged:
-      '<p>I’m Erva Nihan Kandemir Yıldıran, a Postdoctoral Fellow at Teachers College, Columbia University, and a cognitive scientist. I study the cognitive and educational processes that shape how learning unfolds, and it is a question that has followed me through different stages of my work.</p><p>Outside of research, I keep returning to books and films, and to the small details that linger after them. I like collecting those moments and writing them down.</p>',
+      '<p>I’m Erva Nihan, a cognitive scientist. I study the cognitive and educational processes that shape learning.</p><p>Outside of research, I spend much of my time with books and films, and with the small details that stay with me. I like collecting those moments and writing them down.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",

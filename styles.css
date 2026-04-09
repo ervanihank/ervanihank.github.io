@@ -145,7 +145,7 @@ p {
 }
 
 .section-end-cta {
-  margin: 1rem 0 0;
+  margin: 0;
 }
 
 .section-end-cta-right {
@@ -154,8 +154,7 @@ p {
 }
 
 .about-cv-note {
-  display: inline-block;
-  max-width: 44rem;
+  display: block;
   color: var(--ink-soft);
 }
 
@@ -232,23 +231,38 @@ p {
 }
 
 .hero {
-  padding: 1rem 0 0.4rem;
+  position: relative;
+  padding: 1.25rem 0 0.15rem;
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
   align-items: center;
   gap: clamp(1.2rem, 3vw, 2.5rem);
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0.1rem 0;
+  z-index: -1;
+  border-radius: 2.2rem;
+  background:
+    radial-gradient(circle at 76% 32%, rgba(255, 255, 255, 0.78), transparent 24rem),
+    radial-gradient(circle at 18% 18%, rgba(183, 164, 146, 0.12), transparent 22rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
 }
 
 .hero-copy h1 {
   font-size: clamp(2rem, 5.2vw, 3.5rem);
   letter-spacing: 0.02em;
-  margin-bottom: 2rem;
+  margin-bottom: 1.55rem;
+  max-width: 8ch;
 }
 
 .hero-welcome {
   font-family: "Georgia", "Garamond", serif;
   font-size: clamp(1.3rem, 2.6vw, 2rem);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .hero-text {
@@ -258,29 +272,35 @@ p {
 }
 
 .hero-intro-inline {
-  margin-top: 0.4rem;
-  max-width: 38rem;
+  margin-top: 0.2rem;
+  max-width: 34rem;
   padding: 0;
   background: none;
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  font-size: 1.12rem;
-  line-height: 1.9;
+  font-size: 1.08rem;
+  line-height: 1.85;
 }
 
 .hero-photo-wrap {
   margin: 0;
   justify-self: center;
+  padding: 0.55rem;
+  border-radius: 50%;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.42));
+  box-shadow: 0 22px 48px rgba(91, 74, 62, 0.12);
 }
-/* dsdjjdjj */
+
 .hero-photo {
   width: min(360px, 74vw);
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 16px 28px rgba(28, 22, 25, 0.16);
+  display: block;
+  border: 4px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 16px 28px rgba(28, 22, 25, 0.1);
 }
 
 .quick-links {
@@ -320,16 +340,15 @@ p {
 }
 
 .about-section {
-  margin-top: 0.9rem;
-  padding-top: 1.3rem;
+  margin-top: 0.35rem;
+  padding-top: 0.9rem;
 }
 
 .about-card {
-  padding: 1.25rem 1.3rem 1.2rem;
-  border-radius: 1.15rem;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(237, 243, 245, 0.74));
-  border: 1px solid rgba(43, 41, 46, 0.1);
-  box-shadow: 0 14px 30px rgba(43, 41, 46, 0.08);
+  padding: 0.2rem 0 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
 }
 
 .about-copy::after {
@@ -339,15 +358,33 @@ p {
 }
 
 .about-copy p {
-  margin: 0 0 0.82rem;
-  max-width: 68rem;
-  line-height: 1.72;
-  font-size: 1.02rem;
+  margin: 0 0 0.92rem;
+  max-width: 62rem;
+  line-height: 1.82;
+  font-size: 1.04rem;
   color: var(--ink);
 }
 
 .about-copy p:first-of-type {
-  font-size: 1.08rem;
+  font-size: 1.04rem;
+  max-width: 48rem;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  flex-wrap: nowrap;
+  padding-top: 0.3rem;
+}
+
+.about-footer .section-end-cta {
+  flex: 1 1 42rem;
+}
+
+.about-footer .rail-action-link {
+  flex: 0 0 auto;
 }
 
 /* Keep top-level homepage section titles visually consistent. */
@@ -770,6 +807,10 @@ p {
   min-width: 0;
 }
 
+.bookclub-feature-content .section-end-cta {
+  margin-top: 1rem;
+}
+
 .bookclub-feature-photo {
   margin: 0;
   border-radius: 0.65rem;
@@ -1158,6 +1199,28 @@ p {
   transform: translateY(-3px);
   border-color: rgba(111, 92, 77, 0.35);
   box-shadow: 0 16px 32px rgba(43, 41, 46, 0.12);
+}
+
+.bookclub-book-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.4rem;
+  padding: 0.42rem 0.82rem;
+  border-radius: 999px;
+  border: 1px solid #7b6453;
+  background: #7b6453;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.bookclub-book-button:hover {
+  background: #664f40;
+  border-color: #664f40;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 720px) {
@@ -1785,6 +1848,11 @@ select.search-box {
     order: -1;
   }
 
+  .about-footer {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
   .main-column {
     padding: 0 0.9rem 2.2rem;
   }
@@ -1860,6 +1928,26 @@ select.search-box {
     min-width: 200px;
   }
 
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-top: 0.7rem;
+  }
+
+  .hero-copy h1 {
+    max-width: none;
+    margin-bottom: 1.1rem;
+  }
+
+  .hero-photo-wrap {
+    padding: 0.4rem;
+  }
+
+  .about-copy p,
+  .about-copy p:first-of-type {
+    max-width: none;
+  }
 }
 
 @media (max-width: 720px) {

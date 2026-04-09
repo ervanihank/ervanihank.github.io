@@ -10,7 +10,7 @@ const translations = {
     backToHome: "Back to Homepage",
     bookClubTitle: "Book Club",
     bookClubIntro:
-      "What began in 2023 as a small gathering of three friends has gradually grown into a circle that now stretches across countries and time zones. Yet, distance and difference have not kept us apart. For over three years, we have continued reading and discussing together. Over time, our group has expanded, and today we continue this journey with Berfin, Zeyneb, Seda, Zeynep, Rana, and myself. We remain open to curious readers who find joy in books as we do.",
+      "What began in 2023 as a small gathering of three friends has grown into a book club that now stretches across countries and time zones. For more than three years, we have kept reading and talking together. Along the way, our circle expanded, and today it includes Berfin, Zeyneb, Seda, Zeynep, Rana, and me. We are always happy to welcome curious readers who love books as much as we do.",
     moderatorLabel: "Moderator",
     authorLabel: "Author",
     dateLabel: "Date",
@@ -22,7 +22,6 @@ const translations = {
     noPhotoText: "Sometimes we forgot to take photos :(",
     noDate: "Who knows when",
     noModerator: "Open moderator",
-    bookClubCount: "{count} sessions",
     empty: "No book club entries found yet.",
     footerText: "Last updated in 2026-04-04",
   },
@@ -37,7 +36,7 @@ const translations = {
     backToHome: "Ana Sayfaya Don",
     bookClubTitle: "Kitap Kulubu",
     bookClubIntro:
-      "2023'te uc arkadasin kucuk bir bulusmasi olarak baslayan bu kitap kulubu, zamanla ulkeleri ve saat dilimlerini asan bir cevree donustu. Buna ragmen mesafe ve farklilik bizi ayirmadi. Uc yili askin suredir birlikte okumaya ve tartismaya devam ediyoruz. Zaman icinde grubumuz buyudu; bugun bu yolculugu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben surduruyoruz. Kitaplarda bizim gibi keyif bulan merakli okurlara kapimiz acik.",
+      "2023'te uc arkadasin kucuk bir bulusmasi olarak baslayan bu kitap kulubu, zamanla ulkeleri ve saat dilimlerini asan bir okuma cevreesine donustu. Uc yili askin suredir birlikte okumaya ve kitaplar uzerine konusmaya devam ediyoruz. Zamanla aramiza yenileri katildi; bugun bu yolculugu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben surduruyoruz. Kitaplardan bizim kadar keyif alan merakli okurlara kapimiz her zaman acik.",
     moderatorLabel: "Moderator",
     authorLabel: "Yazar",
     dateLabel: "Tarih",
@@ -49,7 +48,6 @@ const translations = {
     noPhotoText: "Bazen foto cekmeyi unutmusuz :(",
     noDate: "Kim bilir ne zaman",
     noModerator: "Moderator acik",
-    bookClubCount: "{count} oturum",
     empty: "Henuz kitap kulubu kaydi yok.",
     footerText: "Son guncelleme: 2026-04-04",
   },
@@ -171,6 +169,36 @@ function compactText(value) {
   return normalizeLetters(value || "").replace(/[^a-z0-9]/g, "");
 }
 
+const bookTitleAliases = {
+  naifsuper: ["naivesuper", "naivsuper", "naivesuperloe", "naivsuperloe"],
+  naivesuper: ["naifsuper", "naivsuper"],
+  ustailemargarita: ["ustavemargarita", "youseemargarita", "ustavemargaritabulgakov"],
+  ustavemargarita: ["ustailemargarita", "youseemargarita"],
+  dunundunyasi: ["theworldofyesterdaymemoirsofaeuropean", "theworldofyesterday"],
+  theworldofyesterday: ["dunundunyasi", "theworldofyesterdaymemoirsofaeuropean"],
+  drinakoprusu: ["thebridgeonthedrina", "thebridgeonthedrinabosniantrilogy1", "abridgeonthedrina"],
+  thebridgeonthedrina: ["drinakoprusu", "thebridgeonthedrinabosniantrilogy1", "abridgeonthedrina"],
+};
+
+function expandBookLookupKeys(keys) {
+  const expanded = [];
+
+  keys.forEach((key) => {
+    if (!key || expanded.includes(key)) {
+      return;
+    }
+    expanded.push(key);
+    const aliases = bookTitleAliases[key] || [];
+    aliases.forEach((alias) => {
+      if (alias && !expanded.includes(alias)) {
+        expanded.push(alias);
+      }
+    });
+  });
+
+  return expanded;
+}
+
 function buildBookEntryLookup() {
   const entries = typeof bookEntries !== "undefined" && Array.isArray(bookEntries) ? bookEntries : [];
   const lookup = new Map();
@@ -179,7 +207,8 @@ function buildBookEntryLookup() {
     const trTitle = entry?.title?.tr || "";
     const enTitle = entry?.title?.en || "";
     const creator = entry?.creator || "";
-    const keys = [compactText(trTitle), compactText(enTitle)].filter(Boolean);
+    const entryId = entry?.id || "";
+    const keys = [compactText(trTitle), compactText(enTitle), compactText(entryId)].filter(Boolean);
     keys.forEach((key) => {
       if (!lookup.has(key)) {
         lookup.set(key, []);
@@ -202,7 +231,7 @@ function buildBookEntryLookup() {
 
 function resolveBookEntryForClubItem(entry, bookLookup) {
   const candidates = [];
-  const keys = [compactText(entry.book), compactText(entry.englishTitle)].filter(Boolean);
+  const keys = expandBookLookupKeys([compactText(entry.book), compactText(entry.englishTitle)].filter(Boolean));
 
   keys.forEach((key) => {
     const items = bookLookup.get(key) || [];
@@ -280,22 +309,17 @@ function buildTimelineSummary(entries) {
 
 function renderBookClubPage() {
   const grid = document.querySelector("#bookclub-grid");
-  const count = document.querySelector("#bookclub-count");
   const timeline = document.querySelector("#bookclub-timeline");
 
   if (!grid || typeof bookClubEntries === "undefined" || !Array.isArray(bookClubEntries)) {
     if (grid) {
       grid.innerHTML = `<p class="empty-state">${t("empty")}</p>`;
     }
-    if (count) {
-      count.textContent = t("bookClubCount").replace("{count}", "0");
-    }
     return;
   }
 
   const sorted = sortByLatest(bookClubEntries);
   const bookLookup = buildBookEntryLookup();
-  count.textContent = t("bookClubCount").replace("{count}", `${sorted.length}`);
   if (timeline) {
     timeline.textContent = buildTimelineSummary(sorted);
   }
@@ -333,7 +357,7 @@ function renderBookClubPage() {
       const linkedBook = resolveBookEntryForClubItem(entry, bookLookup);
       const linkedBookHref = linkedBook ? `entry-detail.html?id=${encodeURIComponent(linkedBook.id)}&from=book` : "";
       const linkedBookHtml = linkedBookHref
-        ? `<p class="journal-meta"><a href="${linkedBookHref}">${t("openBookPageLabel")}</a></p>`
+        ? `<p class="journal-meta"><a class="bookclub-book-button" href="${linkedBookHref}">${t("openBookPageLabel")}</a></p>`
         : "";
       const innerHtml = `
         <article class="bookclub-entry">
