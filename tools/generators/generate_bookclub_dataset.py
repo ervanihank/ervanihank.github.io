@@ -138,7 +138,7 @@ BOOKCLUB_CANONICAL = {
     },
     "ben burdan okuyorum": {
         "book": "Ben Burdan Okuyorum",
-        "englishTitle": "I Am Reading from Here",
+        "englishTitle": "Where I'm Reading From",
         "authors": ["Tim Parks"],
         "date": "September 2024",
         "moderator": "Erva",
@@ -166,7 +166,7 @@ BOOKCLUB_CANONICAL = {
     },
     "naif, super": {
         "book": "Naif, Süper",
-        "englishTitle": "Naive. Super",
+        "englishTitle": "Naïve. Super.",
         "authors": ["Erlend Loe"],
         "date": "October 2024",
         "moderator": "Zeynep",
@@ -180,7 +180,7 @@ BOOKCLUB_CANONICAL = {
     },
     "dunun dunyasi": {
         "book": "Dünün Dünyası",
-        "englishTitle": "The World of Yesterday",
+        "englishTitle": "The World of Yesterday: Memoirs of a European",
         "authors": ["Stefan Zweig"],
         "date": "June 2025",
         "moderator": "",
@@ -201,7 +201,7 @@ BOOKCLUB_CANONICAL = {
     },
     "bir psikiyatristin anilari": {
         "book": "Bir Psikiyatristin Anıları",
-        "englishTitle": "Becoming Myself",
+        "englishTitle": "Becoming Myself: A Psychiatrist's Memoir",
         "authors": ["Irvin D. Yalom"],
         "date": "December 2025",
         "moderator": "Zeynep",

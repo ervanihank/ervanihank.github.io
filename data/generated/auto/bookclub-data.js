@@ -181,7 +181,7 @@ const bookClubEntries = [
   },
   {
     "book": "Naif, Süper",
-    "englishTitle": "Naive. Super",
+    "englishTitle": "Naïve. Super.",
     "authors": [
       "Erlend Loe"
     ],
@@ -211,7 +211,7 @@ const bookClubEntries = [
   },
   {
     "book": "Dünün Dünyası",
-    "englishTitle": "The World of Yesterday",
+    "englishTitle": "The World of Yesterday: Memoirs of a European",
     "authors": [
       "Stefan Zweig"
     ],
@@ -256,7 +256,7 @@ const bookClubEntries = [
   },
   {
     "book": "Bir Psikiyatristin Anıları",
-    "englishTitle": "Becoming Myself",
+    "englishTitle": "Becoming Myself: A Psychiatrist's Memoir",
     "authors": [
       "Irvin D. Yalom"
     ],
@@ -319,7 +319,7 @@ const bookClubEntries = [
       "Eğer Bir Kış Gecesi Bir Yolcu"
     ],
     "relatedBooksEn": [
-      "I Am Reading from Here",
+      "Where I'm Reading From",
       "Like a Novel",
       "—",
       "If on a Winter's Night a Traveler"

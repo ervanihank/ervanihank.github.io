@@ -2,7 +2,7 @@
 // Use tools/update_site_data.py or ./update_site_data.sh
 
 const siteData = {
-  "generatedAt": "2026-04-07T18:18:54.885224+00:00",
+  "generatedAt": "2026-04-09T22:02:52.029827+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -112,7 +112,7 @@ const siteData = {
       "id": "direnis-fuks",
       "type": "book",
       "title": {
-        "en": "resistance",
+        "en": "Resistance",
         "tr": "Direniş"
       },
       "creator": "Julián Fuks",
@@ -160,7 +160,7 @@ const siteData = {
       "id": "yetiskinler-aubert",
       "type": "book",
       "title": {
-        "en": "adults",
+        "en": "Adults",
         "tr": "Yetişkinler"
       },
       "creator": "Marie Aubert",
@@ -304,8 +304,8 @@ const siteData = {
       "id": "the-death-of-ivan-ilych-tolstoy",
       "type": "book",
       "title": {
-        "en": "Death of Ivan Ilyich",
-        "tr": "The Death of Ivan Ilych"
+        "en": "The Death of Ivan Ilyich",
+        "tr": "The Death of Ivan Ilyich"
       },
       "creator": "Leo Tolstoy",
       "country": "russia",
@@ -400,7 +400,7 @@ const siteData = {
       "id": "becoming-myself:-a-psychiatrists-memoir-yalom",
       "type": "book",
       "title": {
-        "en": "Becoming Myself",
+        "en": "Becoming Myself: A Psychiatrist's Memoir",
         "tr": "Becoming Myself: A Psychiatrist's Memoir"
       },
       "creator": "Irvin D. Yalom",
@@ -448,7 +448,7 @@ const siteData = {
       "id": "the-door-szabó",
       "type": "book",
       "title": {
-        "en": "The door",
+        "en": "The Door",
         "tr": "The Door"
       },
       "creator": "Magda Szabó",
@@ -544,7 +544,7 @@ const siteData = {
       "id": "naïve.-super-loe",
       "type": "book",
       "title": {
-        "en": "Naiv. Super.",
+        "en": "Naïve. Super.",
         "tr": "Naïve. Super"
       },
       "creator": "Erlend Loe",
@@ -694,7 +694,7 @@ const siteData = {
       "id": "ayna-merdiven-sensoy",
       "type": "book",
       "title": {
-        "en": "Mirror Stair",
+        "en": "Ayna Merdiven",
         "tr": "Ayna Merdiven"
       },
       "creator": "Ferhan Şensoy",
@@ -742,7 +742,7 @@ const siteData = {
       "id": "agaclarin-ozel-hayati-zambra",
       "type": "book",
       "title": {
-        "en": "Private Life of Trees",
+        "en": "The Private Lives of Trees",
         "tr": "Ağaçların Özel Hayatı"
       },
       "creator": "Alejandro Zambra",
@@ -886,7 +886,7 @@ const siteData = {
       "id": "zorba-the-greek-kazantzakis",
       "type": "book",
       "title": {
-        "en": "Life and state of Alexis Zorba",
+        "en": "Zorba the Greek",
         "tr": "Zorba the Greek"
       },
       "creator": "Nikos Kazantzakis",
@@ -938,7 +938,7 @@ const siteData = {
       "id": "cocuk-yasasi-mcewan",
       "type": "book",
       "title": {
-        "en": "Children Act",
+        "en": "The Children Act",
         "tr": "Çocuk Yasası"
       },
       "creator": "Ian McEwan",
@@ -1136,7 +1136,7 @@ const siteData = {
       "id": "seneler-ernaux",
       "type": "book",
       "title": {
-        "en": "years",
+        "en": "The Years",
         "tr": "Seneler"
       },
       "creator": "Annie Ernaux",
@@ -1757,7 +1757,7 @@ const siteData = {
       "id": "usta-ve-margarita-bulgakov",
       "type": "book",
       "title": {
-        "en": "You see Margarita",
+        "en": "The Master and Margarita",
         "tr": "Usta ve Margarita"
       },
       "creator": "Mikhail Bulgakov",
@@ -2106,7 +2106,7 @@ const siteData = {
       "id": "golgesizler-toptas",
       "type": "book",
       "title": {
-        "en": "shadowless ones",
+        "en": "Shadowless",
         "tr": "Gölgesizler"
       },
       "creator": "Hasan Ali Toptaş",
@@ -2442,7 +2442,7 @@ const siteData = {
       "id": "kuslar-yasina-gider-toptas",
       "type": "book",
       "title": {
-        "en": "Birds Mourn",
+        "en": "Kuşlar Yasına Gider",
         "tr": "Kuşlar Yasına Gider"
       },
       "creator": "Hasan Ali Toptaş",
@@ -3412,7 +3412,7 @@ const siteData = {
       "id": "hikâyeler-tanpinar",
       "type": "book",
       "title": {
-        "en": "stories",
+        "en": "Stories",
         "tr": "Hikâyeler"
       },
       "creator": "Ahmet Hamdi Tanpınar",
@@ -3508,7 +3508,7 @@ const siteData = {
       "id": "huzur-tanpinar",
       "type": "book",
       "title": {
-        "en": "Peace",
+        "en": "A Mind at Peace",
         "tr": "Huzur"
       },
       "creator": "Ahmet Hamdi Tanpınar",
@@ -3556,7 +3556,7 @@ const siteData = {
       "id": "i̇nsan-neyle-yasar?-tolstoy",
       "type": "book",
       "title": {
-        "en": "What Does a Man Live With?",
+        "en": "What Men Live By",
         "tr": "İnsan Neyle Yaşar?"
       },
       "creator": "Leo Tolstoy",
@@ -3758,7 +3758,7 @@ const siteData = {
       "id": "dar-kapi-gide",
       "type": "book",
       "title": {
-        "en": "Narrow Door",
+        "en": "Strait Is the Gate",
         "tr": "Dar Kapı"
       },
       "creator": "André Gide",
@@ -3902,7 +3902,7 @@ const siteData = {
       "id": "bilmemek-kundera",
       "type": "book",
       "title": {
-        "en": "not knowing",
+        "en": "Ignorance",
         "tr": "Bilmemek"
       },
       "creator": "Milan Kundera",
@@ -4102,7 +4102,7 @@ const siteData = {
       "id": "kirmizi-pazartesi-márquez",
       "type": "book",
       "title": {
-        "en": "red monday",
+        "en": "Chronicle of a Death Foretold",
         "tr": "Kırmızı Pazartesi"
       },
       "creator": "Gabriel García Márquez",
@@ -4257,7 +4257,7 @@ const siteData = {
       "id": "bonzai-zambra",
       "type": "book",
       "title": {
-        "en": "bonsai",
+        "en": "Bonsai",
         "tr": "Bonzai"
       },
       "creator": "Alejandro Zambra",
@@ -4545,7 +4545,7 @@ const siteData = {
       "id": "kadinlar-okulu-gide",
       "type": "book",
       "title": {
-        "en": "Women's School",
+        "en": "The School for Wives",
         "tr": "Kadınlar Okulu"
       },
       "creator": "André Gide",
@@ -5156,7 +5156,7 @@ const siteData = {
       "id": "i̇klimler-maurois",
       "type": "book",
       "title": {
-        "en": "climates",
+        "en": "Climates",
         "tr": "İklimler"
       },
       "creator": "André Maurois",
@@ -5265,7 +5265,7 @@ const siteData = {
       "id": "sanat-nedir?-tolstoy",
       "type": "book",
       "title": {
-        "en": "What is Art?",
+        "en": "What Is Art?",
         "tr": "Sanat Nedir?"
       },
       "creator": "Leo Tolstoy",
@@ -6470,7 +6470,7 @@ const siteData = {
       "id": "kambur-gurbuz",
       "type": "book",
       "title": {
-        "en": "Comb",
+        "en": "Kambur",
         "tr": "Kambur"
       },
       "creator": "Şule Gürbüz",
@@ -6789,7 +6789,7 @@ const siteData = {
       "id": "the-bridge-on-the-drina-(bosnian-trilogy,-#1)-andrić",
       "type": "book",
       "title": {
-        "en": "A bridge on the Drina",
+        "en": "The Bridge on the Drina",
         "tr": "The Bridge on the Drina (Bosnian Trilogy, #1)"
       },
       "creator": "Ivo Andrić",
@@ -44025,7 +44025,7 @@ const siteData = {
     },
     {
       "book": "Bir Psikiyatristin Anıları",
-      "englishTitle": "Becoming Myself",
+      "englishTitle": "Becoming Myself: A Psychiatrist's Memoir",
       "authors": [
         "Irvin D. Yalom"
       ],
@@ -44070,7 +44070,7 @@ const siteData = {
     },
     {
       "book": "Dünün Dünyası",
-      "englishTitle": "The World of Yesterday",
+      "englishTitle": "The World of Yesterday: Memoirs of a European",
       "authors": [
         "Stefan Zweig"
       ],
@@ -44100,7 +44100,7 @@ const siteData = {
     },
     {
       "book": "Naif, Süper",
-      "englishTitle": "Naive. Super",
+      "englishTitle": "Naïve. Super.",
       "authors": [
         "Erlend Loe"
       ],
@@ -44148,7 +44148,7 @@ const siteData = {
         "Eğer Bir Kış Gecesi Bir Yolcu"
       ],
       "relatedBooksEn": [
-        "I Am Reading from Here",
+        "Where I'm Reading From",
         "Like a Novel",
         "—",
         "If on a Winter's Night a Traveler"
@@ -44421,7 +44421,7 @@ const siteData = {
       "id": "direnis-fuks",
       "type": "book",
       "title": {
-        "en": "resistance",
+        "en": "Resistance",
         "tr": "Direniş"
       },
       "creator": "Julián Fuks",
@@ -44469,7 +44469,7 @@ const siteData = {
       "id": "yetiskinler-aubert",
       "type": "book",
       "title": {
-        "en": "adults",
+        "en": "Adults",
         "tr": "Yetişkinler"
       },
       "creator": "Marie Aubert",
@@ -44613,8 +44613,8 @@ const siteData = {
       "id": "the-death-of-ivan-ilych-tolstoy",
       "type": "book",
       "title": {
-        "en": "Death of Ivan Ilyich",
-        "tr": "The Death of Ivan Ilych"
+        "en": "The Death of Ivan Ilyich",
+        "tr": "The Death of Ivan Ilyich"
       },
       "creator": "Leo Tolstoy",
       "country": "russia",
@@ -44709,7 +44709,7 @@ const siteData = {
       "id": "becoming-myself:-a-psychiatrists-memoir-yalom",
       "type": "book",
       "title": {
-        "en": "Becoming Myself",
+        "en": "Becoming Myself: A Psychiatrist's Memoir",
         "tr": "Becoming Myself: A Psychiatrist's Memoir"
       },
       "creator": "Irvin D. Yalom",
@@ -44757,7 +44757,7 @@ const siteData = {
       "id": "the-door-szabó",
       "type": "book",
       "title": {
-        "en": "The door",
+        "en": "The Door",
         "tr": "The Door"
       },
       "creator": "Magda Szabó",
@@ -44853,7 +44853,7 @@ const siteData = {
       "id": "naïve.-super-loe",
       "type": "book",
       "title": {
-        "en": "Naiv. Super.",
+        "en": "Naïve. Super.",
         "tr": "Naïve. Super"
       },
       "creator": "Erlend Loe",
@@ -45003,7 +45003,7 @@ const siteData = {
       "id": "ayna-merdiven-sensoy",
       "type": "book",
       "title": {
-        "en": "Mirror Stair",
+        "en": "Ayna Merdiven",
         "tr": "Ayna Merdiven"
       },
       "creator": "Ferhan Şensoy",
@@ -45051,7 +45051,7 @@ const siteData = {
       "id": "agaclarin-ozel-hayati-zambra",
       "type": "book",
       "title": {
-        "en": "Private Life of Trees",
+        "en": "The Private Lives of Trees",
         "tr": "Ağaçların Özel Hayatı"
       },
       "creator": "Alejandro Zambra",
@@ -45195,7 +45195,7 @@ const siteData = {
       "id": "zorba-the-greek-kazantzakis",
       "type": "book",
       "title": {
-        "en": "Life and state of Alexis Zorba",
+        "en": "Zorba the Greek",
         "tr": "Zorba the Greek"
       },
       "creator": "Nikos Kazantzakis",
@@ -45247,7 +45247,7 @@ const siteData = {
       "id": "cocuk-yasasi-mcewan",
       "type": "book",
       "title": {
-        "en": "Children Act",
+        "en": "The Children Act",
         "tr": "Çocuk Yasası"
       },
       "creator": "Ian McEwan",
@@ -45445,7 +45445,7 @@ const siteData = {
       "id": "seneler-ernaux",
       "type": "book",
       "title": {
-        "en": "years",
+        "en": "The Years",
         "tr": "Seneler"
       },
       "creator": "Annie Ernaux",
@@ -46066,7 +46066,7 @@ const siteData = {
       "id": "usta-ve-margarita-bulgakov",
       "type": "book",
       "title": {
-        "en": "You see Margarita",
+        "en": "The Master and Margarita",
         "tr": "Usta ve Margarita"
       },
       "creator": "Mikhail Bulgakov",
@@ -46415,7 +46415,7 @@ const siteData = {
       "id": "golgesizler-toptas",
       "type": "book",
       "title": {
-        "en": "shadowless ones",
+        "en": "Shadowless",
         "tr": "Gölgesizler"
       },
       "creator": "Hasan Ali Toptaş",
@@ -46751,7 +46751,7 @@ const siteData = {
       "id": "kuslar-yasina-gider-toptas",
       "type": "book",
       "title": {
-        "en": "Birds Mourn",
+        "en": "Kuşlar Yasına Gider",
         "tr": "Kuşlar Yasına Gider"
       },
       "creator": "Hasan Ali Toptaş",
@@ -47721,7 +47721,7 @@ const siteData = {
       "id": "hikâyeler-tanpinar",
       "type": "book",
       "title": {
-        "en": "stories",
+        "en": "Stories",
         "tr": "Hikâyeler"
       },
       "creator": "Ahmet Hamdi Tanpınar",
@@ -47817,7 +47817,7 @@ const siteData = {
       "id": "huzur-tanpinar",
       "type": "book",
       "title": {
-        "en": "Peace",
+        "en": "A Mind at Peace",
         "tr": "Huzur"
       },
       "creator": "Ahmet Hamdi Tanpınar",
@@ -47865,7 +47865,7 @@ const siteData = {
       "id": "i̇nsan-neyle-yasar?-tolstoy",
       "type": "book",
       "title": {
-        "en": "What Does a Man Live With?",
+        "en": "What Men Live By",
         "tr": "İnsan Neyle Yaşar?"
       },
       "creator": "Leo Tolstoy",
@@ -48067,7 +48067,7 @@ const siteData = {
       "id": "dar-kapi-gide",
       "type": "book",
       "title": {
-        "en": "Narrow Door",
+        "en": "Strait Is the Gate",
         "tr": "Dar Kapı"
       },
       "creator": "André Gide",
@@ -48211,7 +48211,7 @@ const siteData = {
       "id": "bilmemek-kundera",
       "type": "book",
       "title": {
-        "en": "not knowing",
+        "en": "Ignorance",
         "tr": "Bilmemek"
       },
       "creator": "Milan Kundera",
@@ -48411,7 +48411,7 @@ const siteData = {
       "id": "kirmizi-pazartesi-márquez",
       "type": "book",
       "title": {
-        "en": "red monday",
+        "en": "Chronicle of a Death Foretold",
         "tr": "Kırmızı Pazartesi"
       },
       "creator": "Gabriel García Márquez",
@@ -48566,7 +48566,7 @@ const siteData = {
       "id": "bonzai-zambra",
       "type": "book",
       "title": {
-        "en": "bonsai",
+        "en": "Bonsai",
         "tr": "Bonzai"
       },
       "creator": "Alejandro Zambra",
@@ -48854,7 +48854,7 @@ const siteData = {
       "id": "kadinlar-okulu-gide",
       "type": "book",
       "title": {
-        "en": "Women's School",
+        "en": "The School for Wives",
         "tr": "Kadınlar Okulu"
       },
       "creator": "André Gide",
@@ -49465,7 +49465,7 @@ const siteData = {
       "id": "i̇klimler-maurois",
       "type": "book",
       "title": {
-        "en": "climates",
+        "en": "Climates",
         "tr": "İklimler"
       },
       "creator": "André Maurois",
@@ -49574,7 +49574,7 @@ const siteData = {
       "id": "sanat-nedir?-tolstoy",
       "type": "book",
       "title": {
-        "en": "What is Art?",
+        "en": "What Is Art?",
         "tr": "Sanat Nedir?"
       },
       "creator": "Leo Tolstoy",
@@ -50779,7 +50779,7 @@ const siteData = {
       "id": "kambur-gurbuz",
       "type": "book",
       "title": {
-        "en": "Comb",
+        "en": "Kambur",
         "tr": "Kambur"
       },
       "creator": "Şule Gürbüz",
@@ -51098,7 +51098,7 @@ const siteData = {
       "id": "the-bridge-on-the-drina-(bosnian-trilogy,-#1)-andrić",
       "type": "book",
       "title": {
-        "en": "A bridge on the Drina",
+        "en": "The Bridge on the Drina",
         "tr": "The Bridge on the Drina (Bosnian Trilogy, #1)"
       },
       "creator": "Ivo Andrić",
