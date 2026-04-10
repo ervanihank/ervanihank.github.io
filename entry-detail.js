@@ -417,6 +417,16 @@ const state = {
   currentEntryId: null,
 };
 
+function getSharedLastUpdated() {
+  const value = typeof siteData !== "undefined" ? siteData?.lastUpdated : "";
+  return typeof value === "string" && value.trim() ? value.trim() : "2026-04-10";
+}
+
+function getFooterText() {
+  const date = getSharedLastUpdated();
+  return state.lang === "tr" ? `Son güncelleme: ${date}` : `Last updated in ${date}`;
+}
+
 function t(key) {
   return translations[state.lang][key] || key;
 }
@@ -633,7 +643,7 @@ function applyLanguage() {
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
-    node.textContent = t(key);
+    node.textContent = key === "footerText" ? getFooterText() : t(key);
   });
 
   document.querySelectorAll("[data-i18n-aria-label]").forEach((node) => {

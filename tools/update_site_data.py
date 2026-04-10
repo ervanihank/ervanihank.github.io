@@ -293,6 +293,7 @@ def build_unified_dataset() -> Dict[str, Any]:
     journal_entries = [*merged_books, *merged_films]
 
     return {
+        "lastUpdated": datetime.now().astimezone().date().isoformat(),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "sources": {
             "auto": {

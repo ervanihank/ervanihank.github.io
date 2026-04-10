@@ -256,7 +256,7 @@ p {
   font-size: clamp(2rem, 5.2vw, 3.5rem);
   letter-spacing: 0.02em;
   margin-bottom: 1.55rem;
-  max-width: 8ch;
+  max-width: 11ch;
 }
 
 .hero-welcome {
@@ -367,7 +367,7 @@ p {
 
 .about-copy p:first-of-type {
   font-size: 1.04rem;
-  max-width: 48rem;
+  max-width: 64rem;
 }
 
 .about-footer {

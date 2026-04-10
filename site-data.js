@@ -2,7 +2,8 @@
 // Use tools/update_site_data.py or ./update_site_data.sh
 
 const siteData = {
-  "generatedAt": "2026-04-09T22:02:52.029827+00:00",
+  "lastUpdated": "2026-04-10",
+  "generatedAt": "2026-04-10T19:36:18.622245+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",

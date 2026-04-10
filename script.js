@@ -19,7 +19,7 @@ const translations = {
     quickJournalText: "This is my little corner of the world where I save my personal movie and book archive.",
     aboutTitle: "About",
     aboutIntroMerged:
-      '<p>I’m Erva Nihan, a cognitive scientist. I study the cognitive and educational processes that shape learning.</p><p>Outside of research, I spend much of my time with books and films, and with the small details that stay with me. I like collecting those moments and writing them down.</p>',
+      '<p>I’m Erva Nihan, a cognitive scientist. I study the cognitive and educational processes that shape learning.</p><p>Outside of research, I spend most of my time with books and films, drink a lot of coffee, try to keep my plants alive, and like holding on to small moments by writing them down.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",
@@ -27,7 +27,7 @@ const translations = {
     aboutRecentText: "",
     aboutInterestsTitle: "",
     aboutInterestsText: "",
-    aboutCvPrompt: "You can find more about my work in my CV, and you are always welcome to explore my personal archive.",
+    aboutCvPrompt: "You can find more about my work in my CV, or, if you'd like to see the more personal side, just keep scrolling down to my archive.",
     openCvButton: "Open CV",
     workTitle: "Research",
     workMoreButton: "More about my research",
@@ -133,7 +133,7 @@ const translations = {
     entryBook: "Book",
     contactTitle: "Contact",
     contactText:
-      "I am open to collaborations and conversations on learning, education, and shared interests in books and films.",
+      "Feel free to reach out for collaborations, conversations on learning and education, or shared interests in books and films.",
     footerText: "Last updated in 2026-04-06",
   },
   tr: {
@@ -156,7 +156,7 @@ const translations = {
     quickJournalText: "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     aboutTitle: "Hakkında",
     aboutIntroMerged:
-      '<p>Ben Erva Nihan Kandemir Yıldıran. Columbia University Teachers College\'da doktora sonrası araştırmacıyım ve bir bilişsel bilimciyim. Daha da özelde, öğrenmenin bilişsel ve eğitsel koşullar altında nasıl şekillendiğini çalışıyorum; bu soru da çalışma hayatımın farklı aşamalarında peşimi hiç bırakmadı.</p><p>Araştırma yapmadığım zamanlarda ise kitaplara, filmlere ve insanda iz bırakan küçük ayrıntılara geri dönüyorum. Onları bir yerde toplamayı ve yazıya dökmeyi seviyorum.</p>',
+      '<p>Ben Erva Nihan, bir bilişsel bilimciyim. Öğrenmeyi şekillendiren bilişsel ve eğitsel süreçleri çalışıyorum.</p><p>Araştırma dışında zamanımın büyük kısmını kitaplar ve filmlerle geçirir, bolca kahve içer, bitkilerimi hayatta tutmaya çalışırım; küçük anları yazıya döküp saklamayı severim.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",
@@ -164,7 +164,7 @@ const translations = {
     aboutRecentText: "",
     aboutInterestsTitle: "",
     aboutInterestsText: "",
-    aboutCvPrompt: "Akademik yolculuğum hakkında daha geniş bir bakış için CV'me göz atabilirsin.",
+    aboutCvPrompt: "Çalışmalarım hakkında daha fazlasını CV'mde bulabilirsin; daha kişisel tarafa göz atmak istersen de aşağı doğru kaydırıp arşivime ulaşabilirsin.",
     openCvButton: "CV'yi Aç",
     workTitle: "Araştırma",
     workMoreButton: "Araştırmam hakkında daha fazlası",
@@ -270,7 +270,7 @@ const translations = {
     entryBook: "Kitap",
     contactTitle: "İletişim",
     contactText:
-      "Ogrenme, egitim ve kitaplarla filmlere dair ortak ilgiler uzerine is birliklerine ve sohbetlere acigim.",
+      "Öğrenme ve eğitim üzerine sohbetler, olası iş birlikleri ya da kitaplar ve filmler üzerine ortak ilgiler için bana yazabilirsin.",
     footerText: "Son güncelleme: 2026-04-06",
   },
 };
@@ -386,6 +386,16 @@ const state = {
   mapLabelToCountry: new Map(),
 };
 
+function getSharedLastUpdated() {
+  const value = typeof siteData !== "undefined" ? siteData?.lastUpdated : "";
+  return typeof value === "string" && value.trim() ? value.trim() : "2026-04-10";
+}
+
+function getFooterText() {
+  const date = getSharedLastUpdated();
+  return state.lang === "tr" ? `Son güncelleme: ${date}` : `Last updated in ${date}`;
+}
+
 const langButtons = document.querySelectorAll(".lang-button");
 
 function initializeJournalStateFromQuery() {
@@ -489,7 +499,7 @@ function applyLanguage() {
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
-    node.textContent = t(key);
+    node.textContent = key === "footerText" ? getFooterText() : t(key);
   });
 
   document.querySelectorAll("[data-i18n-html]").forEach((node) => {
