@@ -33,23 +33,23 @@ const translations = {
     navCorner: "Kişisel Arşiv",
     navJournal: "Günlük",
     navContact: "İletişim",
-    backToHome: "Ana Sayfaya Don",
-    bookClubTitle: "Kitap Kulubu",
+    backToHome: "Ana Sayfaya Dön",
+    bookClubTitle: "Kitap Kulübü",
     bookClubIntro:
-      "2023'te uc arkadasin kucuk bir bulusmasi olarak baslayan bu kitap kulubu, zamanla ulkeleri ve saat dilimlerini asan bir okuma cevreesine donustu. Uc yili askin suredir birlikte okumaya ve kitaplar uzerine konusmaya devam ediyoruz. Zamanla aramiza yenileri katildi; bugun bu yolculugu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben surduruyoruz. Kitaplardan bizim kadar keyif alan merakli okurlara kapimiz her zaman acik.",
+      "2023'te üç arkadaşın küçük bir buluşması olarak başlayan bu kitap kulübü, zamanla ülkeleri ve saat dilimlerini aşan bir okuma çevresine dönüştü. Üç yılı aşkın süredir birlikte okumaya ve kitaplar üzerine konuşmaya devam ediyoruz. Zamanla aramıza yenileri katıldı; bugün bu yolculuğu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben sürdürüyoruz. Kitaplardan bizim kadar keyif alan meraklı okurlara kapımız her zaman açık.",
     moderatorLabel: "Moderator",
     authorLabel: "Yazar",
     dateLabel: "Tarih",
-    timelineSummary: "2023'ten bu yana 21 kitap kulubu oturumu",
-    readingHabitsLabel: "Okuma Aliskanliklari",
+    timelineSummary: "2023'ten bu yana 21 kitap kulübü oturumu",
+    readingHabitsLabel: "Okuma Alışkanlıkları",
     relatedBooksLabel: "Konusulan kitaplar",
-    openNotesLabel: "Toplanti notlarini ac",
-    openBookPageLabel: "Kitap sayfasini ac",
-    noPhotoText: "Bazen foto cekmeyi unutmusuz :(",
+    openNotesLabel: "Toplantı notlarını aç",
+    openBookPageLabel: "Kitap sayfasını aç",
+    noPhotoText: "Bazen foto çekmeyi unutmuşuz :(",
     noDate: "Kim bilir ne zaman",
-    noModerator: "Moderator acik",
-    empty: "Henuz kitap kulubu kaydi yok.",
-    footerText: "Son guncelleme: 2026-04-04",
+    noModerator: "Moderatör açık",
+    empty: "Henüz kitap kulübü kaydı yok.",
+    footerText: "Son güncelleme: 2026-04-04",
   },
 };
 
@@ -64,7 +64,7 @@ function getSharedLastUpdated() {
 
 function getFooterText() {
   const date = getSharedLastUpdated();
-  return state.lang === "tr" ? `Son guncelleme: ${date}` : `Last updated in ${date}`;
+  return state.lang === "tr" ? `Son güncelleme: ${date}` : `Last updated in ${date}`;
 }
 
 function t(key) {

@@ -100,7 +100,7 @@ const journalEntries = [
     year: "2023",
     note: {
       en: "A gentle meditation on routine, attention, and dignity.",
-      tr: "Rutin, dikkat ve haysiyet uzerine sakin bir dusunce alani.",
+      tr: "Rutin, dikkat ve haysiyet üzerine sakin bir düşünce alanı.",
     },
     rating: "4.5/5",
     essay: {
@@ -112,12 +112,12 @@ const journalEntries = [
 <p>The Japanese setting adds another layer. There's a particular aesthetic sensitivity in how Wenders frames Tokyo—not as a bustling metropolis but as a series of carefully observed moments. The city becomes a character, not through its iconic landmarks but through its quietness, its gardens, its small moments of connection.</p>
 
 <p>Repetition is central to the film, and I found myself thinking about how American cinema often treats routine as something to escape, while Wenders suggests it might be something to honor. The routine is where life actually happens.</p>`,
-      tr: `<h3>Wim Wenders'in Ordiner Yasamdaki Odevleri</h3>
-<p>Wim Wenders'in "Perfect Days" filmi, gundelik yasamin sozde sade ritimlerinde derin guzellik bulup bulan sessiz bir sah...esar. Film, Tokyo'da emekli ve dulmus bir adam olan Hirayama'yi gunlerine sakin bir ruhla nasil gittigi uzerinden takip ediyor.</p>`,
+      tr: `<h3>Wim Wenders'in Sıradan Hayata Övgüsü</h3>
+<p>Wim Wenders'in "Perfect Days" filmi, gündelik yaşamın sade ritimlerinde derin bir güzellik bulan sessiz bir film. Tokyo'da yaşayan Hirayama'nın günlerini sakinlik, dikkat ve özenle sürdürüşünü izliyoruz.</p>`,
     },
     tags: {
       en: ["stillness", "urban life", "japanese cinema"],
-      tr: ["sakinlik", "kent hayati", "japon sinemasi"],
+      tr: ["sakinlik", "kent hayatı", "Japon sineması"],
     },
   },
   {
@@ -129,7 +129,7 @@ const journalEntries = [
     year: "2022",
     note: {
       en: "Memory as texture. Quietly devastating and formally precise.",
-      tr: "Doku olarak hafiza. Sakin ama yikici ve bicimsel olarak cok hassas.",
+      tr: "Doku olarak hafıza. Sakin ama yıkıcı ve biçimsel olarak çok hassas.",
     },
     rating: "4.8/5",
     essay: {
@@ -141,12 +141,12 @@ const journalEntries = [
 <p>What I found remarkable is how the film trusts the audience to feel what's beneath the surface. There's no expository dialogue explaining the emotional subtext. Instead, we're invited into a visual and emotional landscape where we must piece together meaning from fragments.</p>
 
 <p>The ending recontextualizes everything we've seen, but in a way that doesn't invalidate our earlier experience. Instead, it adds another layer of meaning. This is the kind of filmmaking that stays with you, revealing new dimensions with each viewing.</p>`,
-      tr: `<h3>Soylenmeyenlerin Agirli</h3>
-<p>Charlotte Wells'in "Aftersun" filmi, soylenenlerie hissedilenler arasindaki uzayda isliyor...`,
+      tr: `<h3>Söylenmeyenlerin Ağırlığı</h3>
+<p>Charlotte Wells'in "Aftersun" filmi, söylenenle hissedilen arasındaki boşlukta ilerliyor. Hafızanın bugünü nasıl sonradan anlamlandırdığımız bir şeye dönüştürdüğünü çok incelikli bir biçimde hissettiriyor.</p>`,
     },
     tags: {
       en: ["memory", "family", "british cinema"],
-      tr: ["hafiza", "aile", "ingiliz sinemasi"],
+      tr: ["hafıza", "aile", "İngiliz sineması"],
     },
   },
   {
@@ -158,7 +158,7 @@ const journalEntries = [
     year: "2011",
     note: {
       en: "Night, silence, and bureaucracy turn into an existential landscape.",
-      tr: "Gece, sessizlik ve burokrasi varoluscu bir manzaraya donusuyor.",
+      tr: "Gece, sessizlik ve bürokrasi varoluşçu bir manzaraya dönüşüyor.",
     },
     rating: "4.7/5",
     essay: {
@@ -172,12 +172,12 @@ const journalEntries = [
 <p>What struck me most is how the film treats its characters not as heroes or villains but as ordinary people caught in circumstances that demand they confront what they'd rather leave buried. The moral ambiguity never resolves—it just sits with us, uncomfortable and true.</p>
 
 <p>This is slow cinema at its finest, but it's not slow for slowness' sake. Every moment of waiting, every long take, every silence serves a purpose. By the end, the film has created something almost unbearably beautiful from its apparent lack of narrative urgency.</p>`,
-      tr: `<h3>Dolanismanin Guzeligi</h3>
-<p>Nuri Bilge Ceylan'in "Bir Zamanlar Anadolu'da" filmi aceye getirmeyecek sekilde cesitli bir anlatiya sahiptir. Bir set karakterle, bir savcı, bir doktor, bir polis şefi, askerler—ecekenin gece içinde bir mezar yeri arayan yolculuğun izlenmesi, basit bir prosedürden öltalık, ahlak ve sırları tasiyan agirliginin derin meditasyonuna dönesitlenir.</p>`,
+      tr: `<h3>Dolanmanın Güzelliği</h3>
+<p>Nuri Bilge Ceylan'ın "Bir Zamanlar Anadolu'da" filmi aceleye gelmeyen, gece boyunca açılan bir anlatı kuruyor. Bir savcı, bir doktor, bir polis şefi ve askerlerle birlikte karanlıkta bir mezar yeri ararken, hikâye ölüm, ahlak ve sırların ağırlığı üzerine derin bir düşünmeye dönüşüyor.</p>`,
     },
     tags: {
       en: ["slow cinema", "moral ambiguity", "turkish cinema"],
-      tr: ["yavas sinema", "ahlaki belirsizlik", "turk sinemasi"],
+      tr: ["yavaş sinema", "ahlaki belirsizlik", "Türk sineması"],
     },
   },
   {
@@ -189,7 +189,7 @@ const journalEntries = [
     year: "2008",
     note: {
       en: "Private memory and social history move together in one voice.",
-      tr: "Ozel hafiza ile toplumsal tarih tek bir sesle birlikte ilerliyor.",
+      tr: "Özel hafıza ile toplumsal tarih tek bir sesle birlikte ilerliyor.",
     },
     rating: "4.6/5",
     essay: {
@@ -203,24 +203,24 @@ const journalEntries = [
 <p>The writing is precise and often devastating in its simplicity. Ernaux writes about desire, disappointment, changing bodies, and the passage of time with an unflinching honesty that feels almost clinical. Yet beneath this apparent distance is a profound tenderness.</p>
 
 <p>Reading "The Years" felt like discovering a new form of truth-telling. It challenged my assumptions about what autobiography could be and what it means to tell the story of a life in relation to history.</p>`,
-      tr: `<h3>Kolektif Bir Oto-Biyografi</h3>
-<p>Annie Ernaux'nun "Seneler" kitabi oto-biyografinin radikal bir yeniden kavramsallastirmasi...`,
+      tr: `<h3>Kolektif Bir Otobiyografi</h3>
+<p>Annie Ernaux'nun "Seneler" kitabı, otobiyografiyi bireysel bir anlatı olmaktan çıkarıp ortak bir hafıza alanına dönüştürüyor. Kişisel olan ile toplumsal olanı aynı ses içinde taşıması kitabı çok etkileyici kılıyor.</p>`,
     },
     tags: {
       en: ["memoir", "history", "french literature"],
-      tr: ["ani", "tarih", "fransiz edebiyati"],
+      tr: ["anı", "tarih", "Fransız edebiyatı"],
     },
   },
   {
     id: "left-hand-darkness",
     type: "book",
-    title: { en: "The Left Hand of Darkness", tr: "Karanligin Sol Eli" },
+    title: { en: "The Left Hand of Darkness", tr: "Karanlığın Sol Eli" },
     creator: "Ursula K. Le Guin",
     country: "unitedStates",
     year: "1969",
     note: {
       en: "A living study of difference, language, and politics.",
-      tr: "Farklilik, dil ve siyaset uzerine hala canli bir inceleme.",
+      tr: "Farklılık, dil ve siyaset üzerine hâlâ canlı bir inceleme.",
     },
     rating: "4.5/5",
     essay: {
@@ -234,8 +234,8 @@ const journalEntries = [
 <p>What struck me most years after first reading this book is its refusal to resolve its central tensions. Genly doesn't fully understand Gethenian culture, and we don't fully understand the universe Le Guin has created. But rather than being frustrating, this incompleteness feels like honesty. This is how understanding actually works—not through sudden revelation but through patient, often painful, navigation of difference.</p>
 
 <p>It's remarkable how fresh this novel still feels, how its questions about power, gender, and belonging remain urgent and alive. It's science fiction that trusts the reader to think alongside it rather than being told what to think.</p>`,
-      tr: `<h3>Yabanci Bir Tuhaf Iklimde</h3>
-<p>Ursula K. Le Guin'in "Karanligin Sol Eli" sadece spekulatif olmayan bilim kurgusu yok. Bunun yerine, bir uzay operasi gibi gizlenen derin bir antropolojik meditasyondur...`,
+      tr: `<h3>Tuhaf Bir İklimde Yabancı Olmak</h3>
+<p>Ursula K. Le Guin'in "Karanlığın Sol Eli", yalnızca spekülatif bir kurgu değil; dil, cinsiyet, siyaset ve karşılaşma üzerine çok canlı bir düşünme alanı. Romanın gücü, farkı açıklamak yerine onun içinde yaşamayı hissettirmesinde yatıyor.</p>`,
     },
     tags: {
       en: ["science fiction", "society", "gender"],
@@ -251,7 +251,7 @@ const journalEntries = [
     year: "2002",
     note: {
       en: "A sharp novel on faith, politics, and belonging.",
-      tr: "Inanc, siyaset ve aidiyet uzerine keskin bir roman.",
+      tr: "İnanç, siyaset ve aidiyet üzerine keskin bir roman.",
     },
     rating: "4.4/5",
     essay: {
@@ -265,24 +265,24 @@ const journalEntries = [
 <p>The novel is dense with formal innovation—characters who may or may not exist, metafictional layers, stories within stories. This formal complexity mirrors the intellectual and cultural confusion at the heart of the narrative. We're as lost and disoriented as the protagonist.</p>
 
 <p>It's not an easy read. The novel asks difficult questions about identity, belonging, and the impossible position of anyone trying to think freely in a polarized world. But that difficulty is the point. Pamuk is refusing to offer easy answers to genuinely hard questions.</p>`,
-      tr: `<h3>Kar Tarafından Hapsolmus, Fikirdar Tarafından Sapislanmis</h3>
-<p>Orhan Pamuk'un "Kar" romani sizi rahatsiz ediyor, bu da tam olarak neden gerekli oldugunu gosteriyor...`,
+      tr: `<h3>Karın Ortasında, Fikirlerin İçinde Sıkışmak</h3>
+<p>Orhan Pamuk'un "Kar" romanı rahatsız edici olmayı göze aldığı için güçlü. İnanç, siyaset ve aidiyet arasındaki gerilimleri kolay cevaplara kaçmadan kuruyor.</p>`,
     },
     tags: {
       en: ["identity", "politics", "turkish literature"],
-      tr: ["kimlik", "siyaset", "turk edebiyati"],
+      tr: ["kimlik", "siyaset", "Türk edebiyatı"],
     },
   },
   {
     id: "the-emigrants",
     type: "book",
-    title: { en: "The Emigrants", tr: "Gocmenler" },
+    title: { en: "The Emigrants", tr: "Göçmenler" },
     creator: "W. G. Sebald",
     country: "germany",
     year: "1992",
     note: {
       en: "Melancholic prose about exile, memory, and fragile archives.",
-      tr: "Surgun, hafiza ve kirilgan arsivler uzerine melankolik bir anlati.",
+      tr: "Sürgün, hafıza ve kırılgan arşivler üzerine melankolik bir anlatı.",
     },
     rating: "4.7/5",
     essay: {
@@ -296,12 +296,12 @@ const journalEntries = [
 <p>The novel's treatment of the Holocaust is particularly powerful precisely because it's indirect. The historical catastrophe hovers in the background, shaping all the characters' lives without ever being named directly. This indirectness feels more honest somehow than explicit treatment—it captures how trauma works, how it shapes existence without always being visible.</p>
 
 <p>Reading "The Emigrants," I felt like I was doing the work of reconstruction alongside Sebald, gathering fragments, studying photographs, trying to piece together lost lives. The novel becomes a kind of anti-memorial—it acknowledges that some things can't be fully recovered, but documents the attempt to do so anyway.</p>`,
-      tr: `<h3>Fotografya Olarak Sayalet</h3>
-<p>W. G. Sebald'in "Gocmenler" kitabi en formal olarak huzursuz, duygusal olarak sessiz romanlardan biridir...`,
+      tr: `<h3>Musallat Olan Bir Şey Olarak Fotoğraf</h3>
+<p>W. G. Sebald'in "Göçmenler" kitabı, biçimsel olarak huzursuz ama duygusal olarak son derece sessiz romanlardan biri. Sürgün, hafıza ve geride kalan izler üzerine kurduğu dünya uzun süre akılda kalıyor.</p>`,
     },
     tags: {
       en: ["memory", "migration", "german literature"],
-      tr: ["hafiza", "goc", "alman edebiyati"],
+      tr: ["hafıza", "göç", "Alman edebiyatı"],
     },
   },
 ];
@@ -325,8 +325,8 @@ const entryQuotes = {
       "The world is made of small moments if you look carefully.",
     ],
     tr: [
-      "Bir dahaki sefer bir dahaki seferdir. Simdi ise simdi.",
-      "Dikkatle bakinca dunya kucuk anlardan olusuyor.",
+      "Bir dahaki sefer bir dahaki seferdir. Şimdi ise şimdi.",
+      "Dikkatle bakınca dünya küçük anlardan oluşuyor.",
     ],
   },
   aftersun: {
@@ -335,8 +335,8 @@ const entryQuotes = {
       "Sometimes we only understand a person after they are gone from view.",
     ],
     tr: [
-      "Hafiza, isigin durmadan degistigi bir oda gibidir.",
-      "Bazen birini ancak gorus alanindan cikinca anlamaya baslariz.",
+      "Hafıza, ışığın durmadan değiştiği bir oda gibidir.",
+      "Bazen birini ancak görüş alanından çıkınca anlamaya başlarız.",
     ],
   },
   "once-upon-anatolia": {
@@ -345,8 +345,8 @@ const entryQuotes = {
       "Silence can expose more than confession.",
     ],
     tr: [
-      "Karanlikta herkes gercegin farkli bir versiyonunu tasir.",
-      "Sessizlik bazen itiraftan daha cok sey aciga cikarir.",
+      "Karanlıkta herkes gerçeğin farklı bir versiyonunu taşır.",
+      "Sessizlik bazen itiraftan daha çok şey açığa çıkarır.",
     ],
   },
   "the-years": {
@@ -355,8 +355,8 @@ const entryQuotes = {
       "A life is also an archive of a century.",
     ],
     tr: [
-      "Kisisel hafiza asla sadece kisisel degildir; toplumsal bir birikimdir.",
-      "Bir hayat ayni zamanda bir yuzyilin arsividir.",
+      "Kişisel hafıza asla sadece kişisel değildir; toplumsal bir birikimdir.",
+      "Bir hayat aynı zamanda bir yüzyılın arşividir.",
     ],
   },
   "left-hand-darkness": {
@@ -365,8 +365,8 @@ const entryQuotes = {
       "Difference is not a threat; it is a method of understanding.",
     ],
     tr: [
-      "Otekiyle gercekten karsilasmak icin kesinligi askiya almak gerekir.",
-      "Farklilik bir tehdit degil, anlama yontemidir.",
+      "Ötekiyle gerçekten karşılaşmak için kesinliği askıya almak gerekir.",
+      "Farklılık bir tehdit değil, anlama yöntemidir.",
     ],
   },
   snow: {
@@ -375,8 +375,8 @@ const entryQuotes = {
       "Belonging is hardest when every side demands certainty.",
     ],
     tr: [
-      "Kar sehri yalitir ama fikirler insanlari daha cok yalitir.",
-      "Aidiyet, herkes kesinlik isterken daha da zorlasir.",
+      "Kar şehri yalıtır ama fikirler insanları daha çok yalıtır.",
+      "Aidiyet, herkes kesinlik isterken daha da zorlaşır.",
     ],
   },
   "the-emigrants": {
@@ -385,8 +385,8 @@ const entryQuotes = {
       "Exile is not only a place left behind, but time left unfinished.",
     ],
     tr: [
-      "Fotograflar yuzleri saklar ama cevresindeki hayati saklayamaz.",
-      "Surgun yalnizca geride birakilan yer degil, tamamlanmamis zamandir.",
+      "Fotoğraflar yüzleri saklar ama çevresindeki hayatı saklayamaz.",
+      "Sürgün yalnızca geride bırakılan yer değil, tamamlanmamış zamandır.",
     ],
   },
 };
@@ -400,7 +400,7 @@ function missingNotesMessage(entryType, lang) {
   if (lang === "en") {
     return `I only wrote my notes for this ${item} in Turkish and preferred not to force an English translation. Please check the Turkish version.`;
   }
-  return `Bu ${item === "movie" ? "film" : "kitap"} icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.`;
+  return `Bu ${item === "movie" ? "film" : "kitap"} için notlarımı sadece İngilizce yazdım ve zoraki bir Türkçe çeviri yapmak istemedim. Lütfen İngilizce versiyona bakınız.`;
 }
 
 function missingQuotesMessage(entryType, lang) {
@@ -408,7 +408,7 @@ function missingQuotesMessage(entryType, lang) {
   if (lang === "en") {
     return `I only kept quotations for this ${item} in Turkish. Please check the Turkish version.`;
   }
-  return `Bu ${item === "movie" ? "film" : "kitap"} icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz.`;
+  return `Bu ${item === "movie" ? "film" : "kitap"} için alıntıları sadece İngilizce tuttum. Lütfen İngilizce versiyona bakınız.`;
 }
 
 const state = {
@@ -737,8 +737,8 @@ function loadEntry() {
   const fallbackNotes = `<h3>${t("tabNotes")}</h3><p>${fallbackNoteText}</p>`;
   const keywordsHtml =
     localTags.length > 0
-      ? `<h3>${t("metaKeywords")}</h3><p>${localTags.join(", ")}</p>`
-      : `<h3>${t("metaKeywords")}</h3><p>-</p>`;
+      ? `<section class="entry-keywords-block"><h3>${t("metaKeywords")}</h3><p>${localTags.join(", ")}</p></section>`
+      : `<section class="entry-keywords-block"><h3>${t("metaKeywords")}</h3><p>-</p></section>`;
   const relatedEntriesHtml = renderRelatedEntries(entry);
   if (notesEl) {
     const sameLangEssay = entry.essay?.[state.lang];

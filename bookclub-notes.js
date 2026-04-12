@@ -23,13 +23,13 @@ const translations = {
     navCorner: "Kişisel Arşiv",
     navJournal: "Günlük",
     navContact: "İletişim",
-    backToBookClub: "Kitap Kulubune Don",
+    backToBookClub: "Kitap Kulübüne Dön",
     unknownSession: "Bilinmeyen oturum",
     authorLabel: "Yazar",
-    moderatorLabel: "Moderator",
+    moderatorLabel: "Moderatör",
     dateLabel: "Tarih",
-    noModerator: "Moderator acik",
-    footerText: "Son guncelleme: 2026-04-04",
+    noModerator: "Moderatör açık",
+    footerText: "Son güncelleme: 2026-04-04",
   },
 };
 
@@ -44,7 +44,7 @@ function getSharedLastUpdated() {
 
 function getFooterText() {
   const date = getSharedLastUpdated();
-  return state.lang === "tr" ? `Son guncelleme: ${date}` : `Last updated in ${date}`;
+  return state.lang === "tr" ? `Son güncelleme: ${date}` : `Last updated in ${date}`;
 }
 
 function t(key) {

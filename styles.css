@@ -1680,6 +1680,18 @@ select.search-box {
   margin-bottom: 0.8rem;
 }
 
+.entry-keywords-block h3 {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.entry-keywords-block p {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
 .related-entries-section {
   margin-top: 1.8rem;
 }
