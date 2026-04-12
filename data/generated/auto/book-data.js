@@ -1,8 +1,56 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-07T13:56:21.083879
+// Generated: 2026-04-12T14:22:37.096809
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
+  {
+    "id": "kucuk-yuvarlak-taslar-kesmez",
+    "type": "book",
+    "title": {
+      "en": "Küçük Yuvarlak Taşlar",
+      "tr": "Küçük Yuvarlak Taşlar"
+    },
+    "creator": "Melisa Kesmez",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2022",
+    "readDate": "2026/04/10",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1659073645i/61770166.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/61770166",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "melisa-kesmez",
+        "turkey",
+        "2022"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "melisa-kesmez",
+        "turkey",
+        "2022"
+      ]
+    }
+  },
   {
     "id": "aradigin-sey-kutuphanede-sakli-aoyama",
     "type": "book",
@@ -296,7 +344,7 @@ const bookEntries = [
     "type": "book",
     "title": {
       "en": "The Death of Ivan Ilyich",
-      "tr": "The Death of Ivan Ilyich"
+      "tr": "The Death of Ivan Ilych"
     },
     "creator": "Leo Tolstoy",
     "country": "russia",
@@ -1177,6 +1225,3328 @@ const bookEntries = [
         "sandro-veronesi",
         "italy",
         "2022"
+      ]
+    }
+  },
+  {
+    "id": "pinhan-shafak",
+    "type": "book",
+    "title": {
+      "en": "Pinhan",
+      "tr": "Pinhan"
+    },
+    "creator": "Elif Shafak",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2001",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1232589788i/6115447.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6115447",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2001"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2001"
+      ]
+    }
+  },
+  {
+    "id": "i̇skender-shafak",
+    "type": "book",
+    "title": {
+      "en": "Honor",
+      "tr": "İskender"
+    },
+    "creator": "Elif Shafak",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2011",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1311316740i/12090860.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/12090860",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2011"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2011"
+      ]
+    }
+  },
+  {
+    "id": "firarperest-(turkish-edition)-shafak",
+    "type": "book",
+    "title": {
+      "en": "Firarperest",
+      "tr": "Firarperest (Turkish Edition)"
+    },
+    "creator": "Elif Shafak",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2014",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1308980904i/9782817.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9782817",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2014"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2014"
+      ]
+    }
+  },
+  {
+    "id": "ask-shafak",
+    "type": "book",
+    "title": {
+      "en": "The Forty Rules of Love",
+      "tr": "Aşk"
+    },
+    "creator": "Elif Shafak",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2009",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1237239242i/6341492.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6341492",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2009"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elif-shafak",
+        "turkey",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "dokuzuncu-hariciye-kogusu-safa",
+    "type": "book",
+    "title": {
+      "en": "Dokuzuncu Hariciye Koğuşu",
+      "tr": "Dokuzuncu Hariciye Koğuşu"
+    },
+    "creator": "Peyami Safa",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "1968",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1585305917i/6482590.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6482590",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "peyami-safa",
+        "turkey",
+        "1968"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "peyami-safa",
+        "turkey",
+        "1968"
+      ]
+    }
+  },
+  {
+    "id": "calikusu-guntekin",
+    "type": "book",
+    "title": {
+      "en": "Çalıkuşu",
+      "tr": "Çalıkuşu"
+    },
+    "creator": "Reşat Nuri Güntekin",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Ottoman Empire",
+      "tr": "Ottoman Empire"
+    },
+    "year": "1992",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1588864545i/636802.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/636802",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "resat-nuri-guntekin",
+        "ottoman-empire",
+        "1992"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "resat-nuri-guntekin",
+        "ottoman-empire",
+        "1992"
+      ]
+    }
+  },
+  {
+    "id": "yasamadan-olmeyecegim-ankaoua",
+    "type": "book",
+    "title": {
+      "en": "Yaşamadan Ölmeyeceğim",
+      "tr": "Yaşamadan Ölmeyeceğim"
+    },
+    "creator": "Maud Ankaoua",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "2021",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624881491i/58445809.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/58445809",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "maud-ankaoua",
+        "france",
+        "2021"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "maud-ankaoua",
+        "france",
+        "2021"
+      ]
+    }
+  },
+  {
+    "id": "huzursuzlugun-kitabi-pessoa",
+    "type": "book",
+    "title": {
+      "en": "Livro do Desassossego",
+      "tr": "Huzursuzluğun Kitabı"
+    },
+    "creator": "Fernando Pessoa",
+    "country": "portugal",
+    "countryLabel": {
+      "en": "Portugal",
+      "tr": "Portugal"
+    },
+    "year": "2006",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1442738765i/11390422.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/11390422",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "fernando-pessoa",
+        "portugal",
+        "2006"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "fernando-pessoa",
+        "portugal",
+        "2006"
+      ]
+    }
+  },
+  {
+    "id": "cimri-molière",
+    "type": "book",
+    "title": {
+      "en": "L'Avare",
+      "tr": "Cimri"
+    },
+    "creator": "Molière",
+    "country": "kingdomoffrance",
+    "countryLabel": {
+      "en": "Kingdom of France",
+      "tr": "Kingdom of France"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1493206918i/34984528.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/34984528",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "molière",
+        "kingdom-of-france",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "molière",
+        "kingdom-of-france",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "pir-i-lezzet!-ersin",
+    "type": "book",
+    "title": {
+      "en": "Pir-i Lezzet!",
+      "tr": "Pir-i Lezzet!"
+    },
+    "creator": "Saygın Ersin",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602951530i/30137594.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/30137594",
+    "bookClubUrl": null,
+    "rating": "1/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "saygin-ersin",
+        "turkey",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "saygin-ersin",
+        "turkey",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "bulanti-sartre",
+    "type": "book",
+    "title": {
+      "en": "La nausée",
+      "tr": "Bulantı"
+    },
+    "creator": "Jean-Paul Sartre",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "1994",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1444644935i/9269253.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9269253",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jean-paul-sartre",
+        "france",
+        "1994"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jean-paul-sartre",
+        "france",
+        "1994"
+      ]
+    }
+  },
+  {
+    "id": "buyulu-dag-mann",
+    "type": "book",
+    "title": {
+      "en": "Der Zauberberg",
+      "tr": "Büyülü Dağ"
+    },
+    "creator": "Thomas Mann",
+    "country": "germany",
+    "countryLabel": {
+      "en": "Germany",
+      "tr": "Germany"
+    },
+    "year": "2011",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1384344232i/15841038.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/15841038",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "thomas-mann",
+        "germany",
+        "2011"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "thomas-mann",
+        "germany",
+        "2011"
+      ]
+    }
+  },
+  {
+    "id": "sahilde-kafka-murakami",
+    "type": "book",
+    "title": {
+      "en": "海辺のカフカ [Umibe no Kafuka]",
+      "tr": "Sahilde Kafka"
+    },
+    "creator": "Haruki Murakami",
+    "country": "japan",
+    "countryLabel": {
+      "en": "Japan",
+      "tr": "Japan"
+    },
+    "year": "2009",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1381567718i/16151182.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/16151182",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "haruki-murakami",
+        "japan",
+        "2009"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "haruki-murakami",
+        "japan",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "belgelerim-zambra",
+    "type": "book",
+    "title": {
+      "en": "Mis documentos",
+      "tr": "Belgelerim"
+    },
+    "creator": "Alejandro Zambra",
+    "country": "chile",
+    "countryLabel": {
+      "en": "Chile",
+      "tr": "Chile"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1471862969i/31574675.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/31574675",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "alejandro-zambra",
+        "chile",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "alejandro-zambra",
+        "chile",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "i̇saya-gore-i̇ncil-saramago",
+    "type": "book",
+    "title": {
+      "en": "O Evangelho segundo Jesus Cristo",
+      "tr": "İsa'ya Göre İncil"
+    },
+    "creator": "José Saramago",
+    "country": "portugal",
+    "countryLabel": {
+      "en": "Portugal",
+      "tr": "Portugal"
+    },
+    "year": "2011",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1442341761i/15786891.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/15786891",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jose-saramago",
+        "portugal",
+        "2011"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jose-saramago",
+        "portugal",
+        "2011"
+      ]
+    }
+  },
+  {
+    "id": "otekinin-ruyasi---butun-oykuleri-1-cortázar",
+    "type": "book",
+    "title": {
+      "en": "Cuentos completos 1",
+      "tr": "Ötekinin Rüyası - Bütün Öyküleri 1"
+    },
+    "creator": "Julio Cortázar",
+    "country": "argentina",
+    "countryLabel": {
+      "en": "Argentina",
+      "tr": "Argentina"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1481386705i/33304506.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/33304506",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "julio-cortázar",
+        "argentina",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "julio-cortázar",
+        "argentina",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "her-umut-ortak-arar-ornek",
+    "type": "book",
+    "title": {
+      "en": "Her Umut Ortak Arar",
+      "tr": "Her Umut Ortak Arar"
+    },
+    "creator": "Nilay Örnek",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2019",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571680979i/48548735.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/48548735",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "nilay-ornek",
+        "turkey",
+        "2019"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "nilay-ornek",
+        "turkey",
+        "2019"
+      ]
+    }
+  },
+  {
+    "id": "kuyucakli-yusuf-ali",
+    "type": "book",
+    "title": {
+      "en": "Kuyucaklı Yusuf",
+      "tr": "Kuyucaklı Yusuf"
+    },
+    "creator": "Sabahattin Ali",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "1999",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1575585708i/1844941.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/1844941",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "sabahattin-ali",
+        "turkey",
+        "1999"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "sabahattin-ali",
+        "turkey",
+        "1999"
+      ]
+    }
+  },
+  {
+    "id": "paris-bir-senliktir-hemingway",
+    "type": "book",
+    "title": {
+      "en": "A Moveable Feast",
+      "tr": "Paris Bir Şenliktir"
+    },
+    "creator": "Ernest Hemingway",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1479379029i/33000300.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/33000300",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "ernest-hemingway",
+        "united-states",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "ernest-hemingway",
+        "united-states",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "butun-gunlerin-aksami-erpenbeck",
+    "type": "book",
+    "title": {
+      "en": "Aller Tage Abend",
+      "tr": "Bütün Günlerin Akşamı"
+    },
+    "creator": "Jenny Erpenbeck",
+    "country": "germany",
+    "countryLabel": {
+      "en": "Germany",
+      "tr": "Germany"
+    },
+    "year": "2020",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1606516263i/56060276.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/56060276",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jenny-erpenbeck",
+        "germany",
+        "2020"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jenny-erpenbeck",
+        "germany",
+        "2020"
+      ]
+    }
+  },
+  {
+    "id": "milenaya-mektuplar-kafka",
+    "type": "book",
+    "title": {
+      "en": "Briefe an Milena",
+      "tr": "Milena'ya Mektuplar"
+    },
+    "creator": "Franz Kafka",
+    "country": "cisleithania",
+    "countryLabel": {
+      "en": "Cisleithania",
+      "tr": "Cisleithania"
+    },
+    "year": "2000",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1455791465i/23435080.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/23435080",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania",
+        "2000"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "bos-dolaplar-ernaux",
+    "type": "book",
+    "title": {
+      "en": "Les Armoires vides",
+      "tr": "Boş Dolaplar"
+    },
+    "creator": "Annie Ernaux",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "2022",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1663001773i/62427558.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/62427558",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "annie-ernaux",
+        "france",
+        "2022"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "annie-ernaux",
+        "france",
+        "2022"
+      ]
+    }
+  },
+  {
+    "id": "muhtesem-bedenlerimizin-cografyasi-mortimer",
+    "type": "book",
+    "title": {
+      "en": "Maps of Our Spectacular Bodies",
+      "tr": "Muhteşem Bedenlerimizin Coğrafyası"
+    },
+    "creator": "Maddie Mortimer",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "year": "2022",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1667395384i/63205277.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/63205277",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "maddie-mortimer",
+        "united-kingdom",
+        "2022"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "maddie-mortimer",
+        "united-kingdom",
+        "2022"
+      ]
+    }
+  },
+  {
+    "id": "olay-ernaux",
+    "type": "book",
+    "title": {
+      "en": "L'Événement",
+      "tr": "Olay"
+    },
+    "creator": "Annie Ernaux",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "2023",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1680945602i/126606828.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/126606828",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "annie-ernaux",
+        "france",
+        "2023"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "annie-ernaux",
+        "france",
+        "2023"
+      ]
+    }
+  },
+  {
+    "id": "okumaz-yazmaz-kristóf",
+    "type": "book",
+    "title": {
+      "en": "L'analphabète : récit autobiographique",
+      "tr": "Okumaz Yazmaz"
+    },
+    "creator": "Ágota Kristóf",
+    "country": "hungary",
+    "countryLabel": {
+      "en": "Hungary",
+      "tr": "Hungary"
+    },
+    "year": "2023",
+    "readDate": null,
+    "coverUrl": "assets/images/covers/books/okumazyazmaz.webp",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/202011904",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+      "tr": "Göçmenlik, kimliksizlik.. Sanırım Ágota Kristóf kadar cesur kulaç atanını görmedim henüz bu soğuk sularda. Başkalarının şehirlerinde, başkalarının dilinde, başkalarının halkıyla yaşamak.  Öteki olmak, yeni bir hayat ödünç almak binbir türlü bedelle.  Okumaz yazmaz kalmak bir anda, hem de 21 yaşındayken.  Ve buna rağmen yazmak, kendi dilini yitirme pahasına bir inatla. Yazdıkları kimselerin umrunda değilken bile sabır ve kararlılıkla yazmak.  40 sayfalık bir otobiyografi ancak bu kadar can acıtabilirdi sanıyorum.  Ve bu kadar saygı uyandırabilirdi! Belki de bu kitaptan sonra yazarın o tüyler ürpertici üçlemesine bir daha dönmek ve bir de onun hayatının gölgesinde okumak gerekir. Eminim Kristóf'un yansıması Lucas ve Claus'un anlatılarındaki karanlığı biraz olsun şefkatle aydınlatacaktır.\n\nParis, Aralık 2023"
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Göçmenlik, kimliksizlik.. Sanırım Ágota Kristóf kadar cesur kulaç atanını görmedim henüz bu soğuk sularda. Başkalarının şehirlerinde, başkalarının dilinde, başkalarının halkıyla yaşamak.  Öteki olmak, yeni bir hayat ödünç almak binbir türlü bedelle.  Okumaz yazmaz kalmak bir anda, hem de 21 yaşındayken.  Ve buna rağmen yazmak, kendi dilini yitirme pahasına bir inatla. Yazdıkları kimselerin umrunda değilken bile sabır ve kararlılıkla yazmak.  40 sayfalık bir otobiyografi ancak bu kadar can acıtabilirdi sanıyorum.  Ve bu kadar saygı uyandırabilirdi! Belki de bu kitaptan sonra yazarın o tüyler ürpertici üçlemesine bir daha dönmek ve bir de onun hayatının gölgesinde okumak gerekir. Eminim Kristóf'un yansıması Lucas ve Claus'un anlatılarındaki karanlığı biraz olsun şefkatle aydınlatacaktır.\n\nParis, Aralık 2023</p>"
+    },
+    "quotes": {
+      "en": [
+        "I only kept quotations for this book in Turkish. Please check the Turkish version."
+      ],
+      "tr": [
+        "Buraya gelirken bir şeyler bekliyorduk. Beklediğimiz neydi bilmiyorduk ama kesinlikle bu değildi: Bu kasvetli işgünleri, bu sessiz akşamlar, bu değişime kapalı, sürprizsiz, umutsuz, donuk hayat.",
+        "Otuz yıli aşkın bir süredir Fransızca konuşuyorum, yirmi yıldır Fransızca yazıyorum ve bu dili hâlâ bilmiyo-rum. Hatasız konuşamıyorum, sık sık başvurduğum sözlüklerin yardımıyla yazabiliyorum ancak. Işte bu nedenle, Fransızcaya da düşman dil diyorum. Bunun bir başka nedeni daha var, çok daha beter bir ne-deni: Bu dil yavaş yavaş anadilimi öldürüyor.",
+        "Ülkemi terk etmeseydim nasıl bir hayatım olurdu? Daha zor, daha yoksul sanırım ama daha az yalnız, daha az parçalanmış, mutlu belki de.",
+        "Yazdığınız şeye inancınızı asla yitirmeden, sabır ve kararhılıkla yazarak yazar olunur."
+      ]
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "ágota-kristóf",
+        "hungary",
+        "2023"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "ágota-kristóf",
+        "hungary",
+        "2023"
+      ]
+    }
+  },
+  {
+    "id": "gurur-ve-onyargi-austen",
+    "type": "book",
+    "title": {
+      "en": "Pride and Prejudice",
+      "tr": "Gurur ve Önyargı"
+    },
+    "creator": "Jane Austen",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom of Great Britain and Ireland",
+      "tr": "United Kingdom of Great Britain and Ireland"
+    },
+    "year": "2006",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1353795994i/16167118.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/16167118",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jane-austen",
+        "united-kingdom-of-great-britain-and-ireland",
+        "2006"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jane-austen",
+        "united-kingdom-of-great-britain-and-ireland",
+        "2006"
+      ]
+    }
+  },
+  {
+    "id": "bilinmeyen-bir-kadinin-mektubu-zweig",
+    "type": "book",
+    "title": {
+      "en": "Brief einer Unbekannten",
+      "tr": "Bilinmeyen Bir Kadının Mektubu"
+    },
+    "creator": "Stefan Zweig",
+    "country": "austria",
+    "countryLabel": {
+      "en": "Austria",
+      "tr": "Austria"
+    },
+    "year": "2012",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1706941489i/25383991.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/25383991",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2012"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "olaganustu-bir-gece-zweig",
+    "type": "book",
+    "title": {
+      "en": "Phantastische Nacht",
+      "tr": "Olağanüstü Bir Gece"
+    },
+    "creator": "Stefan Zweig",
+    "country": "austria",
+    "countryLabel": {
+      "en": "Austria",
+      "tr": "Austria"
+    },
+    "year": "2015",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1600548433i/27839637.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/27839637",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "korku-zweig",
+    "type": "book",
+    "title": {
+      "en": "Angst",
+      "tr": "Korku"
+    },
+    "creator": "Stefan Zweig",
+    "country": "austria",
+    "countryLabel": {
+      "en": "Austria",
+      "tr": "Austria"
+    },
+    "year": "2015",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1437932561i/25939964.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/25939964",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "benim-adim-kirmizi-pamuk",
+    "type": "book",
+    "title": {
+      "en": "Benim Adım Kırmızı",
+      "tr": "Benim Adım Kırmızı"
+    },
+    "creator": "Orhan Pamuk",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2000",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1699702835i/53878.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/53878",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "orhan-pamuk",
+        "turkey",
+        "2000"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "orhan-pamuk",
+        "turkey",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "i̇nsanligin-yildizinin-parladigi-anlar---on-dort-tarihsel-minyatur---mini-kitap-zweig",
+    "type": "book",
+    "title": {
+      "en": "Sternstunden der Menschheit",
+      "tr": "İnsanlığın Yıldızının Parladığı Anlar - On Dört Tarihsel Minyatür - Mini Kitap"
+    },
+    "creator": "Stefan Zweig",
+    "country": "austria",
+    "countryLabel": {
+      "en": "Austria",
+      "tr": "Austria"
+    },
+    "year": "2015",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1447058223i/27758443.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/27758443",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "stefan-zweig",
+        "austria",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "istanbul-kirmizisi---mini-kitap-ozpetek",
+    "type": "book",
+    "title": {
+      "en": "Istanbul Kirmizisi - Mini Kitap",
+      "tr": "Istanbul Kirmizisi - Mini Kitap"
+    },
+    "creator": "Ferzan Özpetek",
+    "country": "italy",
+    "countryLabel": {
+      "en": "Italy",
+      "tr": "Italy"
+    },
+    "year": "2016",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1536409259i/41738614.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/41738614",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "ferzan-ozpetek",
+        "italy",
+        "2016"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "ferzan-ozpetek",
+        "italy",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "charlienin-cikolata-fabrikasi-(charlie-bucket-#1)-dahl",
+    "type": "book",
+    "title": {
+      "en": "Charlie and the Chocolate Factory",
+      "tr": "Charlie'nin Çikolata Fabrikası (Charlie Bucket #1)"
+    },
+    "creator": "Roald Dahl",
+    "country": "norway",
+    "countryLabel": {
+      "en": "Norway",
+      "tr": "Norway"
+    },
+    "year": "2009",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391443446i/20705313.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/20705313",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "roald-dahl",
+        "norway",
+        "2009"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "roald-dahl",
+        "norway",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "kolera-gunlerinde-ask-márquez",
+    "type": "book",
+    "title": {
+      "en": "Kolera Günlerinde Aşk",
+      "tr": "Kolera Günlerinde Aşk"
+    },
+    "creator": "Gabriel García Márquez",
+    "country": "colombia",
+    "countryLabel": {
+      "en": "Colombia",
+      "tr": "Colombia"
+    },
+    "year": "2010",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1444672321i/8715563.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/8715563",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "gabriel-garcía-márquez",
+        "colombia",
+        "2010"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "gabriel-garcía-márquez",
+        "colombia",
+        "2010"
+      ]
+    }
+  },
+  {
+    "id": "seker-portakali-(zeze,-#1)-vasconcelos",
+    "type": "book",
+    "title": {
+      "en": "Meu Pé de Laranja Lima",
+      "tr": "Şeker Portakalı (Zeze, #1)"
+    },
+    "creator": "José Mauro de Vasconcelos",
+    "country": "brazil",
+    "countryLabel": {
+      "en": "Brazil",
+      "tr": "Brazil"
+    },
+    "year": "2000",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1431595380i/13490314.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/13490314",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jose-mauro-de-vasconcelos",
+        "brazil",
+        "2000"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jose-mauro-de-vasconcelos",
+        "brazil",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "yabanci-camus",
+    "type": "book",
+    "title": {
+      "en": "L'Étranger",
+      "tr": "Yabancı"
+    },
+    "creator": "Albert Camus",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "1996",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1385758031i/9269274.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9269274",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "albert-camus",
+        "france",
+        "1996"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "albert-camus",
+        "france",
+        "1996"
+      ]
+    }
+  },
+  {
+    "id": "dava-kafka",
+    "type": "book",
+    "title": {
+      "en": "Dava",
+      "tr": "Dava"
+    },
+    "creator": "Franz Kafka",
+    "country": "cisleithania",
+    "countryLabel": {
+      "en": "cisleithania",
+      "tr": "cisleithania"
+    },
+    "year": "Unknown",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/22045368",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania"
+      ]
+    }
+  },
+  {
+    "id": "donusum-kafka",
+    "type": "book",
+    "title": {
+      "en": "Dönüşüm",
+      "tr": "Dönüşüm"
+    },
+    "creator": "Franz Kafka",
+    "country": "cisleithania",
+    "countryLabel": {
+      "en": "cisleithania",
+      "tr": "cisleithania"
+    },
+    "year": "2012",
+    "readDate": null,
+    "coverUrl": "https://covers.openlibrary.org/b/id/12121659-L.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9509724",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania",
+        "2012"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "franz-kafka",
+        "cisleithania",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "hayvan-ciftligi:-bir-peri-masali-orwell",
+    "type": "book",
+    "title": {
+      "en": "Animal Farm",
+      "tr": "Hayvan Çiftliği: Bir Peri Masalı"
+    },
+    "creator": "George Orwell",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "year": "2013",
+    "readDate": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1444567224i/7174618.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/7174618",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "george-orwell",
+        "united-kingdom",
+        "2013"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "george-orwell",
+        "united-kingdom",
+        "2013"
+      ]
+    }
+  },
+  {
+    "id": "mor-salkimli-ev-adivar",
+    "type": "book",
+    "title": {
+      "en": "Mor Salkımlı Ev",
+      "tr": "Mor Salkımlı Ev"
+    },
+    "creator": "Halide Edib Adıvar",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2014",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9938380",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "halide-edib-adivar",
+        "unknown",
+        "2014"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "halide-edib-adivar",
+        "unknown",
+        "2014"
+      ]
+    }
+  },
+  {
+    "id": "aclik-hamsun",
+    "type": "book",
+    "title": {
+      "en": "Açlık",
+      "tr": "Açlık"
+    },
+    "creator": "Knut Hamsun",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "1996",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/13449825",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "knut-hamsun",
+        "unknown",
+        "1996"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "knut-hamsun",
+        "unknown",
+        "1996"
+      ]
+    }
+  },
+  {
+    "id": "tutunamayanlar-atay",
+    "type": "book",
+    "title": {
+      "en": "Tutunamayanlar",
+      "tr": "Tutunamayanlar"
+    },
+    "creator": "Oğuz Atay",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "1984",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/758901",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "oguz-atay",
+        "turkey",
+        "1984"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "oguz-atay",
+        "turkey",
+        "1984"
+      ]
+    }
+  },
+  {
+    "id": "tehlikeli-oyunlar-atay",
+    "type": "book",
+    "title": {
+      "en": "Tehlikeli Oyunlar",
+      "tr": "Tehlikeli Oyunlar"
+    },
+    "creator": "Oğuz Atay",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2000",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/2152663",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "oguz-atay",
+        "turkey",
+        "2000"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "oguz-atay",
+        "turkey",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "magaradakiler-meric",
+    "type": "book",
+    "title": {
+      "en": "Mağaradakiler",
+      "tr": "Mağaradakiler"
+    },
+    "creator": "Cemil Meriç",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2007",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6482270",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "cemil-meric",
+        "unknown",
+        "2007"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "cemil-meric",
+        "unknown",
+        "2007"
+      ]
+    }
+  },
+  {
+    "id": "puslu-kitalar-atlasi-ertem",
+    "type": "book",
+    "title": {
+      "en": "The Atlas of Misty Continents",
+      "tr": "Puslu Kıtalar Atlası"
+    },
+    "creator": "İlban Ertem",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2015",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/25076027",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "i̇lban-ertem",
+        "unknown",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "i̇lban-ertem",
+        "unknown",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "bir-i̇dam-mahkumunun-son-gunu-hugo",
+    "type": "book",
+    "title": {
+      "en": "Bir İdam Mahkumunun Son Günü",
+      "tr": "Bir İdam Mahkumunun Son Günü"
+    },
+    "creator": "Victor Hugo",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2018",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/59963657",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "victor-hugo",
+        "unknown",
+        "2018"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "victor-hugo",
+        "unknown",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "hamlet-shakespeare",
+    "type": "book",
+    "title": {
+      "en": "Hamlet",
+      "tr": "Hamlet"
+    },
+    "creator": "William Shakespeare",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "year": "2008",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/17794772",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "william-shakespeare",
+        "united-kingdom",
+        "2008"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "william-shakespeare",
+        "united-kingdom",
+        "2008"
+      ]
+    }
+  },
+  {
+    "id": "sokratesin-savunmasi-plato",
+    "type": "book",
+    "title": {
+      "en": "Sokrates'in Savunması",
+      "tr": "Sokrates'in Savunması"
+    },
+    "creator": "Plato",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2012",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/17801902",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "plato",
+        "unknown",
+        "2012"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "plato",
+        "unknown",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "olum-bir-varmis-bir-yokmus-saramago",
+    "type": "book",
+    "title": {
+      "en": "Ölüm Bir Varmış Bir Yokmuş",
+      "tr": "Ölüm Bir Varmış Bir Yokmuş"
+    },
+    "creator": "José Saramago",
+    "country": "portugal",
+    "countryLabel": {
+      "en": "Portugal",
+      "tr": "Portugal"
+    },
+    "year": "2013",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/18195197",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "jose-saramago",
+        "portugal",
+        "2013"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "jose-saramago",
+        "portugal",
+        "2013"
+      ]
+    }
+  },
+  {
+    "id": "koku:-bir-katilin-oykusu-suskind",
+    "type": "book",
+    "title": {
+      "en": "Koku: Bir Katilin Öyküsü",
+      "tr": "Koku: Bir Katilin Öyküsü"
+    },
+    "creator": "Patrick Süskind",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "1999",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/1232658",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "patrick-suskind",
+        "unknown",
+        "1999"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "patrick-suskind",
+        "unknown",
+        "1999"
+      ]
+    }
+  },
+  {
+    "id": "nar-agaci-bekiroglu",
+    "type": "book",
+    "title": {
+      "en": "Nar Ağacı",
+      "tr": "Nar Ağacı"
+    },
+    "creator": "Nazan Bekiroğlu",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2012",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/16051168",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "nazan-bekiroglu",
+        "turkey",
+        "2012"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "nazan-bekiroglu",
+        "turkey",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "pertev-beyin-uc-kizi-ayasli",
+    "type": "book",
+    "title": {
+      "en": "Pertev Bey'in Üç Kızı",
+      "tr": "Pertev Bey'in Üç Kızı"
+    },
+    "creator": "Münevver Ayaşlı",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2013",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/23698248",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "munevver-ayasli",
+        "unknown",
+        "2013"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "munevver-ayasli",
+        "unknown",
+        "2013"
+      ]
+    }
+  },
+  {
+    "id": "katre-i-matem-pala",
+    "type": "book",
+    "title": {
+      "en": "Katre-i Matem",
+      "tr": "Katre-i Matem"
+    },
+    "creator": "İskender Pala",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2009",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6676802",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2009"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "sah-&-sultan-pala",
+    "type": "book",
+    "title": {
+      "en": "Şah & Sultan",
+      "tr": "Şah & Sultan"
+    },
+    "creator": "İskender Pala",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2010",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9694866",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2010"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2010"
+      ]
+    }
+  },
+  {
+    "id": "cesur-yeni-dunya-huxley",
+    "type": "book",
+    "title": {
+      "en": "Cesur Yeni Dünya",
+      "tr": "Cesur Yeni Dünya"
+    },
+    "creator": "Aldous Huxley",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2015",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/23256064",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "aldous-huxley",
+        "unknown",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "aldous-huxley",
+        "unknown",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "marti---jonathan-livingston-bach",
+    "type": "book",
+    "title": {
+      "en": "Martı - Jonathan Livingston",
+      "tr": "Martı - Jonathan Livingston"
+    },
+    "creator": "Richard Bach",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2000",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/8889243",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "richard-bach",
+        "unknown",
+        "2000"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "richard-bach",
+        "unknown",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "babilde-olum-i̇stanbulda-ask-pala",
+    "type": "book",
+    "title": {
+      "en": "Babil'de Ölüm İstanbul'da Aşk",
+      "tr": "Babil'de Ölüm İstanbul'da Aşk"
+    },
+    "creator": "İskender Pala",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2003",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/6393999",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2003"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "i̇skender-pala",
+        "unknown",
+        "2003"
+      ]
+    }
+  },
+  {
+    "id": "i̇nce-memed-1-(i̇nce-memed,-#1)-kemal",
+    "type": "book",
+    "title": {
+      "en": "İnce Memed 1 (İnce Memed, #1)",
+      "tr": "İnce Memed 1 (İnce Memed, #1)"
+    },
+    "creator": "Yaşar Kemal",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2004",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/11112894",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "yasar-kemal",
+        "turkey",
+        "2004"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "yasar-kemal",
+        "turkey",
+        "2004"
+      ]
+    }
+  },
+  {
+    "id": "benimle-tanismadan-once-barnes",
+    "type": "book",
+    "title": {
+      "en": "Benimle Tanışmadan Önce",
+      "tr": "Benimle Tanışmadan Önce"
+    },
+    "creator": "Julian Barnes",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "year": "2002",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/18275068",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "julian-barnes",
+        "united-kingdom",
+        "2002"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "julian-barnes",
+        "united-kingdom",
+        "2002"
+      ]
+    }
+  },
+  {
+    "id": "ben,-kirke-miller",
+    "type": "book",
+    "title": {
+      "en": "Ben, Kirke",
+      "tr": "Ben, Kirke"
+    },
+    "creator": "Madeline Miller",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2019",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/52732123",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "madeline-miller",
+        "unknown",
+        "2019"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "madeline-miller",
+        "unknown",
+        "2019"
+      ]
+    }
+  },
+  {
+    "id": "dokunmanin-gucu-uzerine-schmid",
+    "type": "book",
+    "title": {
+      "en": "Dokunmanın Gücü Üzerine",
+      "tr": "Dokunmanın Gücü Üzerine"
+    },
+    "creator": "Wilhelm Schmid",
+    "country": "germany",
+    "countryLabel": {
+      "en": "Germany",
+      "tr": "Germany"
+    },
+    "year": "2020",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/54958405",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "wilhelm-schmid",
+        "germany",
+        "2020"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "wilhelm-schmid",
+        "germany",
+        "2020"
+      ]
+    }
+  },
+  {
+    "id": "ofke-dansi-lerner",
+    "type": "book",
+    "title": {
+      "en": "Öfke Dansı",
+      "tr": "Öfke Dansı"
+    },
+    "creator": "Harriet Lerner",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2012",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/23304708",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "harriet-lerner",
+        "unknown",
+        "2012"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "harriet-lerner",
+        "unknown",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "ucurtmayi-vurmasinlar-cicekoglu",
+    "type": "book",
+    "title": {
+      "en": "Uçurtmayı Vurmasınlar",
+      "tr": "Uçurtmayı Vurmasınlar"
+    },
+    "creator": "Feride Çiçekoğlu",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "Unknown",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/13452957",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "feride-cicekoglu",
+        "unknown"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "feride-cicekoglu",
+        "unknown"
+      ]
+    }
+  },
+  {
+    "id": "damizlik-kizin-oykusu-atwood",
+    "type": "book",
+    "title": {
+      "en": "Damızlık Kızın Öyküsü",
+      "tr": "Damızlık Kızın Öyküsü"
+    },
+    "creator": "Margaret Atwood",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "1992",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/18069864",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "margaret-atwood",
+        "unknown",
+        "1992"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "margaret-atwood",
+        "unknown",
+        "1992"
+      ]
+    }
+  },
+  {
+    "id": "olmek-i̇stiyorum-ama-tteokbokki-de-yemek-i̇stiyorum-se-hee",
+    "type": "book",
+    "title": {
+      "en": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum",
+      "tr": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum"
+    },
+    "creator": "Baek Se-hee",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2024",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/220514251",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "baek-se-hee",
+        "unknown",
+        "2024"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "baek-se-hee",
+        "unknown",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "vejetaryen-kang",
+    "type": "book",
+    "title": {
+      "en": "Vejetaryen",
+      "tr": "Vejetaryen"
+    },
+    "creator": "Han Kang",
+    "country": "southKorea",
+    "countryLabel": {
+      "en": "South Korea",
+      "tr": "South Korea"
+    },
+    "year": "2017",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/33545325",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "han-kang",
+        "south-korea",
+        "2017"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "han-kang",
+        "south-korea",
+        "2017"
+      ]
+    }
+  },
+  {
+    "id": "iza’nin-sarkisi-szabó",
+    "type": "book",
+    "title": {
+      "en": "Iza’nın Şarkısı",
+      "tr": "Iza’nın Şarkısı"
+    },
+    "creator": "Magda Szabó",
+    "country": "hungary",
+    "countryLabel": {
+      "en": "Hungary",
+      "tr": "Hungary"
+    },
+    "year": "2020",
+    "readDate": null,
+    "coverUrl": "assets/images/covers/books/izaninsarkisi.webp",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/51356091",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+      "tr": "Ama ne kitap!  Bize dair ve biricik olduğunu düşündüğümüz duyguların böylesine sert ve hiçbir süse ihtiyaç duymaksızın kağıda dökülmüş olması ne ürkütücü!  İza'nın şarkısını dinletmeden önce anneyi odak alıyor ilk sayfalar. Etelka, eşinin ölümünün ardından yalnızlığına şekil uydurmaya çalışan bir kadın. Ve dahası, yalnızlığını paylaşma umuduyla kızının modern yaşamının ortasında içine yepyeni anne-kız hayatlarının planını sığdırdığı taşralı valiziyle beliriveren bir anne. Geride bıraktığı eşinin mezarına neredeyse bir ihanet saydığı yeni hayat heyecanları ve hayalleri, ne yazık ki kızının evinde bavuldan hiç çıkamıyor. Artık küçük Iza'nın tek sığınağı annesi değil çünkü. Şimdilerde güçlü bir kadın, tanınmış bir doktor olan kızı ona ihtiyaç duymuyor artık. O genç kızlığında pek bayılarak yediği annesinin lahana sarmaları bundan böyle Iza'nın şehirli midesine dokunur hale geliyor. Kızının evinin dört duvarı arasında çaresizce işe yaramazlığını kabul eden yaşlı kadının içine çekilişini okuyoruz ilerleyen satırlarda. Ve sayfalar Iza'ya geldiğinde pencerenin evlat kısmında olan okura öyle zor ama öyle tarafsız bir yerden dokunuyor ki yazar. Çok tanıdık, çok kırılgan, oldukça utanç verici ve ne yazık ki fazlasıyla gerçek Iza'nın annesine kendi yaşamında yer bulma çabalarında hissettikleri. Ama baştan uyarayım, bu kitabı okuduğunuzda annenizi daha iyi anlamayı ya da ona hak vermeyi veya kendinizi haklı çıkarmayı beklemeyin. Zira bu bir kendini aklama hikayesi değil. Haklı ya da haksız olmanın anneliğe adanmış bunca kutsallığın önünde önemini yitirdiği, anlamanın veya anlaşılmanın neredeyse imkansız hale geldiği bir hikaye bu, anne-kızın hikayesi. Taraf tutmak öylesine imkansız ki, hikayenin her iki tarafından da bize tanıdık gelen bir çaresizliğe rastlamak böylesine kolayken. E ama dedim ya, ne kitap! P.S., Canım annem, eğer buraları okuyorsan 'modern' midem lahana sarmalarına hala bayılıyor!\n\nParis, Aralık 2023"
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Ama ne kitap!  Bize dair ve biricik olduğunu düşündüğümüz duyguların böylesine sert ve hiçbir süse ihtiyaç duymaksızın kağıda dökülmüş olması ne ürkütücü!  İza'nın şarkısını dinletmeden önce anneyi odak alıyor ilk sayfalar. Etelka, eşinin ölümünün ardından yalnızlığına şekil uydurmaya çalışan bir kadın. Ve dahası, yalnızlığını paylaşma umuduyla kızının modern yaşamının ortasında içine yepyeni anne-kız hayatlarının planını sığdırdığı taşralı valiziyle beliriveren bir anne. Geride bıraktığı eşinin mezarına neredeyse bir ihanet saydığı yeni hayat heyecanları ve hayalleri, ne yazık ki kızının evinde bavuldan hiç çıkamıyor. Artık küçük Iza'nın tek sığınağı annesi değil çünkü. Şimdilerde güçlü bir kadın, tanınmış bir doktor olan kızı ona ihtiyaç duymuyor artık. O genç kızlığında pek bayılarak yediği annesinin lahana sarmaları bundan böyle Iza'nın şehirli midesine dokunur hale geliyor. Kızının evinin dört duvarı arasında çaresizce işe yaramazlığını kabul eden yaşlı kadının içine çekilişini okuyoruz ilerleyen satırlarda. Ve sayfalar Iza'ya geldiğinde pencerenin evlat kısmında olan okura öyle zor ama öyle tarafsız bir yerden dokunuyor ki yazar. Çok tanıdık, çok kırılgan, oldukça utanç verici ve ne yazık ki fazlasıyla gerçek Iza'nın annesine kendi yaşamında yer bulma çabalarında hissettikleri. Ama baştan uyarayım, bu kitabı okuduğunuzda annenizi daha iyi anlamayı ya da ona hak vermeyi veya kendinizi haklı çıkarmayı beklemeyin. Zira bu bir kendini aklama hikayesi değil. Haklı ya da haksız olmanın anneliğe adanmış bunca kutsallığın önünde önemini yitirdiği, anlamanın veya anlaşılmanın neredeyse imkansız hale geldiği bir hikaye bu, anne-kızın hikayesi. Taraf tutmak öylesine imkansız ki, hikayenin her iki tarafından da bize tanıdık gelen bir çaresizliğe rastlamak böylesine kolayken. E ama dedim ya, ne kitap! P.S., Canım annem, eğer buraları okuyorsan 'modern' midem lahana sarmalarına hala bayılıyor!\n\nParis, Aralık 2023</p>"
+    },
+    "quotes": {
+      "en": [
+        "I only kept quotations for this book in Turkish. Please check the Turkish version."
+      ],
+      "tr": [
+        "Fark etmeden ölmüş olabilir miydi? Farkına varmadan gelebilir miydi ölüm?",
+        "Benim bir yetişkin olduğumun, artık bir anneye ihtiyaç duymadığımın, şimdi destek ve tavsiyeye ihtiyaç duyanın kendisi olduğunun farkında değil. Onu mutlu etmek istiyorsam hälâ çocukmuşum, hiç büyümemişim gibi yapmam gerek; o zaman beni pohpohlayabilir, kendini heba edip her akşam yorgunluğunun tadını çıkarabilir.",
+        "Niçin sevilen varlıkların yitirilmesi gerekiyor?",
+        "Ah şu hatıralar!\" diye göğüs geçirdi polis görevlisi. \"Şimdi her şey apaçık geliyor bana.\" \"Onlar başka bir çağın insanlarıydı\" diye mırıldandı gerçekten altüst olan Iza. \"Babam ve annem başka bir çağa aittiler..."
+      ]
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "magda-szabó",
+        "hungary",
+        "2020"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "magda-szabó",
+        "hungary",
+        "2020"
+      ]
+    }
+  },
+  {
+    "id": "mutlu-olma-sanati-schopenhauer",
+    "type": "book",
+    "title": {
+      "en": "Mutlu Olma Sanatı",
+      "tr": "Mutlu Olma Sanatı"
+    },
+    "creator": "Arthur Schopenhauer",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "year": "2019",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/49688928",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "arthur-schopenhauer",
+        "unknown",
+        "2019"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "arthur-schopenhauer",
+        "unknown",
+        "2019"
+      ]
+    }
+  },
+  {
+    "id": "siddhartha-hesse",
+    "type": "book",
+    "title": {
+      "en": "Siddhartha",
+      "tr": "Siddhartha"
+    },
+    "creator": "Hermann Hesse",
+    "country": "germany",
+    "countryLabel": {
+      "en": "Germany",
+      "tr": "Germany"
+    },
+    "year": "1981",
+    "readDate": null,
+    "coverUrl": null,
+    "goodreadsUrl": "https://www.goodreads.com/book/show/52036",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "hermann-hesse",
+        "germany",
+        "1981"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "hermann-hesse",
+        "germany",
+        "1981"
       ]
     }
   },

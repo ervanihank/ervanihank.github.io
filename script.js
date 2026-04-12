@@ -70,11 +70,9 @@ const translations = {
     journalBookClubUnknownDate: "Who knows when",
     latestFilmsTitle: "Latest Watched Films",
     latestFilmsOpen: "Go to Full Film Library",
-    latestFilmsText: "Recent watches from my diary.",
     latestFilmsEmpty: "No imported films found yet. Run the Letterboxd update script.",
     latestBooksTitle: "Latest Read Books",
     latestBooksOpen: "Go to Full Book Library",
-    latestBooksText: "Most recent reads from my shelf.",
     latestBooksEmpty: "No books found yet.",
     journalPageTitle: "Personal Archive",
     journalIntro:
@@ -143,7 +141,7 @@ const translations = {
     navContact: "İletişim",
     heroName: "ERVA NIHAN KANDEMIR",
     heroWelcome: "Web Sayfama Hoş Geldiniz!",
-    heroSiteIntro: "Burası dünyadaki küçük köşem gibi: araştırmalarım, kitaplar, filmler ve onların bende bıraktığı notlar.",
+    heroSiteIntro: "Burası benim küçük köşem: araştırmalarım, kitaplar, filmler ve onların bende bıraktığı notlarımı paylaşıyorum.",
     heroText1:
       "Ben Erva Nihan Kandemir Yıldıran. Columbia University Teachers College'da doktora sonrası araştırmacıyım. Öğrenme analitikleri, eğitim sistemleri ve kanıta dayalı karar verme alanlarında çalışıyorum.",
     heroText2:
@@ -155,7 +153,7 @@ const translations = {
     quickJournalText: "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     aboutTitle: "Hakkında",
     aboutIntroMerged:
-      '<p>Ben Erva Nihan, bir bilişsel bilimciyim. Öğrenmeyi şekillendiren bilişsel ve eğitsel süreçleri çalışıyorum.</p><p>Araştırma dışında zamanımın büyük kısmını kitaplar ve filmlerle geçirir, bolca kahve içer, bitkilerimi hayatta tutmaya çalışırım; küçük anları yazıya döküp saklamayı severim.</p>',
+      '<p>Ben Erva Nihan, bilişsel bilimler araştırmacısıyım. Öğrenmeyi şekillendiren bilişsel ve eğitsel süreçler üzerine çalışıyorum.</p><p>Araştırma yapmadığım zamanlarda vaktimin büyük kısmını kitaplar ve filmlerle geçirir, bolca kahve içer, bitkilerimi hayatta tutmaya çalışırım. Bir de küçük anları yazıya döküp saklamayı severim.</p>',
     aboutIntro: "",
     aboutNowTitle: "",
     aboutNowText: "",
@@ -183,18 +181,18 @@ const translations = {
       "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     archiveIntro1: "Kendimi bildim bileli kendime ait bir kütüphane istemişimdir.",
     archiveIntro2:
-      "Çünkü benim için kütüphaneler anılardır; kendi başlarına küçük hayat hikayeleri gibidirler. Ve galiba o fotoğraf da gösteriyor ki raflar bende, gerçekten gerçek olduğuna yemin edebileceğim o meşhur beş numara gülüşünü ortaya çıkarıyor :).",
+      "Çünkü benim için kütüphaneler anıların ta kendisidir. Ve yandaki fotoğrafımdan da anlaşılacağı üzere kitap raflarında vakit geçirirken kendimi beş numaralı gülüşümle güler görmek beni mutlu ediyor; en sahici gülüşlerimdendir kendileri :).",
     archiveIntro3:
-      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurdum; yol boyunca biriken sessiz kitap yığınları. Ama akademik hayat biraz da yeni başlangıçlar demek, ve her biri beraberinde bir şeyleri geride bırakmayı getiriyor. Raflar boşaldı, kitaplar dağıldı. Bir kütüphaneyi geride bırakmak neredeyse anıları kaybetmek gibi hissettiriyor.",
+      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurmaya çalıştım; bir bakıma yol boyunca biriken sessiz kitap yığınlarını bir arada tutmaya çalıştım. Ama akademik hayat hep yeni başlangıçlara gebeydi. Ve her bir yeni başlangıç yeni bir şehir demekti ki bu da beraberinde kitap raflarını geride bırakmayı şart koşuyordu. Her bir şehri kitaplarıma yeni evler bularak geride bıraktım... Ama bir kütüphaneyi geride bırakmak neredeyse anısız kalmak kadar acı.",
     archiveIntro4: "Bu yüzden daha kalıcı bir şey aramaya başladım. Daha taşınabilir.",
     archiveIntro5:
-      "Bu alan bunun sonucu: kitapların ve filmlerin dijital bir arşivi, yanımda taşıyabileceğim bir küçük kütüphane.",
+      "Bu alan da bu arayışımın bir sonucu: okuduğum kitapları ve izlediğim filmleri dijital bir arşivde her zaman yanımda taşıyabileceğim küçük bir kütüphane.",
     archiveIntro6:
       "Burada okuduklarımı ve izlediklerimi; notlarla, sevdiğim satırlarla ve bende kalan parçalarla birlikte kaydediyorum.",
     archiveIntro7:
-      "Bir bakıma bu sayfa benim kişisel zaman çizelgem; yalnızca hatırladıklarımın değil, tutunmayı seçtiklerimin de kaydı.",
-    archiveIntro8: "Belki burada bir şey sana da kalır.",
-    archiveIntro9: "Hoş geldin.",
+      "Bir bakıma bu sayfa benim kişisel zaman çizelgem; yalnızca hatırladıklarımın değil, hatırlamayı seçtiklerimin de ufak bir kaydı.",
+    archiveIntro8: "Belki burada bir şey senin de yolculuğuna katılır.",
+    archiveIntro9: "Buyursunlar!",
     journalSubFilm: "Film Rafları",
     journalSubFilmText: "Ülke bazlı raflar, yönetmen grupları ve notlar.",
     journalSubBook: "Kitap Rafları",
@@ -206,11 +204,9 @@ const translations = {
     journalBookClubUnknownDate: "Kim bilir ne zaman",
     latestFilmsTitle: "Son İzlediğim Filmler",
     latestFilmsOpen: "Tüm Film Kütüphanesine Git",
-    latestFilmsText: "Günlüğümdeki en güncel izlemeler.",
     latestFilmsEmpty: "Henüz aktarılmış film yok. Letterboxd güncelleme betiğini çalıştırın.",
     latestBooksTitle: "Son Okuduğum Kitaplar",
     latestBooksOpen: "Tüm Kitap Kütüphanesine Git",
-    latestBooksText: "Rafımdaki en güncel okumalar.",
     latestBooksEmpty: "Henüz kitap bulunmuyor.",
     journalPageTitle: "Kişisel Arşivim",
     journalIntro:

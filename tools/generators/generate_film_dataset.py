@@ -26,6 +26,53 @@ EN_QUOTE_TR_ONLY = "I only kept quotations for this movie in Turkish. Please che
 TR_QUOTE_EN_ONLY = "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
 
 
+def load_js_array(path, variable_name):
+    if not path.exists():
+        return []
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return []
+
+    match = re.search(
+        rf"const\s+{re.escape(variable_name)}\s*=\s*(\[[\s\S]*\])\s*;\s*$",
+        text,
+        re.MULTILINE,
+    )
+    if not match:
+        return []
+
+    try:
+        payload = json.loads(match.group(1))
+    except Exception:
+        return []
+    return payload if isinstance(payload, list) else []
+
+
+def build_existing_film_lookup(entries):
+    lookup = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        title = ((entry.get("title") or {}).get("en") or (entry.get("title") or {}).get("tr") or "").strip().lower()
+        year = str(entry.get("year") or "").strip()
+        if title and year:
+            lookup[(title, year)] = entry
+    return lookup
+
+
+def existing_metadata_tuple(entry):
+    if not isinstance(entry, dict):
+        return None
+    director = (entry.get("creator") or "").strip()
+    country_code = (entry.get("country") or "").strip()
+    country_name = ((entry.get("countryLabel") or {}).get("en") or "").strip()
+    cover_url = (entry.get("coverUrl") or "").strip() or None
+    if not director or not country_code or country_code == "unknown" or not country_name or not cover_url:
+        return None
+    return director, country_code, country_name, cover_url
+
+
 def fetch(url, timeout=20, retries=3):
     last_error = None
     for attempt in range(retries):
@@ -666,18 +713,33 @@ def main():
     films = load_latest_diary_entries(diary_path)
     films = merge_watched_entries(films, watched_path)
     reviews = load_latest_reviews(reviews_path) if reviews_path.exists() else {}
+    existing_entries = load_js_array(OUT, "filmDiaryEntries")
+    existing_lookup = build_existing_film_lookup(existing_entries)
 
     metadata = {}
     values = list(films.values())
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        future_map = {pool.submit(resolve_metadata, item): (item["name"].lower(), item["year"]) for item in values}
-        for future in as_completed(future_map):
-            metadata[future_map[future]] = future.result()
+    pending_values = []
+    reused_count = 0
+    for item in values:
+        key = (item["name"].lower(), item["year"])
+        cached_metadata = existing_metadata_tuple(existing_lookup.get(key))
+        if cached_metadata:
+            metadata[key] = cached_metadata
+            reused_count += 1
+        else:
+            pending_values.append(item)
+
+    if pending_values:
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            future_map = {pool.submit(resolve_metadata, item): (item["name"].lower(), item["year"]) for item in pending_values}
+            for future in as_completed(future_map):
+                metadata[future_map[future]] = future.result()
 
     entries = build_entries(films, reviews, metadata)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("const filmDiaryEntries = " + json.dumps(entries, ensure_ascii=True, indent=2) + ";\n", encoding="utf-8")
     print(f"Source export: {export_dir}")
+    print(f"Reused metadata for {reused_count} existing films; fetched {len(pending_values)} film metadata records")
     print(f"Wrote {len(entries)} entries to {OUT}")
 
 

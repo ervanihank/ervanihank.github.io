@@ -39,6 +39,70 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[2]
+BOOK_DATA_OUTPUT = ROOT / "data" / "generated" / "auto" / "book-data.js"
+
+
+def load_js_array(path, variable_name):
+    """Load a JS file shaped like `const variable_name = [...];`."""
+    if not path.exists():
+        return []
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return []
+
+    match = re.search(
+        rf"const\s+{re.escape(variable_name)}\s*=\s*(\[[\s\S]*\])\s*;\s*$",
+        text,
+        re.MULTILINE,
+    )
+    if not match:
+        return []
+
+    try:
+        payload = json.loads(match.group(1))
+    except Exception:
+        return []
+    return payload if isinstance(payload, list) else []
+
+
+def extract_goodreads_id_from_entry(entry):
+    url = ((entry or {}).get("goodreadsUrl") or "").strip()
+    match = re.search(r"/book/show/(\d+)", url)
+    return match.group(1) if match else ""
+
+
+def build_existing_book_lookup(entries):
+    by_goodreads_id = {}
+    by_fallback = {}
+
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+
+        goodreads_id = extract_goodreads_id_from_entry(entry)
+        if goodreads_id:
+            by_goodreads_id[goodreads_id] = entry
+
+        title_tr = ((entry.get("title") or {}).get("tr") or "").strip()
+        author = (entry.get("creator") or "").strip()
+        year = str(entry.get("year") or "").strip()
+        fallback_key = (compact_text(title_tr), compact_text(author), year)
+        if fallback_key[0] and fallback_key[1]:
+            by_fallback[fallback_key] = entry
+
+    return by_goodreads_id, by_fallback
+
+
+def find_existing_book_entry(row, lookup_by_goodreads_id, lookup_by_fallback):
+    goodreads_id = (row.get("Book Id") or "").strip()
+    if goodreads_id and goodreads_id in lookup_by_goodreads_id:
+        return lookup_by_goodreads_id[goodreads_id]
+
+    title = (row.get("Title") or "").strip()
+    author = (row.get("Author") or "").strip()
+    year = (row.get("Year Published") or "").strip()
+    return lookup_by_fallback.get((compact_text(title), compact_text(author), year))
 
 
 # Known authors and their countries (expand as needed)
@@ -1463,6 +1527,8 @@ def parse_goodreads_csv(
     cover_lookup,
     bookclub_lookup,
     cover_cache,
+    existing_book_by_goodreads_id,
+    existing_book_by_fallback,
 ):
     """Parse Goodreads export CSV and return book entries."""
     books = []
@@ -1487,6 +1553,11 @@ def parse_goodreads_csv(
                 book_id_source = row.get("Book Id", "").strip()
                 rating = row.get("My Rating", "").strip()
                 my_review = row.get("My Review", "").strip()
+                existing_entry = find_existing_book_entry(
+                    row,
+                    existing_book_by_goodreads_id,
+                    existing_book_by_fallback,
+                )
 
                 if not title or not author:
                     print(f"Warning: Row {row_idx} missing title or author. Skipping.")
@@ -1501,14 +1572,22 @@ def parse_goodreads_csv(
                     country_code = normalize_country_code(mapped)
                     country_label = country_label_from_code(country_code)
 
-                # 2) Persistent cache
+                # 2) Existing generated entry
+                if not country_code and existing_entry:
+                    existing_country = normalize_country_code(existing_entry.get("country"))
+                    if existing_country and existing_country != "unknown":
+                        country_code = existing_country
+                        existing_country_label = ((existing_entry.get("countryLabel") or {}).get("en") or "").strip()
+                        country_label = existing_country_label or country_label_from_code(existing_country)
+
+                # 3) Persistent cache
                 if not country_code and author in country_cache:
                     cached_code = normalize_country_code(country_cache[author])
                     if cached_code:
                         country_code = cached_code
                         country_label = country_label_from_code(country_code)
 
-                # 3) Internet lookup (Wikidata)
+                # 4) Internet lookup (Wikidata)
                 if not country_code:
                     net_code, net_label = lookup_country_via_wikidata(author)
                     if net_code:
@@ -1516,7 +1595,7 @@ def parse_goodreads_csv(
                         country_label = net_label or country_label_from_code(net_code)
                         country_cache[author] = net_code
 
-                # 4) Final fallback
+                # 5) Final fallback
                 if not country_code:
                     country_code = "unknown"
                     country_label = "Unknown"
@@ -1530,14 +1609,21 @@ def parse_goodreads_csv(
                     goodreads_url = None
 
                 local_rating = int(rating) if rating.isdigit() and int(rating) > 0 else None
-                english_title = resolve_english_title(
-                    row,
-                    title,
-                    author,
-                    title_overrides,
-                    title_cache,
-                    lookup_budget,
-                )
+                override_title = title_overrides.get(book_id_source) or title_overrides.get(title)
+                existing_english_title = ((existing_entry or {}).get("title") or {}).get("en")
+                if override_title:
+                    english_title = override_title
+                elif isinstance(existing_english_title, str) and existing_english_title.strip():
+                    english_title = existing_english_title.strip()
+                else:
+                    english_title = resolve_english_title(
+                        row,
+                        title,
+                        author,
+                        title_overrides,
+                        title_cache,
+                        lookup_budget,
+                    )
 
                 curated_post, matched_instagram_post = resolve_post_metadata(
                     title,
@@ -1637,6 +1723,7 @@ def parse_goodreads_csv(
                     ],
                     cover_lookup,
                 )
+                existing_cover_url = (existing_entry or {}).get("coverUrl")
 
                 bookclub_url = resolve_bookclub_url(
                     title,
@@ -1656,7 +1743,9 @@ def parse_goodreads_csv(
                     "countryLabel": {"en": country_label, "tr": country_label},
                     "year": year_published or "Unknown",
                     "readDate": date_read if date_read else None,
-                    "coverUrl": local_cover_url or build_cover_url(row, cover_cache, cover_lookup_budget),
+                    "coverUrl": local_cover_url
+                    or existing_cover_url
+                    or build_cover_url(row, cover_cache, cover_lookup_budget),
                     "goodreadsUrl": goodreads_url,
                     "bookClubUrl": bookclub_url,
                     "rating": f"{local_rating}/5" if local_rating else None,
@@ -1734,7 +1823,7 @@ def generate_example_country_map():
 def main():
     """Main entry point."""
     csv_path = ROOT / "data" / "imports" / "goodreads" / "goodreads_library_export.csv"
-    js_output = ROOT / "data" / "generated" / "auto" / "book-data.js"
+    js_output = BOOK_DATA_OUTPUT
 
     if not csv_path.exists():
         print(f"Error: {csv_path} not found.", file=sys.stderr)
@@ -1751,11 +1840,14 @@ def main():
     instagram_posts = parse_instagram_posts_html()
     cover_lookup = load_local_cover_lookup()
     bookclub_lookup = load_bookclub_lookup()
+    existing_books = load_js_array(js_output, "bookEntries")
+    existing_book_by_goodreads_id, existing_book_by_fallback = build_existing_book_lookup(existing_books)
 
     print(
         f"Loaded metadata: {len(posts_rows)} Excel post rows, "
         f"{len(instagram_posts)} Instagram posts, "
-        f"{len(cover_lookup)} local covers"
+        f"{len(cover_lookup)} local covers, "
+        f"{len(existing_books)} existing generated books"
     )
 
     books = parse_goodreads_csv(
@@ -1769,6 +1861,8 @@ def main():
         cover_lookup,
         bookclub_lookup,
         cover_cache,
+        existing_book_by_goodreads_id,
+        existing_book_by_fallback,
     )
     save_country_cache(country_cache)
     save_title_cache(title_cache)

@@ -1882,8 +1882,10 @@ select.search-box {
     grid-template-columns: 1fr;
   }
 
-  .home-latest-panel .latest-films-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .home-latest-panel .latest-films-grid,
+  #latest-films-grid-home,
+  #latest-books-grid-home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .archive-feature-cat img {
@@ -2035,4 +2037,45 @@ select.search-box {
     min-height: 300px;
   }
 
+}
+
+@media (max-width: 640px) {
+  #latest-films-grid-home,
+  #latest-books-grid-home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  #latest-films-grid-home .entry-card,
+  #latest-books-grid-home .entry-card {
+    padding: 0.78rem;
+  }
+
+  #latest-films-grid-home .entry-cover-wrap,
+  #latest-books-grid-home .entry-cover-wrap {
+    max-width: 92px;
+  }
+
+  #latest-films-grid-home .entry-card h4,
+  #latest-books-grid-home .entry-card h4 {
+    font-size: 0.96rem;
+    line-height: 1.24;
+  }
+
+  #latest-films-grid-home .journal-meta,
+  #latest-books-grid-home .journal-meta {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 430px) {
+  #latest-films-grid-home,
+  #latest-books-grid-home {
+    grid-template-columns: 1fr;
+  }
+
+  #latest-films-grid-home .entry-cover-wrap,
+  #latest-books-grid-home .entry-cover-wrap {
+    max-width: 112px;
+  }
 }
