@@ -1589,6 +1589,13 @@ select.search-box {
   flex-direction: row-reverse;
 }
 
+.entry-cover-column {
+  width: 228px;
+  min-width: 228px;
+  display: grid;
+  gap: 0.75rem;
+}
+
 .entry-header-text {
   flex: 1;
   min-width: 0;
@@ -1602,8 +1609,8 @@ select.search-box {
 }
 
 .entry-detail-cover {
-  width: 228px;
-  min-width: 228px;
+  width: 100%;
+  min-width: 0;
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: 0.55rem;
@@ -1680,16 +1687,48 @@ select.search-box {
   margin-bottom: 0.8rem;
 }
 
-.entry-keywords-block h3 {
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  margin-bottom: 0.35rem;
+.entry-reminder-note {
+  position: relative;
+  padding: 0.9rem 0.95rem 0.88rem;
+  background: linear-gradient(180deg, #f4dfa0, #f0d58e);
+  color: #4f4030;
+  border: 1px solid rgba(150, 120, 63, 0.28);
+  border-radius: 0.3rem 0.3rem 0.6rem 0.6rem;
+  box-shadow: 0 10px 18px rgba(120, 95, 49, 0.18);
+  transform: rotate(-1.2deg);
 }
 
-.entry-keywords-block p {
-  font-size: 0.84rem;
-  line-height: 1.5;
-  color: var(--ink-soft);
+.entry-reminder-note::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 58px;
+  height: 18px;
+  transform: translateX(-50%) rotate(2deg);
+  background: rgba(255, 249, 232, 0.7);
+  border: 1px solid rgba(170, 154, 115, 0.35);
+  border-radius: 0.2rem;
+}
+
+.entry-reminder-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.entry-reminder-note ul {
+  margin: 0;
+  padding-left: 1.05rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.entry-reminder-note li {
+  font-size: 0.92rem;
+  line-height: 1.45;
 }
 
 .related-entries-section {
@@ -1937,9 +1976,14 @@ select.search-box {
     grid-template-columns: repeat(3, minmax(120px, 1fr));
   }
 
-  .entry-detail-cover {
+  .entry-cover-column {
     width: 200px;
     min-width: 200px;
+  }
+
+  .entry-detail-cover {
+    width: 100%;
+    min-width: 0;
   }
 
 }
@@ -2028,9 +2072,14 @@ select.search-box {
     line-height: 1.68;
   }
 
-  .entry-detail-cover {
+  .entry-cover-column {
     width: 150px;
     min-width: 150px;
+  }
+
+  .entry-detail-cover {
+    width: 100%;
+    min-width: 0;
   }
 
   .country-map {

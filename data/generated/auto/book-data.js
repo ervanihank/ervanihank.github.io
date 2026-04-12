@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-12T14:22:37.096809
+// Generated: 2026-04-12T14:48:14.587037
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
@@ -2978,7 +2978,7 @@ const bookEntries = [
     },
     "year": "Unknown",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1399397839i/22045368.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/22045368",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3113,14 +3113,14 @@ const bookEntries = [
       "tr": "Mor Salkımlı Ev"
     },
     "creator": "Halide Edib Adıvar",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Ottoman Empire",
+      "tr": "Ottoman Empire"
     },
     "year": "2014",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1459975632i/9938380.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/9938380",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3141,14 +3141,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "halide-edib-adivar",
-        "unknown",
+        "ottoman-empire",
         "2014"
       ],
       "tr": [
         "goodreads",
         "library",
         "halide-edib-adivar",
-        "unknown",
+        "ottoman-empire",
         "2014"
       ]
     }
@@ -3161,14 +3161,14 @@ const bookEntries = [
       "tr": "Açlık"
     },
     "creator": "Knut Hamsun",
-    "country": "unknown",
+    "country": "norway",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Norway",
+      "tr": "Norway"
     },
     "year": "1996",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1550243817i/13449825.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/13449825",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3189,14 +3189,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "knut-hamsun",
-        "unknown",
+        "norway",
         "1996"
       ],
       "tr": [
         "goodreads",
         "library",
         "knut-hamsun",
-        "unknown",
+        "norway",
         "1996"
       ]
     }
@@ -3216,7 +3216,7 @@ const bookEntries = [
     },
     "year": "1984",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1310152220i/758901.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/758901",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3264,7 +3264,7 @@ const bookEntries = [
     },
     "year": "2000",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1251033352i/2152663.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/2152663",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3305,14 +3305,14 @@ const bookEntries = [
       "tr": "Mağaradakiler"
     },
     "creator": "Cemil Meriç",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "2007",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1242834001i/6482270.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/6482270",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3333,14 +3333,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "cemil-meric",
-        "unknown",
+        "turkey",
         "2007"
       ],
       "tr": [
         "goodreads",
         "library",
         "cemil-meric",
-        "unknown",
+        "turkey",
         "2007"
       ]
     }
@@ -3353,14 +3353,14 @@ const bookEntries = [
       "tr": "Puslu Kıtalar Atlası"
     },
     "creator": "İlban Ertem",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "2015",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1425547135i/25076027.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/25076027",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3381,14 +3381,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "i̇lban-ertem",
-        "unknown",
+        "turkey",
         "2015"
       ],
       "tr": [
         "goodreads",
         "library",
         "i̇lban-ertem",
-        "unknown",
+        "turkey",
         "2015"
       ]
     }
@@ -3401,14 +3401,14 @@ const bookEntries = [
       "tr": "Bir İdam Mahkumunun Son Günü"
     },
     "creator": "Victor Hugo",
-    "country": "unknown",
+    "country": "france",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "France",
+      "tr": "France"
     },
     "year": "2018",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1640731147i/59963657.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/59963657",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3429,14 +3429,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "victor-hugo",
-        "unknown",
+        "france",
         "2018"
       ],
       "tr": [
         "goodreads",
         "library",
         "victor-hugo",
-        "unknown",
+        "france",
         "2018"
       ]
     }
@@ -3456,7 +3456,7 @@ const bookEntries = [
     },
     "year": "2008",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1567514471i/17794772.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/17794772",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3497,14 +3497,14 @@ const bookEntries = [
       "tr": "Sokrates'in Savunması"
     },
     "creator": "Plato",
-    "country": "unknown",
+    "country": "classicalathens",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Classical Athens",
+      "tr": "Classical Athens"
     },
     "year": "2012",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1409635015i/17801902.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/17801902",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3525,14 +3525,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "plato",
-        "unknown",
+        "classical-athens",
         "2012"
       ],
       "tr": [
         "goodreads",
         "library",
         "plato",
-        "unknown",
+        "classical-athens",
         "2012"
       ]
     }
@@ -3552,7 +3552,7 @@ const bookEntries = [
     },
     "year": "2013",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1373874017i/18195197.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/18195197",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3593,14 +3593,14 @@ const bookEntries = [
       "tr": "Koku: Bir Katilin Öyküsü"
     },
     "creator": "Patrick Süskind",
-    "country": "unknown",
+    "country": "germany",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Germany",
+      "tr": "Germany"
     },
     "year": "1999",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1365739628i/1232658.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/1232658",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3621,14 +3621,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "patrick-suskind",
-        "unknown",
+        "germany",
         "1999"
       ],
       "tr": [
         "goodreads",
         "library",
         "patrick-suskind",
-        "unknown",
+        "germany",
         "1999"
       ]
     }
@@ -3648,7 +3648,7 @@ const bookEntries = [
     },
     "year": "2012",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1379690993i/16051168.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/16051168",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -3689,14 +3689,14 @@ const bookEntries = [
       "tr": "Pertev Bey'in Üç Kızı"
     },
     "creator": "Münevver Ayaşlı",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Ottoman Empire",
+      "tr": "Ottoman Empire"
     },
     "year": "2013",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1417876149i/23698248.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/23698248",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3717,14 +3717,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "munevver-ayasli",
-        "unknown",
+        "ottoman-empire",
         "2013"
       ],
       "tr": [
         "goodreads",
         "library",
         "munevver-ayasli",
-        "unknown",
+        "ottoman-empire",
         "2013"
       ]
     }
@@ -3737,14 +3737,14 @@ const bookEntries = [
       "tr": "Katre-i Matem"
     },
     "creator": "İskender Pala",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "2009",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1252694783i/6676802.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/6676802",
     "bookClubUrl": null,
     "rating": "2/5",
@@ -3765,14 +3765,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2009"
       ],
       "tr": [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2009"
       ]
     }
@@ -3785,14 +3785,14 @@ const bookEntries = [
       "tr": "Şah & Sultan"
     },
     "creator": "İskender Pala",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "2010",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1289760084i/9694866.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/9694866",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -3813,14 +3813,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2010"
       ],
       "tr": [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2010"
       ]
     }
@@ -3833,14 +3833,14 @@ const bookEntries = [
       "tr": "Cesur Yeni Dünya"
     },
     "creator": "Aldous Huxley",
-    "country": "unknown",
+    "country": "unitedKingdom",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
     },
     "year": "2015",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1448025664i/23256064.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/23256064",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -3861,14 +3861,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "aldous-huxley",
-        "unknown",
+        "united-kingdom",
         "2015"
       ],
       "tr": [
         "goodreads",
         "library",
         "aldous-huxley",
-        "unknown",
+        "united-kingdom",
         "2015"
       ]
     }
@@ -3881,14 +3881,14 @@ const bookEntries = [
       "tr": "Martı - Jonathan Livingston"
     },
     "creator": "Richard Bach",
-    "country": "unknown",
+    "country": "unitedStates",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "United States",
+      "tr": "United States"
     },
     "year": "2000",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1407746505i/8889243.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/8889243",
     "bookClubUrl": null,
     "rating": "5/5",
@@ -3909,14 +3909,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "richard-bach",
-        "unknown",
+        "united-states",
         "2000"
       ],
       "tr": [
         "goodreads",
         "library",
         "richard-bach",
-        "unknown",
+        "united-states",
         "2000"
       ]
     }
@@ -3929,14 +3929,14 @@ const bookEntries = [
       "tr": "Babil'de Ölüm İstanbul'da Aşk"
     },
     "creator": "İskender Pala",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "2003",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1252695159i/6393999.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/6393999",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -3957,14 +3957,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2003"
       ],
       "tr": [
         "goodreads",
         "library",
         "i̇skender-pala",
-        "unknown",
+        "turkey",
         "2003"
       ]
     }
@@ -3984,7 +3984,7 @@ const bookEntries = [
     },
     "year": "2004",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1430344321i/11112894.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/11112894",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -4032,7 +4032,7 @@ const bookEntries = [
     },
     "year": "2002",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1591229368i/18275068.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/18275068",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -4073,14 +4073,14 @@ const bookEntries = [
       "tr": "Ben, Kirke"
     },
     "creator": "Madeline Miller",
-    "country": "unknown",
+    "country": "unitedStates",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "United States",
+      "tr": "United States"
     },
     "year": "2019",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1682802684i/52732123.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/52732123",
     "bookClubUrl": null,
     "rating": "2/5",
@@ -4101,14 +4101,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "madeline-miller",
-        "unknown",
+        "united-states",
         "2019"
       ],
       "tr": [
         "goodreads",
         "library",
         "madeline-miller",
-        "unknown",
+        "united-states",
         "2019"
       ]
     }
@@ -4128,7 +4128,7 @@ const bookEntries = [
     },
     "year": "2020",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1597512651i/54958405.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/54958405",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -4169,14 +4169,14 @@ const bookEntries = [
       "tr": "Öfke Dansı"
     },
     "creator": "Harriet Lerner",
-    "country": "unknown",
+    "country": "unitedStates",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "United States",
+      "tr": "United States"
     },
     "year": "2012",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1412416739i/23304708.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/23304708",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -4197,14 +4197,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "harriet-lerner",
-        "unknown",
+        "united-states",
         "2012"
       ],
       "tr": [
         "goodreads",
         "library",
         "harriet-lerner",
-        "unknown",
+        "united-states",
         "2012"
       ]
     }
@@ -4217,14 +4217,14 @@ const bookEntries = [
       "tr": "Uçurtmayı Vurmasınlar"
     },
     "creator": "Feride Çiçekoğlu",
-    "country": "unknown",
+    "country": "turkey",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Turkey",
+      "tr": "Turkey"
     },
     "year": "Unknown",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328396069l/13452957.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/13452957",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -4245,13 +4245,13 @@ const bookEntries = [
         "goodreads",
         "library",
         "feride-cicekoglu",
-        "unknown"
+        "turkey"
       ],
       "tr": [
         "goodreads",
         "library",
         "feride-cicekoglu",
-        "unknown"
+        "turkey"
       ]
     }
   },
@@ -4263,14 +4263,14 @@ const bookEntries = [
       "tr": "Damızlık Kızın Öyküsü"
     },
     "creator": "Margaret Atwood",
-    "country": "unknown",
+    "country": "canada",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Canada",
+      "tr": "Canada"
     },
     "year": "1992",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1419942877i/18069864.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/18069864",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -4291,14 +4291,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "margaret-atwood",
-        "unknown",
+        "canada",
         "1992"
       ],
       "tr": [
         "goodreads",
         "library",
         "margaret-atwood",
-        "unknown",
+        "canada",
         "1992"
       ]
     }
@@ -4311,14 +4311,14 @@ const bookEntries = [
       "tr": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum"
     },
     "creator": "Baek Se-hee",
-    "country": "unknown",
+    "country": "southKorea",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "South Korea",
+      "tr": "South Korea"
     },
     "year": "2024",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1769120391i/220514251.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/220514251",
     "bookClubUrl": null,
     "rating": "2/5",
@@ -4339,14 +4339,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "baek-se-hee",
-        "unknown",
+        "south-korea",
         "2024"
       ],
       "tr": [
         "goodreads",
         "library",
         "baek-se-hee",
-        "unknown",
+        "south-korea",
         "2024"
       ]
     }
@@ -4366,7 +4366,7 @@ const bookEntries = [
     },
     "year": "2017",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1482926114i/33545325.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/33545325",
     "bookClubUrl": null,
     "rating": "4/5",
@@ -4462,14 +4462,14 @@ const bookEntries = [
       "tr": "Mutlu Olma Sanatı"
     },
     "creator": "Arthur Schopenhauer",
-    "country": "unknown",
+    "country": "kingdomofprussia",
     "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
+      "en": "Kingdom of Prussia",
+      "tr": "Kingdom of Prussia"
     },
     "year": "2019",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1595711242i/49688928.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/49688928",
     "bookClubUrl": null,
     "rating": "3/5",
@@ -4490,14 +4490,14 @@ const bookEntries = [
         "goodreads",
         "library",
         "arthur-schopenhauer",
-        "unknown",
+        "kingdom-of-prussia",
         "2019"
       ],
       "tr": [
         "goodreads",
         "library",
         "arthur-schopenhauer",
-        "unknown",
+        "kingdom-of-prussia",
         "2019"
       ]
     }
@@ -4517,7 +4517,7 @@ const bookEntries = [
     },
     "year": "1981",
     "readDate": null,
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1629378189i/52036.jpg",
     "goodreadsUrl": "https://www.goodreads.com/book/show/52036",
     "bookClubUrl": null,
     "rating": "4/5",

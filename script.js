@@ -181,9 +181,9 @@ const translations = {
       "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     archiveIntro1: "Kendimi bildim bileli kendime ait bir kütüphane istemişimdir.",
     archiveIntro2:
-      "Çünkü benim için kütüphaneler anıların ta kendisidir. Ve yandaki fotoğrafımdan da anlaşılacağı üzere kitap raflarında vakit geçirirken kendimi beş numaralı gülüşümle güler görmek beni mutlu ediyor; en sahici gülüşlerimdendir kendileri :).",
+      "Çünkü benim için kütüphaneler kişisel hafıza saraylarıdır. Ve fotoğrafımdan da anlaşılacağı üzere kitap raflarında vakit geçirirken kendimi beş numaralı gülüşümle güler görmek beni mutlu ediyor; en sahici gülüşlerimdendir kendileri :).",
     archiveIntro3:
-      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurmaya çalıştım; bir bakıma yol boyunca biriken sessiz kitap yığınlarını bir arada tutmaya çalıştım. Ama akademik hayat hep yeni başlangıçlara gebeydi. Ve her bir yeni başlangıç yeni bir şehir demekti ki bu da beraberinde kitap raflarını geride bırakmayı şart koşuyordu. Her bir şehri kitaplarıma yeni evler bularak geride bıraktım... Ama bir kütüphaneyi geride bırakmak neredeyse anısız kalmak kadar acı.",
+      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurmaya çalıştım. Ama akademik hayat hep yeni başlangıçlara gebedir. Ve her bir yeni başlangıç bana yeni bir şehrin kapılarını aralarken kitap raflarımı geride bırakmayı şart koştu. Ve bir kütüphaneyi geride bırakmak neredeyse anısız kalmak kadar acı. Kundera olsa bana nostalji eksikliği teşhisi koyardı sanırım!",
     archiveIntro4: "Bu yüzden daha kalıcı bir şey aramaya başladım. Daha taşınabilir.",
     archiveIntro5:
       "Bu alan da bu arayışımın bir sonucu: okuduğum kitapları ve izlediğim filmleri dijital bir arşivde her zaman yanımda taşıyabileceğim küçük bir kütüphane.",

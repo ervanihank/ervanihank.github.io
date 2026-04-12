@@ -22,7 +22,7 @@ const translations = {
     metaDateWatched: "Date Watched",
     metaDateRead: "Date Read",
     metaOpen: "Open",
-    metaKeywords: "Keywords",
+    remindsMeOf: "Reminded Me Of",
     relatedByAuthor: "Other Books I Read by This Author",
     relatedByDirector: "Other Films I Watched by This Director",
     relatedOpenEntry: "Open entry",
@@ -53,7 +53,7 @@ const translations = {
     metaDateWatched: "İzleme Tarihi",
     metaDateRead: "Okuma Tarihi",
     metaOpen: "Aç",
-    metaKeywords: "Anahtar Kelimeler",
+    remindsMeOf: "Bana Şunları Hatırlattı",
     relatedByAuthor: "Bu Yazardan Okuduğum Diğer Kitaplar",
     relatedByDirector: "Bu Yönetmenden İzlediğim Diğer Filmler",
     relatedOpenEntry: "Kaydı aç",
@@ -391,6 +391,13 @@ const entryQuotes = {
   },
 };
 
+const entryReminders = {
+  "aradigin-sey-kutuphanede-sakli-aoyama": {
+    en: ["Kafka on the Shore by Haruki Murakami", "If on a Winter's Night a Traveler by Italo Calvino"],
+    tr: ["Haruki Murakami - Sahilde Kafka", "Italo Calvino - Bir Kış Gecesi Eğer Bir Yolcu"],
+  },
+};
+
 function oppositeLang(lang) {
   return lang === "tr" ? "en" : "tr";
 }
@@ -489,6 +496,17 @@ function getDetailCoverMarkup(entry, displayTitle) {
   return entry.coverUrl
     ? `<img class="entry-detail-cover" src="${entry.coverUrl}" alt="${displayTitle} cover" loading="lazy" onerror="this.style.display='none'; if (this.nextElementSibling) { this.nextElementSibling.style.display='grid'; }" /><div class="entry-detail-cover is-placeholder ${placeholderClass}" style="display:none" aria-hidden="true">${placeholderSvg}</div>`
     : `<div class="entry-detail-cover is-placeholder ${placeholderClass}" aria-hidden="true">${placeholderSvg}</div>`;
+}
+
+function renderReminderNote(entry) {
+  const items = entryReminders[entry.id]?.[state.lang] || entryReminders[entry.id]?.en || [];
+  if (!items.length) {
+    return "";
+  }
+
+  return `<aside class="entry-reminder-note"><p class="entry-reminder-title">${t("remindsMeOf")}</p><ul>${items
+    .map((item) => `<li>${item}</li>`)
+    .join("")}</ul></aside>`;
 }
 
 function getRelatedEntries(entry) {
@@ -684,12 +702,16 @@ function loadEntry() {
   const displayTitle = getLocalizedEntryTitle(entry);
   const countryLabel = entry.countryLabel?.[state.lang] || entry.country;
   const coverMarkup = getDetailCoverMarkup(entry, displayTitle);
+  const reminderMarkup = renderReminderNote(entry);
 
   state.currentEntryId = entry.id;
 
   headerEl.innerHTML = `
     <div class="entry-header-layout">
-      ${coverMarkup}
+      <div class="entry-cover-column">
+        ${coverMarkup}
+        ${reminderMarkup}
+      </div>
       <div class="entry-header-text">
         <h1>${displayTitle}</h1>
         <p style="color: var(--ink-soft); font-size: 1.1rem; margin: 0.5rem 0 0 0;">${typeLabel} • ${entry.creator} • ${entry.year}</p>
@@ -700,9 +722,6 @@ function loadEntry() {
   const creatorLabel = entry.type === "film" ? t("metaDirector") : t("metaAuthor");
   const dateLabel = entry.type === "film" ? t("metaDateWatched") : t("metaDateRead");
   const dateValue = getDisplayActivityDate(entry);
-  const localTags = (entry.tags?.[state.lang] || entry.tags?.en || []).filter(
-    (tag) => !["goodreads", "letterboxd"].includes((tag || "").toLowerCase())
-  );
 
   metaEl.innerHTML = `
     <div class="meta-item">
@@ -735,10 +754,6 @@ function loadEntry() {
     state.lang
   );
   const fallbackNotes = `<h3>${t("tabNotes")}</h3><p>${fallbackNoteText}</p>`;
-  const keywordsHtml =
-    localTags.length > 0
-      ? `<section class="entry-keywords-block"><h3>${t("metaKeywords")}</h3><p>${localTags.join(", ")}</p></section>`
-      : `<section class="entry-keywords-block"><h3>${t("metaKeywords")}</h3><p>-</p></section>`;
   const relatedEntriesHtml = renderRelatedEntries(entry);
   if (notesEl) {
     const sameLangEssay = entry.essay?.[state.lang];
@@ -748,7 +763,7 @@ function loadEntry() {
       : (otherLangEssay
           ? `<h3>${t("tabNotes")}</h3><p>${missingNotesMessage(entry.type, state.lang)}</p>`
           : fallbackNotes);
-    notesEl.innerHTML = `${notesHtml}${keywordsHtml}${relatedEntriesHtml}`;
+    notesEl.innerHTML = `${notesHtml}${relatedEntriesHtml}`;
   }
 
   const sameLangQuotes = entry.quotes?.[state.lang] || entryQuotes[entry.id]?.[state.lang] || [];
