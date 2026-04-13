@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-13T11:58:14.594208
+// Generated: 2026-04-13T14:01:09.067540
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
@@ -1768,7 +1768,7 @@ const bookEntries = [
     "id": "bulanti-sartre",
     "type": "book",
     "title": {
-      "en": "La nausée",
+      "en": "Nausea",
       "tr": "Bulantı"
     },
     "creator": "Jean-Paul Sartre",
@@ -1864,7 +1864,7 @@ const bookEntries = [
     "id": "sahilde-kafka-murakami",
     "type": "book",
     "title": {
-      "en": "海辺のカフカ [Umibe no Kafuka]",
+      "en": "Kafka on the Shore",
       "tr": "Sahilde Kafka"
     },
     "creator": "Haruki Murakami",
@@ -2392,7 +2392,7 @@ const bookEntries = [
     "id": "olay-ernaux",
     "type": "book",
     "title": {
-      "en": "L'Événement",
+      "en": "Happening",
       "tr": "Olay"
     },
     "creator": "Annie Ernaux",
@@ -2440,7 +2440,7 @@ const bookEntries = [
     "id": "okumaz-yazmaz-kristóf",
     "type": "book",
     "title": {
-      "en": "L'analphabète : récit autobiographique",
+      "en": "The Illiterate",
       "tr": "Okumaz Yazmaz"
     },
     "creator": "Ágota Kristóf",
@@ -2687,7 +2687,7 @@ const bookEntries = [
     "id": "benim-adim-kirmizi-pamuk",
     "type": "book",
     "title": {
-      "en": "Benim Adım Kırmızı",
+      "en": "My Name Is Red",
       "tr": "Benim Adım Kırmızı"
     },
     "creator": "Orhan Pamuk",
@@ -2927,7 +2927,7 @@ const bookEntries = [
     "id": "seker-portakali-(zeze,-#1)-vasconcelos",
     "type": "book",
     "title": {
-      "en": "Meu Pé de Laranja Lima",
+      "en": "My Sweet Orange Tree",
       "tr": "Şeker Portakalı (Zeze, #1)"
     },
     "creator": "José Mauro de Vasconcelos",
@@ -2975,7 +2975,7 @@ const bookEntries = [
     "id": "yabanci-camus",
     "type": "book",
     "title": {
-      "en": "L'Étranger",
+      "en": "The Stranger",
       "tr": "Yabancı"
     },
     "creator": "Albert Camus",
@@ -3213,7 +3213,7 @@ const bookEntries = [
     "id": "aclik-hamsun",
     "type": "book",
     "title": {
-      "en": "Açlık",
+      "en": "Hunger",
       "tr": "Açlık"
     },
     "creator": "Knut Hamsun",
@@ -3261,7 +3261,7 @@ const bookEntries = [
     "id": "tutunamayanlar-atay",
     "type": "book",
     "title": {
-      "en": "Tutunamayanlar",
+      "en": "The Disconnected",
       "tr": "Tutunamayanlar"
     },
     "creator": "Oğuz Atay",
@@ -3453,7 +3453,7 @@ const bookEntries = [
     "id": "bir-i̇dam-mahkumunun-son-gunu-hugo",
     "type": "book",
     "title": {
-      "en": "Bir İdam Mahkumunun Son Günü",
+      "en": "The Last Day of a Condemned Man",
       "tr": "Bir İdam Mahkumunun Son Günü"
     },
     "creator": "Victor Hugo",
@@ -3597,7 +3597,7 @@ const bookEntries = [
     "id": "olum-bir-varmis-bir-yokmus-saramago",
     "type": "book",
     "title": {
-      "en": "Ölüm Bir Varmış Bir Yokmuş",
+      "en": "Death with Interruptions",
       "tr": "Ölüm Bir Varmış Bir Yokmuş"
     },
     "creator": "José Saramago",
@@ -3645,7 +3645,7 @@ const bookEntries = [
     "id": "koku:-bir-katilin-oykusu-suskind",
     "type": "book",
     "title": {
-      "en": "Koku: Bir Katilin Öyküsü",
+      "en": "Perfume: The Story of a Murderer",
       "tr": "Koku: Bir Katilin Öyküsü"
     },
     "creator": "Patrick Süskind",
@@ -3933,7 +3933,7 @@ const bookEntries = [
     "id": "marti---jonathan-livingston-bach",
     "type": "book",
     "title": {
-      "en": "Martı - Jonathan Livingston",
+      "en": "Jonathan Livingston Seagull",
       "tr": "Martı - Jonathan Livingston"
     },
     "creator": "Richard Bach",
@@ -4029,7 +4029,7 @@ const bookEntries = [
     "id": "i̇nce-memed-1-(i̇nce-memed,-#1)-kemal",
     "type": "book",
     "title": {
-      "en": "İnce Memed 1 (İnce Memed, #1)",
+      "en": "Memed, My Hawk",
       "tr": "İnce Memed 1 (İnce Memed, #1)"
     },
     "creator": "Yaşar Kemal",
@@ -4363,7 +4363,7 @@ const bookEntries = [
     "id": "olmek-i̇stiyorum-ama-tteokbokki-de-yemek-i̇stiyorum-se-hee",
     "type": "book",
     "title": {
-      "en": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum",
+      "en": "I Want to Die but I Want to Eat Tteokbokki",
       "tr": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum"
     },
     "creator": "Baek Se-hee",
@@ -4459,7 +4459,7 @@ const bookEntries = [
     "id": "iza’nin-sarkisi-szabó",
     "type": "book",
     "title": {
-      "en": "Iza’nın Şarkısı",
+      "en": "Iza's Ballad",
       "tr": "Iza’nın Şarkısı"
     },
     "creator": "Magda Szabó",
@@ -7101,7 +7101,7 @@ const bookEntries = [
     "id": "nietzsche-agladiginda-yalom",
     "type": "book",
     "title": {
-      "en": "When Nietzsche Cries",
+      "en": "When Nietzsche Wept",
       "tr": "Nietzsche Ağladığında"
     },
     "creator": "Irvin D. Yalom",
@@ -8553,7 +8553,7 @@ const bookEntries = [
     "id": "onca-yoksulluk-varken-gary",
     "type": "book",
     "title": {
-      "en": "While There Is All Poverty",
+      "en": "The Life Before Us",
       "tr": "Onca Yoksulluk Varken"
     },
     "creator": "Romain Gary",
@@ -8662,7 +8662,7 @@ const bookEntries = [
     "id": "i̇nsanligimi-yitirirken-dazai",
     "type": "book",
     "title": {
-      "en": "While I'm Losing My Humanity",
+      "en": "No Longer Human",
       "tr": "İnsanlığımı Yitirirken"
     },
     "creator": "Osamu Dazai",
@@ -9703,7 +9703,7 @@ const bookEntries = [
     "id": "ask-dersleri-botton",
     "type": "book",
     "title": {
-      "en": "Love Lessons",
+      "en": "The Course of Love",
       "tr": "Aşk Dersleri"
     },
     "creator": "Alain de Botton",

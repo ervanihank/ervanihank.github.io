@@ -3,7 +3,7 @@
 
 const siteData = {
   "lastUpdated": "2026-04-13",
-  "generatedAt": "2026-04-13T15:58:29.179321+00:00",
+  "generatedAt": "2026-04-13T18:01:23.237969+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -1329,7 +1329,7 @@ const siteData = {
       "id": "olmek-i̇stiyorum-ama-tteokbokki-de-yemek-i̇stiyorum-se-hee",
       "type": "book",
       "title": {
-        "en": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum",
+        "en": "I Want to Die but I Want to Eat Tteokbokki",
         "tr": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum"
       },
       "creator": "Baek Se-hee",
@@ -1486,7 +1486,7 @@ const siteData = {
       "id": "olay-ernaux",
       "type": "book",
       "title": {
-        "en": "L'Événement",
+        "en": "Happening",
         "tr": "Olay"
       },
       "creator": "Annie Ernaux",
@@ -1534,7 +1534,7 @@ const siteData = {
       "id": "okumaz-yazmaz-kristóf",
       "type": "book",
       "title": {
-        "en": "L'analphabète : récit autobiographique",
+        "en": "The Illiterate",
         "tr": "Okumaz Yazmaz"
       },
       "creator": "Ágota Kristóf",
@@ -2240,7 +2240,7 @@ const siteData = {
       "id": "iza’nin-sarkisi-szabó",
       "type": "book",
       "title": {
-        "en": "Iza’nın Şarkısı",
+        "en": "Iza's Ballad",
         "tr": "Iza’nın Şarkısı"
       },
       "creator": "Magda Szabó",
@@ -2544,7 +2544,7 @@ const siteData = {
       "id": "bir-i̇dam-mahkumunun-son-gunu-hugo",
       "type": "book",
       "title": {
-        "en": "Bir İdam Mahkumunun Son Günü",
+        "en": "The Last Day of a Condemned Man",
         "tr": "Bir İdam Mahkumunun Son Günü"
       },
       "creator": "Victor Hugo",
@@ -3805,7 +3805,7 @@ const siteData = {
       "id": "ask-dersleri-botton",
       "type": "book",
       "title": {
-        "en": "Love Lessons",
+        "en": "The Course of Love",
         "tr": "Aşk Dersleri"
       },
       "creator": "Alain de Botton",
@@ -4487,7 +4487,7 @@ const siteData = {
       "id": "i̇nsanligimi-yitirirken-dazai",
       "type": "book",
       "title": {
-        "en": "While I'm Losing My Humanity",
+        "en": "No Longer Human",
         "tr": "İnsanlığımı Yitirirken"
       },
       "creator": "Osamu Dazai",
@@ -5111,7 +5111,7 @@ const siteData = {
       "id": "olum-bir-varmis-bir-yokmus-saramago",
       "type": "book",
       "title": {
-        "en": "Ölüm Bir Varmış Bir Yokmuş",
+        "en": "Death with Interruptions",
         "tr": "Ölüm Bir Varmış Bir Yokmuş"
       },
       "creator": "José Saramago",
@@ -6976,7 +6976,7 @@ const siteData = {
       "id": "sahilde-kafka-murakami",
       "type": "book",
       "title": {
-        "en": "海辺のカフカ [Umibe no Kafuka]",
+        "en": "Kafka on the Shore",
         "tr": "Sahilde Kafka"
       },
       "creator": "Haruki Murakami",
@@ -7226,7 +7226,7 @@ const siteData = {
       "id": "onca-yoksulluk-varken-gary",
       "type": "book",
       "title": {
-        "en": "While There Is All Poverty",
+        "en": "The Life Before Us",
         "tr": "Onca Yoksulluk Varken"
       },
       "creator": "Romain Gary",
@@ -8136,7 +8136,7 @@ const siteData = {
       "id": "i̇nce-memed-1-(i̇nce-memed,-#1)-kemal",
       "type": "book",
       "title": {
-        "en": "İnce Memed 1 (İnce Memed, #1)",
+        "en": "Memed, My Hawk",
         "tr": "İnce Memed 1 (İnce Memed, #1)"
       },
       "creator": "Yaşar Kemal",
@@ -8826,7 +8826,7 @@ const siteData = {
       "id": "benim-adim-kirmizi-pamuk",
       "type": "book",
       "title": {
-        "en": "Benim Adım Kırmızı",
+        "en": "My Name Is Red",
         "tr": "Benim Adım Kırmızı"
       },
       "creator": "Orhan Pamuk",
@@ -8874,7 +8874,7 @@ const siteData = {
       "id": "seker-portakali-(zeze,-#1)-vasconcelos",
       "type": "book",
       "title": {
-        "en": "Meu Pé de Laranja Lima",
+        "en": "My Sweet Orange Tree",
         "tr": "Şeker Portakalı (Zeze, #1)"
       },
       "creator": "José Mauro de Vasconcelos",
@@ -8970,7 +8970,7 @@ const siteData = {
       "id": "marti---jonathan-livingston-bach",
       "type": "book",
       "title": {
-        "en": "Martı - Jonathan Livingston",
+        "en": "Jonathan Livingston Seagull",
         "tr": "Martı - Jonathan Livingston"
       },
       "creator": "Richard Bach",
@@ -9114,7 +9114,7 @@ const siteData = {
       "id": "koku:-bir-katilin-oykusu-suskind",
       "type": "book",
       "title": {
-        "en": "Koku: Bir Katilin Öyküsü",
+        "en": "Perfume: The Story of a Murderer",
         "tr": "Koku: Bir Katilin Öyküsü"
       },
       "creator": "Patrick Süskind",
@@ -9365,7 +9365,7 @@ const siteData = {
       "id": "yabanci-camus",
       "type": "book",
       "title": {
-        "en": "L'Étranger",
+        "en": "The Stranger",
         "tr": "Yabancı"
       },
       "creator": "Albert Camus",
@@ -9413,7 +9413,7 @@ const siteData = {
       "id": "aclik-hamsun",
       "type": "book",
       "title": {
-        "en": "Açlık",
+        "en": "Hunger",
         "tr": "Açlık"
       },
       "creator": "Knut Hamsun",
@@ -9461,7 +9461,7 @@ const siteData = {
       "id": "nietzsche-agladiginda-yalom",
       "type": "book",
       "title": {
-        "en": "When Nietzsche Cries",
+        "en": "When Nietzsche Wept",
         "tr": "Nietzsche Ağladığında"
       },
       "creator": "Irvin D. Yalom",
@@ -9557,7 +9557,7 @@ const siteData = {
       "id": "bulanti-sartre",
       "type": "book",
       "title": {
-        "en": "La nausée",
+        "en": "Nausea",
         "tr": "Bulantı"
       },
       "creator": "Jean-Paul Sartre",
@@ -10024,7 +10024,7 @@ const siteData = {
       "id": "tutunamayanlar-atay",
       "type": "book",
       "title": {
-        "en": "Tutunamayanlar",
+        "en": "The Disconnected",
         "tr": "Tutunamayanlar"
       },
       "creator": "Oğuz Atay",
@@ -49111,7 +49111,7 @@ const siteData = {
       "id": "olmek-i̇stiyorum-ama-tteokbokki-de-yemek-i̇stiyorum-se-hee",
       "type": "book",
       "title": {
-        "en": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum",
+        "en": "I Want to Die but I Want to Eat Tteokbokki",
         "tr": "Ölmek İstiyorum Ama Tteokbokki De Yemek İstiyorum"
       },
       "creator": "Baek Se-hee",
@@ -49268,7 +49268,7 @@ const siteData = {
       "id": "olay-ernaux",
       "type": "book",
       "title": {
-        "en": "L'Événement",
+        "en": "Happening",
         "tr": "Olay"
       },
       "creator": "Annie Ernaux",
@@ -49316,7 +49316,7 @@ const siteData = {
       "id": "okumaz-yazmaz-kristóf",
       "type": "book",
       "title": {
-        "en": "L'analphabète : récit autobiographique",
+        "en": "The Illiterate",
         "tr": "Okumaz Yazmaz"
       },
       "creator": "Ágota Kristóf",
@@ -50022,7 +50022,7 @@ const siteData = {
       "id": "iza’nin-sarkisi-szabó",
       "type": "book",
       "title": {
-        "en": "Iza’nın Şarkısı",
+        "en": "Iza's Ballad",
         "tr": "Iza’nın Şarkısı"
       },
       "creator": "Magda Szabó",
@@ -50326,7 +50326,7 @@ const siteData = {
       "id": "bir-i̇dam-mahkumunun-son-gunu-hugo",
       "type": "book",
       "title": {
-        "en": "Bir İdam Mahkumunun Son Günü",
+        "en": "The Last Day of a Condemned Man",
         "tr": "Bir İdam Mahkumunun Son Günü"
       },
       "creator": "Victor Hugo",
@@ -51587,7 +51587,7 @@ const siteData = {
       "id": "ask-dersleri-botton",
       "type": "book",
       "title": {
-        "en": "Love Lessons",
+        "en": "The Course of Love",
         "tr": "Aşk Dersleri"
       },
       "creator": "Alain de Botton",
@@ -52269,7 +52269,7 @@ const siteData = {
       "id": "i̇nsanligimi-yitirirken-dazai",
       "type": "book",
       "title": {
-        "en": "While I'm Losing My Humanity",
+        "en": "No Longer Human",
         "tr": "İnsanlığımı Yitirirken"
       },
       "creator": "Osamu Dazai",
@@ -52893,7 +52893,7 @@ const siteData = {
       "id": "olum-bir-varmis-bir-yokmus-saramago",
       "type": "book",
       "title": {
-        "en": "Ölüm Bir Varmış Bir Yokmuş",
+        "en": "Death with Interruptions",
         "tr": "Ölüm Bir Varmış Bir Yokmuş"
       },
       "creator": "José Saramago",
@@ -54758,7 +54758,7 @@ const siteData = {
       "id": "sahilde-kafka-murakami",
       "type": "book",
       "title": {
-        "en": "海辺のカフカ [Umibe no Kafuka]",
+        "en": "Kafka on the Shore",
         "tr": "Sahilde Kafka"
       },
       "creator": "Haruki Murakami",
@@ -55008,7 +55008,7 @@ const siteData = {
       "id": "onca-yoksulluk-varken-gary",
       "type": "book",
       "title": {
-        "en": "While There Is All Poverty",
+        "en": "The Life Before Us",
         "tr": "Onca Yoksulluk Varken"
       },
       "creator": "Romain Gary",
@@ -55918,7 +55918,7 @@ const siteData = {
       "id": "i̇nce-memed-1-(i̇nce-memed,-#1)-kemal",
       "type": "book",
       "title": {
-        "en": "İnce Memed 1 (İnce Memed, #1)",
+        "en": "Memed, My Hawk",
         "tr": "İnce Memed 1 (İnce Memed, #1)"
       },
       "creator": "Yaşar Kemal",
@@ -56608,7 +56608,7 @@ const siteData = {
       "id": "benim-adim-kirmizi-pamuk",
       "type": "book",
       "title": {
-        "en": "Benim Adım Kırmızı",
+        "en": "My Name Is Red",
         "tr": "Benim Adım Kırmızı"
       },
       "creator": "Orhan Pamuk",
@@ -56656,7 +56656,7 @@ const siteData = {
       "id": "seker-portakali-(zeze,-#1)-vasconcelos",
       "type": "book",
       "title": {
-        "en": "Meu Pé de Laranja Lima",
+        "en": "My Sweet Orange Tree",
         "tr": "Şeker Portakalı (Zeze, #1)"
       },
       "creator": "José Mauro de Vasconcelos",
@@ -56752,7 +56752,7 @@ const siteData = {
       "id": "marti---jonathan-livingston-bach",
       "type": "book",
       "title": {
-        "en": "Martı - Jonathan Livingston",
+        "en": "Jonathan Livingston Seagull",
         "tr": "Martı - Jonathan Livingston"
       },
       "creator": "Richard Bach",
@@ -56896,7 +56896,7 @@ const siteData = {
       "id": "koku:-bir-katilin-oykusu-suskind",
       "type": "book",
       "title": {
-        "en": "Koku: Bir Katilin Öyküsü",
+        "en": "Perfume: The Story of a Murderer",
         "tr": "Koku: Bir Katilin Öyküsü"
       },
       "creator": "Patrick Süskind",
@@ -57147,7 +57147,7 @@ const siteData = {
       "id": "yabanci-camus",
       "type": "book",
       "title": {
-        "en": "L'Étranger",
+        "en": "The Stranger",
         "tr": "Yabancı"
       },
       "creator": "Albert Camus",
@@ -57195,7 +57195,7 @@ const siteData = {
       "id": "aclik-hamsun",
       "type": "book",
       "title": {
-        "en": "Açlık",
+        "en": "Hunger",
         "tr": "Açlık"
       },
       "creator": "Knut Hamsun",
@@ -57243,7 +57243,7 @@ const siteData = {
       "id": "nietzsche-agladiginda-yalom",
       "type": "book",
       "title": {
-        "en": "When Nietzsche Cries",
+        "en": "When Nietzsche Wept",
         "tr": "Nietzsche Ağladığında"
       },
       "creator": "Irvin D. Yalom",
@@ -57339,7 +57339,7 @@ const siteData = {
       "id": "bulanti-sartre",
       "type": "book",
       "title": {
-        "en": "La nausée",
+        "en": "Nausea",
         "tr": "Bulantı"
       },
       "creator": "Jean-Paul Sartre",
@@ -57806,7 +57806,7 @@ const siteData = {
       "id": "tutunamayanlar-atay",
       "type": "book",
       "title": {
-        "en": "Tutunamayanlar",
+        "en": "The Disconnected",
         "tr": "Tutunamayanlar"
       },
       "creator": "Oğuz Atay",
