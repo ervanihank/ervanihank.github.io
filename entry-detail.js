@@ -517,6 +517,9 @@ function getLocalizedEntryTitle(entry, lang = state.lang) {
     "";
 
   if (lang === "tr") {
+    if (entry?.type === "book" && (bookClubEntry?.book || "").trim()) {
+      return (bookClubEntry.book || "").trim();
+    }
     return turkishTitle || englishTitle || "";
   }
 
