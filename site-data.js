@@ -3,7 +3,7 @@
 
 const siteData = {
   "lastUpdated": "2026-04-13",
-  "generatedAt": "2026-04-13T18:03:26.616053+00:00",
+  "generatedAt": "2026-04-13T19:00:23.854994+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -1229,7 +1229,7 @@ const siteData = {
       "id": "snow-pamuk",
       "type": "book",
       "title": {
-        "en": "What",
+        "en": "Snow",
         "tr": "Snow"
       },
       "creator": "Orhan Pamuk",
@@ -5351,7 +5351,7 @@ const siteData = {
       "id": "bir-son-duygusu-barnes",
       "type": "book",
       "title": {
-        "en": "A Sense of Ending",
+        "en": "The Sense of an Ending",
         "tr": "Bir Son Duygusu"
       },
       "creator": "Julian Barnes",
@@ -6100,7 +6100,7 @@ const siteData = {
       "id": "biletiniz-buraya-kadar-gary",
       "type": "book",
       "title": {
-        "en": "Your Ticket is Here",
+        "en": "Your Ticket Is No Longer Valid",
         "tr": "Biletiniz Buraya Kadar"
       },
       "creator": "Romain Gary",
@@ -6196,7 +6196,7 @@ const siteData = {
       "id": "aldanan-kadin-mann",
       "type": "book",
       "title": {
-        "en": "Deceived Woman",
+        "en": "The Black Swan",
         "tr": "Aldanan Kadın"
       },
       "creator": "Thomas Mann",
@@ -7982,7 +7982,7 @@ const siteData = {
       "id": "soneler-shakespeare",
       "type": "book",
       "title": {
-        "en": "Zones",
+        "en": "Sonnets",
         "tr": "Soneler"
       },
       "creator": "William Shakespeare",
@@ -49011,7 +49011,7 @@ const siteData = {
       "id": "snow-pamuk",
       "type": "book",
       "title": {
-        "en": "What",
+        "en": "Snow",
         "tr": "Snow"
       },
       "creator": "Orhan Pamuk",
@@ -53133,7 +53133,7 @@ const siteData = {
       "id": "bir-son-duygusu-barnes",
       "type": "book",
       "title": {
-        "en": "A Sense of Ending",
+        "en": "The Sense of an Ending",
         "tr": "Bir Son Duygusu"
       },
       "creator": "Julian Barnes",
@@ -53882,7 +53882,7 @@ const siteData = {
       "id": "biletiniz-buraya-kadar-gary",
       "type": "book",
       "title": {
-        "en": "Your Ticket is Here",
+        "en": "Your Ticket Is No Longer Valid",
         "tr": "Biletiniz Buraya Kadar"
       },
       "creator": "Romain Gary",
@@ -53978,7 +53978,7 @@ const siteData = {
       "id": "aldanan-kadin-mann",
       "type": "book",
       "title": {
-        "en": "Deceived Woman",
+        "en": "The Black Swan",
         "tr": "Aldanan Kadın"
       },
       "creator": "Thomas Mann",
@@ -55764,7 +55764,7 @@ const siteData = {
       "id": "soneler-shakespeare",
       "type": "book",
       "title": {
-        "en": "Zones",
+        "en": "Sonnets",
         "tr": "Soneler"
       },
       "creator": "William Shakespeare",

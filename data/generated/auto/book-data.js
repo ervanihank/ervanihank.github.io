@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-13T14:01:09.067540
+// Generated: 2026-04-13T14:59:54.612421
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
@@ -1079,7 +1079,7 @@ const bookEntries = [
     "id": "snow-pamuk",
     "type": "book",
     "title": {
-      "en": "What",
+      "en": "Snow",
       "tr": "Snow"
     },
     "creator": "Orhan Pamuk",
@@ -5209,7 +5209,7 @@ const bookEntries = [
     "id": "soneler-shakespeare",
     "type": "book",
     "title": {
-      "en": "Zones",
+      "en": "Sonnets",
       "tr": "Soneler"
     },
     "creator": "William Shakespeare",
@@ -8379,7 +8379,7 @@ const bookEntries = [
     "id": "bir-son-duygusu-barnes",
     "type": "book",
     "title": {
-      "en": "A Sense of Ending",
+      "en": "The Sense of an Ending",
       "tr": "Bir Son Duygusu"
     },
     "creator": "Julian Barnes",
@@ -9219,7 +9219,7 @@ const bookEntries = [
     "id": "biletiniz-buraya-kadar-gary",
     "type": "book",
     "title": {
-      "en": "Your Ticket is Here",
+      "en": "Your Ticket Is No Longer Valid",
       "tr": "Biletiniz Buraya Kadar"
     },
     "creator": "Romain Gary",
@@ -9991,7 +9991,7 @@ const bookEntries = [
     "id": "aldanan-kadin-mann",
     "type": "book",
     "title": {
-      "en": "Deceived Woman",
+      "en": "The Black Swan",
       "tr": "Aldanan Kadın"
     },
     "creator": "Thomas Mann",
