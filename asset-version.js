@@ -1,4 +1,4 @@
-window.ASSET_VERSION = "2026-04-14";
+window.ASSET_VERSION = "2026-04-15";
 
 window.writeVersionedStylesheet = function (path) {
   document.write('<link rel="stylesheet" href="' + path + '?v=' + window.ASSET_VERSION + '" />');

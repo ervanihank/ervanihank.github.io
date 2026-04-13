@@ -311,6 +311,8 @@ const journalEntries = [
 const importedFilmEntries =
   typeof filmDiaryEntries !== "undefined" && Array.isArray(filmDiaryEntries) ? filmDiaryEntries : [];
 const importedBookEntries = typeof bookEntries !== "undefined" && Array.isArray(bookEntries) ? bookEntries : [];
+const importedBookClubEntries =
+  typeof bookClubEntries !== "undefined" && Array.isArray(bookClubEntries) ? bookClubEntries : [];
 
 const detailEntries = (() => {
   const merged = new Map();
@@ -445,12 +447,74 @@ function t(key) {
   return translations[state.lang][key] || key;
 }
 
+function getLinkedBookClubEntry(entry) {
+  if (!entry || entry.type !== "book") {
+    return null;
+  }
+
+  const directUrl = (entry.bookClubUrl || "").trim();
+  if (directUrl) {
+    const paramsStart = directUrl.indexOf("?");
+    if (paramsStart >= 0) {
+      const params = new URLSearchParams(directUrl.slice(paramsStart + 1));
+      const slug = (params.get("entry") || "").trim();
+      if (slug) {
+        const matchedBySlug = importedBookClubEntries.find((item) => (item?.slug || "").trim() === slug);
+        if (matchedBySlug) {
+          return matchedBySlug;
+        }
+      }
+    }
+  }
+
+  const englishTitle = ((entry?.title || {}).en || "").trim();
+  const turkishTitle = ((entry?.title || {}).tr || "").trim();
+  const creatorKey = normalizeCreatorName(entry.creator);
+
+  return (
+    importedBookClubEntries.find((item) => {
+      const authors = Array.isArray(item?.authors) ? item.authors : [];
+      const hasMatchingAuthor =
+        !creatorKey ||
+        authors.some((author) => normalizeCreatorName(author) === creatorKey);
+
+      if (!hasMatchingAuthor) {
+        return false;
+      }
+
+      const clubBook = (item?.book || "").trim();
+      const clubEnglish = (item?.englishTitle || "").trim();
+
+      return (
+        (clubBook && (clubBook === turkishTitle || clubBook === englishTitle)) ||
+        (clubEnglish && (clubEnglish === englishTitle || clubEnglish === turkishTitle))
+      );
+    }) || null
+  );
+}
+
 function getLocalizedEntryTitle(entry, lang = state.lang) {
   const title = entry?.title || {};
   const englishOverride =
     (entry?.type === "book" && (englishBookTitleOverrides[entry?.goodreadsId] || englishBookTitleOverrides[title.tr])) || "";
-  const englishTitle = englishOverride || title.en || "";
-  const turkishTitle = title.tr || englishTitle || "";
+  const bookClubEntry = getLinkedBookClubEntry(entry);
+  const englishTitle =
+    englishOverride ||
+    title.en ||
+    (entry?.type === "book" ? (bookClubEntry?.englishTitle || "").trim() : "") ||
+    "";
+  const rawTurkishTitle = (title.tr || "").trim();
+  const fallbackTurkishTitle =
+    entry?.type === "book" &&
+    (!rawTurkishTitle || rawTurkishTitle === englishTitle)
+      ? (bookClubEntry?.book || "").trim()
+      : "";
+  const turkishTitle =
+    (rawTurkishTitle && rawTurkishTitle !== englishTitle ? rawTurkishTitle : "") ||
+    fallbackTurkishTitle ||
+    rawTurkishTitle ||
+    englishTitle ||
+    "";
 
   if (lang === "tr") {
     return turkishTitle || englishTitle || "";
