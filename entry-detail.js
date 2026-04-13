@@ -28,6 +28,7 @@ const translations = {
     relatedOpenEntry: "Open entry",
     noNotes: "No notes added yet.",
     backToArchive: "Back to Archive",
+    backToBookClubArchive: "Back to Book Club Archive",
     footerText: "Last updated in 2026-04-04",
   },
   tr: {
@@ -59,6 +60,7 @@ const translations = {
     relatedOpenEntry: "Kaydı aç",
     noNotes: "Henüz not eklenmedi.",
     backToArchive: "Arşive Dön",
+    backToBookClubArchive: "Kitap Kulübü Arşivine Dön",
     footerText: "Son güncelleme: 2026-04-04",
   },
 };
@@ -785,18 +787,23 @@ function loadEntry() {
   }
 
   if (backLink) {
-    const savedCountry = sessionStorage.getItem("enk_journal_country");
-    const backParams = new URLSearchParams();
-    if (countryParam || savedCountry) {
-      backParams.set("country", countryParam || savedCountry);
+    if (fromParam === "bookclub") {
+      backLink.href = "bookclub.html";
+      backLink.textContent = `< ${t("backToBookClubArchive")}`;
+    } else {
+      const savedCountry = sessionStorage.getItem("enk_journal_country");
+      const backParams = new URLSearchParams();
+      if (countryParam || savedCountry) {
+        backParams.set("country", countryParam || savedCountry);
+      }
+      if (searchParam) {
+        backParams.set("q", searchParam);
+      }
+      const anchor = fromParam === "book" ? "#book-shelf" : "#film-shelf";
+      const query = backParams.toString();
+      backLink.href = `journal.html${query ? `?${query}` : ""}${anchor}`;
+      backLink.textContent = `< ${t("backToArchive")}`;
     }
-    if (searchParam) {
-      backParams.set("q", searchParam);
-    }
-    const anchor = fromParam === "book" ? "#book-shelf" : "#film-shelf";
-    const query = backParams.toString();
-    backLink.href = `journal.html${query ? `?${query}` : ""}${anchor}`;
-    backLink.textContent = `< ${t("backToArchive")}`;
   }
 
   setActiveTab(state.activeTab === "quotes" ? "quotes" : "notes");

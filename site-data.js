@@ -3,7 +3,7 @@
 
 const siteData = {
   "lastUpdated": "2026-04-13",
-  "generatedAt": "2026-04-13T18:01:23.237969+00:00",
+  "generatedAt": "2026-04-13T18:03:26.616053+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",

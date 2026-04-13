@@ -365,7 +365,7 @@ function renderBookClubPage() {
         : "";
       const description = entry.description ? `<p class="journal-meta">${entry.description}</p>` : "";
       const linkedBook = resolveBookEntryForClubItem(entry, bookLookup);
-      const linkedBookHref = linkedBook ? `entry-detail.html?id=${encodeURIComponent(linkedBook.id)}&from=book` : "";
+      const linkedBookHref = linkedBook ? `entry-detail.html?id=${encodeURIComponent(linkedBook.id)}&from=bookclub` : "";
       const linkedBookHtml = linkedBookHref
         ? `<p class="journal-meta"><a class="bookclub-book-button" href="${linkedBookHref}">${t("openBookPageLabel")}</a></p>`
         : "";
