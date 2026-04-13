@@ -314,7 +314,12 @@ const importedBookEntries = typeof bookEntries !== "undefined" && Array.isArray(
 
 const detailEntries = (() => {
   const merged = new Map();
-  [...journalEntries, ...importedBookEntries, ...importedFilmEntries].forEach((entry) => {
+  const preferredEntries =
+    importedBookEntries.length || importedFilmEntries.length
+      ? [...importedBookEntries, ...importedFilmEntries]
+      : journalEntries;
+
+  preferredEntries.forEach((entry) => {
     merged.set(entry.id, entry);
   });
   return [...merged.values()];
