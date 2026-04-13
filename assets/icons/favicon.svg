@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EK monogram">
+  <rect width="64" height="64" rx="15" fill="#dfe9ec"/>
+  <rect x="4" y="4" width="56" height="56" rx="13" fill="none" stroke="#b8a191" stroke-width="2"/>
+  <path d="M15 15h24v6H22v8h13v6H22v8h17v6H15z" fill="#2b292e"/>
+  <path d="M45 15h7L40 31l13 18h-8L34.5 34.4V29z" fill="#6f5c4d"/>
+  <path d="M31.5 32 45 15h8L37.5 32 53 49h-8z" fill="#6f5c4d"/>
+</svg>

@@ -49,10 +49,10 @@ const translations = {
     archiveIntro2:
       "Because to me, libraries are memories, little life stories in themselves. And apparently, if that photo is any evidence, shelves bring out my number five smile, which I swear is a real one :).",
     archiveIntro3:
-      "Maybe that's why, in every city I've lived in, I built small libraries, quiet accumulations of books gathered along the way. But academic life comes with many new beginnings, and each one also means leaving something behind. Shelves emptied, books dispersed. Leaving a library behind almost feels like losing memories.",
+      "Maybe that's why, in every city I've lived in, I built small libraries, quiet accumulations of books gathered along the way. But academic life comes with many new beginnings, and each one also means leaving something behind. Shelves emptied, books dispersed. Leaving a library behind almost feels like losing memories. Kundera might have diagnosed me with a lack of nostalgia!",
     archiveIntro4: "So I started looking for something more lasting. More portable.",
     archiveIntro5:
-      "This space is the result: a digital archive of books and films, my small library in a form I can carry with me.",
+      "This space is the result: a digital archive of books and films.",
     archiveIntro6:
       "Here, I keep track of what I read and watch, along with notes, lines I love, and fragments that stay with me.",
     archiveIntro7:
@@ -82,7 +82,7 @@ const translations = {
     filterScopeAll: "All entries",
     filterScopeBooks: "Book shelf",
     filterScopeFilms: "Movie shelf",
-    journalSearchPlaceholder: "Search title, notes, keywords, quotes...",
+    journalSearchPlaceholder: "Search title, author/director, notes, keywords, quotes...",
     creatorSearchLabel: "Author / Director",
     creatorSearchPlaceholder: "Search author or director",
     filterSearchLabel: "Search",
@@ -181,9 +181,9 @@ const translations = {
       "Bu, kişisel film ve kitap arşivimi tuttuğum dünyadaki küçük köşem.",
     archiveIntro1: "Kendimi bildim bileli kendime ait bir kütüphane istemişimdir.",
     archiveIntro2:
-      "Çünkü benim için kütüphaneler kişisel hafıza saraylarıdır. Ve fotoğrafımdan da anlaşılacağı üzere kitap raflarında vakit geçirirken kendimi beş numaralı gülüşümle güler görmek beni mutlu ediyor; en sahici gülüşlerimdendir kendileri :).",
+      "Çünkü benim için kütüphaneler, hafızanın raflara sinmiş hâlidir. Ve fotoğrafımdan da anlaşılacağı üzere, kitap raflarında vakit geçirirken kendimi beş numaralı gülüşümle güler görmek beni mutlu ediyor; en sahici gülüşlerimdendir kendileri :).",
     archiveIntro3:
-      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurmaya çalıştım. Ama akademik hayat hep yeni başlangıçlara gebedir. Ve her bir yeni başlangıç bana yeni bir şehrin kapılarını aralarken kitap raflarımı geride bırakmayı şart koştu. Ve bir kütüphaneyi geride bırakmak neredeyse anısız kalmak kadar acı. Kundera olsa bana nostalji eksikliği teşhisi koyardı sanırım!",
+      "Belki de bu yüzden, yaşadığım her şehirde küçük kütüphaneler kurmaya çalıştım. Ama akademik hayat hep yeni başlangıçlara gebedir. Ve her bir yeni başlangıç bana yeni bir şehrin kapılarını aralarken kitap raflarımı geride bırakmayı şart koştu. Bir kütüphaneyi geride bırakmaksa, neredeyse anısız kalmak kadar acı. Kundera olsa bana nostalji eksikliği teşhisi koyardı sanırım!",
     archiveIntro4: "Bu yüzden daha kalıcı bir şey aramaya başladım. Daha taşınabilir.",
     archiveIntro5:
       "Bu alan da bu arayışımın bir sonucu: okuduğum kitapları ve izlediğim filmleri dijital bir arşivde her zaman yanımda taşıyabileceğim küçük bir kütüphane.",
@@ -216,7 +216,7 @@ const translations = {
     filterScopeAll: "Tüm kayıtlar",
     filterScopeBooks: "Kitap rafı",
     filterScopeFilms: "Film rafı",
-    journalSearchPlaceholder: "Başlık, not, anahtar kelime, alıntı ara...",
+    journalSearchPlaceholder: "Başlık, yazar/yönetmen, not, anahtar kelime, alıntı ara...",
     creatorSearchLabel: "Yazar / Yönetmen",
     creatorSearchPlaceholder: "Yazar veya yönetmen ara",
     filterSearchLabel: "Arama",
@@ -599,14 +599,15 @@ function matchesTextQuery(entry, query) {
     return true;
   }
 
-  const lowerQuery = query.toLowerCase();
-  const title = getLocalizedEntryTitle(entry).toLowerCase();
-  const noteText = (entry.note?.[state.lang] || entry.note?.en || "").toLowerCase();
-  const essayText = (entry.essay?.[state.lang] || entry.essay?.en || "").replace(/<[^>]+>/g, " ").toLowerCase();
-  const tagsText = (entry.tags?.[state.lang] || entry.tags?.en || []).join(" ").toLowerCase();
-  const quotesText = (entry.quotes?.[state.lang] || entry.quotes?.en || []).join(" ").toLowerCase();
+  const normalizedQuery = normalizeLetters(query);
+  const title = normalizeLetters(getLocalizedEntryTitle(entry));
+  const creatorText = normalizeLetters(entry.creator || "");
+  const noteText = normalizeLetters(entry.note?.[state.lang] || entry.note?.en || "");
+  const essayText = normalizeLetters((entry.essay?.[state.lang] || entry.essay?.en || "").replace(/<[^>]+>/g, " "));
+  const tagsText = normalizeLetters((entry.tags?.[state.lang] || entry.tags?.en || []).join(" "));
+  const quotesText = normalizeLetters((entry.quotes?.[state.lang] || entry.quotes?.en || []).join(" "));
 
-  return [title, noteText, essayText, tagsText, quotesText].some((text) => text.includes(lowerQuery));
+  return [title, creatorText, noteText, essayText, tagsText, quotesText].some((text) => text.includes(normalizedQuery));
 }
 
 function matchesCreatorQuery(entry, query) {
@@ -614,7 +615,7 @@ function matchesCreatorQuery(entry, query) {
     return true;
   }
 
-  return (entry.creator || "").toLowerCase().includes(query.toLowerCase());
+  return normalizeLetters(entry.creator || "").includes(normalizeLetters(query));
 }
 
 function entryMatchesScopedFilters(entry, scope) {
@@ -922,6 +923,8 @@ const monthNameToNumber = {
 function normalizeLetters(value) {
   return (value || "")
     .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/ç/g, "c")
     .replace(/ğ/g, "g")
     .replace(/ı/g, "i")
@@ -1585,6 +1588,17 @@ if (queryInput) {
   queryInput.value = state.searchQuery;
   queryInput.addEventListener("input", (e) => {
     state.searchQuery = e.target.value.toLowerCase();
+    if (!state.searchQuery.trim()) {
+      state.country = "all";
+      state.libraryScope = "all";
+      state.creatorQuery = "";
+      state.minRating = "";
+      state.releaseYear = "";
+      state.activityYear = "";
+      sessionStorage.setItem("enk_journal_country", state.country);
+      sessionStorage.setItem("enk_journal_scope", state.libraryScope);
+      sessionStorage.setItem("enk_journal_creator", state.creatorQuery);
+    }
     renderJournal();
   });
 }

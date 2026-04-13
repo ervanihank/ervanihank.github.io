@@ -1895,15 +1895,17 @@ def main():
         f"\nNext time you add a new book to Goodreads:"
         f"\n  1. Mark it as 'read' in your Goodreads library"
         f"\n  2. Export your Goodreads library"
-        f"\n  3. Run: python3 generate_book_dataset.py"
+        f"\n  3. Run: python3 tools/generators/generate_book_dataset.py"
+        f"\n  4. Then run: python3 tools/update_site_data.py --skip-auto --no-zip-import"
         f"\n\nIf a country looks wrong or unresolved:"
-        f"\n  - Edit or create book-country-map.json"
+        f"\n  - Edit or create your book-country override file"
         f"\n  - Add: \"Author Name\": \"countryCode\""
         f"\n  - Run the script again"
         f"\n\nIf an English title looks wrong:"
-        f"\n  - Edit or create book-title-map.json"
+        f"\n  - Edit: data/config/book-title-map.json"
         f"\n  - Add: \"GoodreadsBookId\": \"English Title\""
-        f"\n  - Run the script again"
+        f"\n  - Run the book generator again"
+        f"\n  - Then rebuild site-data.js with: python3 tools/update_site_data.py --skip-auto --no-zip-import"
     )
 
 

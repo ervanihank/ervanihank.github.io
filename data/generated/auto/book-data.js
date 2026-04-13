@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-12T14:48:14.587037
+// Generated: 2026-04-13T11:58:14.594208
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
@@ -1225,6 +1225,62 @@ const bookEntries = [
         "sandro-veronesi",
         "italy",
         "2022"
+      ]
+    }
+  },
+  {
+    "id": "onemi-yok-kristóf",
+    "type": "book",
+    "title": {
+      "en": "C'est égal",
+      "tr": "Önemi Yok"
+    },
+    "creator": "Ágota Kristóf",
+    "country": "hungary",
+    "countryLabel": {
+      "en": "Hungary",
+      "tr": "Hungary"
+    },
+    "year": "2023",
+    "readDate": null,
+    "coverUrl": "assets/images/covers/books/onemiyok.webp",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/202012049",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+      "tr": "Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023"
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023</p>"
+    },
+    "quotes": {
+      "en": [
+        "I only kept quotations for this book in Turkish. Please check the Turkish version."
+      ],
+      "tr": [
+        "Bu hayatta mı olur artık, yoksa başka bir hayatta mı? Evime döneceğim. Dışarıdaki fırtınadan ağaçlar çatırdayacak ama artık içime korku salamayacak, ne kırmızı bulutlar ne de şehir Istklar.",
+        "Bahçeye girdi, çimenlerin üzerine oturdu ve ağladı. \"Olacak is değil. Bir evi başka bir ev için terk etmek, biri ةldürülmüs gibi.",
+        "Boş bir posta kutusunu açtığınız oldu mu hiç? Olmuştur mutlaka.",
+        "Şimdi beklenecek bir şey olmadığını düşünüyorum ve odamdan çıkmıyorum, bir sandalyeye oturup hiçbir şey yapmıyorum. Dışarıda bir hayat olduğunu ama o hayatta hiçbir şey olup bitmediğini düşünüyorum. Benim için hiçbir şey.",
+        "Hayatımın eserini yazmak için köşeme çekildim. Büyük bir yazarım ben. Kimse bilmiyor çünkü henüz hiçbir şey yazmadım. Ama onu, kitabımı, romanımı yazdığımda…"
+      ]
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "ágota-kristóf",
+        "hungary",
+        "2023"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "ágota-kristóf",
+        "hungary",
+        "2023"
       ]
     }
   },
@@ -2823,7 +2879,7 @@ const bookEntries = [
     "id": "kolera-gunlerinde-ask-márquez",
     "type": "book",
     "title": {
-      "en": "Kolera Günlerinde Aşk",
+      "en": "Love in the Time of Cholera",
       "tr": "Kolera Günlerinde Aşk"
     },
     "creator": "Gabriel García Márquez",
@@ -2967,7 +3023,7 @@ const bookEntries = [
     "id": "dava-kafka",
     "type": "book",
     "title": {
-      "en": "Dava",
+      "en": "The Trial",
       "tr": "Dava"
     },
     "creator": "Franz Kafka",
@@ -3013,7 +3069,7 @@ const bookEntries = [
     "id": "donusum-kafka",
     "type": "book",
     "title": {
-      "en": "Dönüşüm",
+      "en": "The Metamorphosis",
       "tr": "Dönüşüm"
     },
     "creator": "Franz Kafka",
@@ -3829,7 +3885,7 @@ const bookEntries = [
     "id": "cesur-yeni-dunya-huxley",
     "type": "book",
     "title": {
-      "en": "Cesur Yeni Dünya",
+      "en": "Brave New World",
       "tr": "Cesur Yeni Dünya"
     },
     "creator": "Aldous Huxley",
@@ -4021,7 +4077,7 @@ const bookEntries = [
     "id": "benimle-tanismadan-once-barnes",
     "type": "book",
     "title": {
-      "en": "Benimle Tanışmadan Önce",
+      "en": "Before She Met Me",
       "tr": "Benimle Tanışmadan Önce"
     },
     "creator": "Julian Barnes",
@@ -4069,7 +4125,7 @@ const bookEntries = [
     "id": "ben,-kirke-miller",
     "type": "book",
     "title": {
-      "en": "Ben, Kirke",
+      "en": "Circe",
       "tr": "Ben, Kirke"
     },
     "creator": "Madeline Miller",
@@ -4259,7 +4315,7 @@ const bookEntries = [
     "id": "damizlik-kizin-oykusu-atwood",
     "type": "book",
     "title": {
-      "en": "Damızlık Kızın Öyküsü",
+      "en": "The Handmaid's Tale",
       "tr": "Damızlık Kızın Öyküsü"
     },
     "creator": "Margaret Atwood",
@@ -4355,7 +4411,7 @@ const bookEntries = [
     "id": "vejetaryen-kang",
     "type": "book",
     "title": {
-      "en": "Vejetaryen",
+      "en": "The Vegetarian",
       "tr": "Vejetaryen"
     },
     "creator": "Han Kang",

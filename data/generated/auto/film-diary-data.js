@@ -37106,5 +37106,52 @@ const filmDiaryEntries = [
         "2025"
       ]
     }
+  },
+  {
+    "id": "free-willy-1993",
+    "type": "film",
+    "title": {
+      "en": "Free Willy",
+      "tr": "Free Willy"
+    },
+    "creator": "Simon Wincer",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/1c/av/so/8t/free%20willy-1200-1200-675-675-crop-000000.jpg?v=4e80758784",
+    "letterboxdUrl": "https://boxd.it/dXKYZZ",
+    "year": "1993",
+    "watchedDate": "2026-04-13",
+    "note": {
+      "en": "Watched on 2026-04-13. Rated 5/5.",
+      "tr": "2026-04-13 tarihinde izlendi. Puan: 5/5."
+    },
+    "rating": "5/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>Some movies just feel like home and this one will always be a return to my childhood. I dont even know how many times I watched Free Willy as a kid but coming across it in the flight selection and watching it now as an adult brought back that exact same feeling.</p><p>I know its not a five star film in the traditional sense, but to me its something else entirely because it still captures that same simple, emotional, almost magical feeling that is so hard to put into words :&#x27;)</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "simon-wincer",
+        "united-states",
+        "1993"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "simon-wincer",
+        "united-states",
+        "1993"
+      ]
+    }
   }
 ];

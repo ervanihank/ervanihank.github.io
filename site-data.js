@@ -2,8 +2,8 @@
 // Use tools/update_site_data.py or ./update_site_data.sh
 
 const siteData = {
-  "lastUpdated": "2026-04-12",
-  "generatedAt": "2026-04-12T21:51:30.448340+00:00",
+  "lastUpdated": "2026-04-13",
+  "generatedAt": "2026-04-13T15:58:29.179321+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -17,7 +17,7 @@ const siteData = {
       "id": "dava-kafka",
       "type": "book",
       "title": {
-        "en": "Dava",
+        "en": "The Trial",
         "tr": "Dava"
       },
       "creator": "Franz Kafka",
@@ -1427,6 +1427,62 @@ const siteData = {
       }
     },
     {
+      "id": "onemi-yok-kristóf",
+      "type": "book",
+      "title": {
+        "en": "C'est égal",
+        "tr": "Önemi Yok"
+      },
+      "creator": "Ágota Kristóf",
+      "country": "hungary",
+      "countryLabel": {
+        "en": "Hungary",
+        "tr": "Hungary"
+      },
+      "year": "2023",
+      "readDate": null,
+      "coverUrl": "assets/images/covers/books/onemiyok.webp",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/202012049",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+        "tr": "Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023"
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023</p>"
+      },
+      "quotes": {
+        "en": [
+          "I only kept quotations for this book in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "Bu hayatta mı olur artık, yoksa başka bir hayatta mı? Evime döneceğim. Dışarıdaki fırtınadan ağaçlar çatırdayacak ama artık içime korku salamayacak, ne kırmızı bulutlar ne de şehir Istklar.",
+          "Bahçeye girdi, çimenlerin üzerine oturdu ve ağladı. \"Olacak is değil. Bir evi başka bir ev için terk etmek, biri ةldürülmüs gibi.",
+          "Boş bir posta kutusunu açtığınız oldu mu hiç? Olmuştur mutlaka.",
+          "Şimdi beklenecek bir şey olmadığını düşünüyorum ve odamdan çıkmıyorum, bir sandalyeye oturup hiçbir şey yapmıyorum. Dışarıda bir hayat olduğunu ama o hayatta hiçbir şey olup bitmediğini düşünüyorum. Benim için hiçbir şey.",
+          "Hayatımın eserini yazmak için köşeme çekildim. Büyük bir yazarım ben. Kimse bilmiyor çünkü henüz hiçbir şey yazmadım. Ama onu, kitabımı, romanımı yazdığımda…"
+        ]
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "ágota-kristóf",
+          "hungary",
+          "2023"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "ágota-kristóf",
+          "hungary",
+          "2023"
+        ]
+      }
+    },
+    {
       "id": "olay-ernaux",
       "type": "book",
       "title": {
@@ -2287,7 +2343,7 @@ const siteData = {
       "id": "ben,-kirke-miller",
       "type": "book",
       "title": {
-        "en": "Ben, Kirke",
+        "en": "Circe",
         "tr": "Ben, Kirke"
       },
       "creator": "Madeline Miller",
@@ -2693,7 +2749,7 @@ const siteData = {
       "id": "vejetaryen-kang",
       "type": "book",
       "title": {
-        "en": "Vejetaryen",
+        "en": "The Vegetarian",
         "tr": "Vejetaryen"
       },
       "creator": "Han Kang",
@@ -3989,7 +4045,7 @@ const siteData = {
       "id": "cesur-yeni-dunya-huxley",
       "type": "book",
       "title": {
-        "en": "Cesur Yeni Dünya",
+        "en": "Brave New World",
         "tr": "Cesur Yeni Dünya"
       },
       "creator": "Aldous Huxley",
@@ -5601,7 +5657,7 @@ const siteData = {
       "id": "donusum-kafka",
       "type": "book",
       "title": {
-        "en": "Dönüşüm",
+        "en": "The Metamorphosis",
         "tr": "Dönüşüm"
       },
       "creator": "Franz Kafka",
@@ -6620,7 +6676,7 @@ const siteData = {
       "id": "kolera-gunlerinde-ask-márquez",
       "type": "book",
       "title": {
-        "en": "Kolera Günlerinde Aşk",
+        "en": "Love in the Time of Cholera",
         "tr": "Kolera Günlerinde Aşk"
       },
       "creator": "Gabriel García Márquez",
@@ -8521,7 +8577,7 @@ const siteData = {
       "id": "benimle-tanismadan-once-barnes",
       "type": "book",
       "title": {
-        "en": "Benimle Tanışmadan Önce",
+        "en": "Before She Met Me",
         "tr": "Benimle Tanışmadan Önce"
       },
       "creator": "Julian Barnes",
@@ -9649,7 +9705,7 @@ const siteData = {
       "id": "damizlik-kizin-oykusu-atwood",
       "type": "book",
       "title": {
-        "en": "Damızlık Kızın Öyküsü",
+        "en": "The Handmaid's Tale",
         "tr": "Damızlık Kızın Öyküsü"
       },
       "creator": "Margaret Atwood",
@@ -10254,6 +10310,53 @@ const siteData = {
     }
   ],
   "films": [
+    {
+      "id": "free-willy-1993",
+      "type": "film",
+      "title": {
+        "en": "Free Willy",
+        "tr": "Free Willy"
+      },
+      "creator": "Simon Wincer",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/1c/av/so/8t/free%20willy-1200-1200-675-675-crop-000000.jpg?v=4e80758784",
+      "letterboxdUrl": "https://boxd.it/dXKYZZ",
+      "year": "1993",
+      "watchedDate": "2026-04-13",
+      "note": {
+        "en": "Watched on 2026-04-13. Rated 5/5.",
+        "tr": "2026-04-13 tarihinde izlendi. Puan: 5/5."
+      },
+      "rating": "5/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>Some movies just feel like home and this one will always be a return to my childhood. I dont even know how many times I watched Free Willy as a kid but coming across it in the flight selection and watching it now as an adult brought back that exact same feeling.</p><p>I know its not a five star film in the traditional sense, but to me its something else entirely because it still captures that same simple, emotional, almost magical feeling that is so hard to put into words :&#x27;)</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "simon-wincer",
+          "united-states",
+          "1993"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "simon-wincer",
+          "united-states",
+          "1993"
+        ]
+      }
+    },
     {
       "id": "the-roses-2025",
       "type": "film",
@@ -47696,7 +47799,7 @@ const siteData = {
       "id": "dava-kafka",
       "type": "book",
       "title": {
-        "en": "Dava",
+        "en": "The Trial",
         "tr": "Dava"
       },
       "creator": "Franz Kafka",
@@ -49106,6 +49209,62 @@ const siteData = {
       }
     },
     {
+      "id": "onemi-yok-kristóf",
+      "type": "book",
+      "title": {
+        "en": "C'est égal",
+        "tr": "Önemi Yok"
+      },
+      "creator": "Ágota Kristóf",
+      "country": "hungary",
+      "countryLabel": {
+        "en": "Hungary",
+        "tr": "Hungary"
+      },
+      "year": "2023",
+      "readDate": null,
+      "coverUrl": "assets/images/covers/books/onemiyok.webp",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/202012049",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+        "tr": "Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023"
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Önemi yok! Kristof'un yirmi beş karanlık öyküden oluşan kitabı. Her zaman olduğu gibi, okurken altını çizecek neredeyse hiçbir cümle vermiyor okura. Gerçekliği hiç pişirme ihtiyacı duyulmaksızın bütün çiğliğiyle önümüze fırlatıverilmiş buluyoruz bu öykülerde. Aforizmalardan böylesine azade bir teknik, sanırım biraz Kristóf'a biraz da Macar edebiyatına mahsus bir saflık. Ancak, bu kısa metinlerinde dahi her zamanki kendine özgü duygulara hükmedici diliyle hafif alaycı bir huzursuzluk oluşturmayı, okuyucuyu rahatsız etmeyi asla ihmal etmiyor. Hatta Kristóf'un dikdatörvari kalemi sanırım en çok da öykülerinde kendisini hissettiriyor Yine de bu kısa hikayeler beni zaman zaman fazlaca güldürdü. Thomas Bernhard'ın başkalarınca moral bozucu ve dayanılmaz bulunan \"Evet\"inin Kristóf'a neredeyse kahkahalar attırması gibi. Nihayetinde aklın alamayacağı bir biçimde kötüye dairse anlatılanlar, gülmekten başka ne gelir elden?\n\nParis, Aralık 2023</p>"
+      },
+      "quotes": {
+        "en": [
+          "I only kept quotations for this book in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "Bu hayatta mı olur artık, yoksa başka bir hayatta mı? Evime döneceğim. Dışarıdaki fırtınadan ağaçlar çatırdayacak ama artık içime korku salamayacak, ne kırmızı bulutlar ne de şehir Istklar.",
+          "Bahçeye girdi, çimenlerin üzerine oturdu ve ağladı. \"Olacak is değil. Bir evi başka bir ev için terk etmek, biri ةldürülmüs gibi.",
+          "Boş bir posta kutusunu açtığınız oldu mu hiç? Olmuştur mutlaka.",
+          "Şimdi beklenecek bir şey olmadığını düşünüyorum ve odamdan çıkmıyorum, bir sandalyeye oturup hiçbir şey yapmıyorum. Dışarıda bir hayat olduğunu ama o hayatta hiçbir şey olup bitmediğini düşünüyorum. Benim için hiçbir şey.",
+          "Hayatımın eserini yazmak için köşeme çekildim. Büyük bir yazarım ben. Kimse bilmiyor çünkü henüz hiçbir şey yazmadım. Ama onu, kitabımı, romanımı yazdığımda…"
+        ]
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "ágota-kristóf",
+          "hungary",
+          "2023"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "ágota-kristóf",
+          "hungary",
+          "2023"
+        ]
+      }
+    },
+    {
       "id": "olay-ernaux",
       "type": "book",
       "title": {
@@ -49966,7 +50125,7 @@ const siteData = {
       "id": "ben,-kirke-miller",
       "type": "book",
       "title": {
-        "en": "Ben, Kirke",
+        "en": "Circe",
         "tr": "Ben, Kirke"
       },
       "creator": "Madeline Miller",
@@ -50372,7 +50531,7 @@ const siteData = {
       "id": "vejetaryen-kang",
       "type": "book",
       "title": {
-        "en": "Vejetaryen",
+        "en": "The Vegetarian",
         "tr": "Vejetaryen"
       },
       "creator": "Han Kang",
@@ -51668,7 +51827,7 @@ const siteData = {
       "id": "cesur-yeni-dunya-huxley",
       "type": "book",
       "title": {
-        "en": "Cesur Yeni Dünya",
+        "en": "Brave New World",
         "tr": "Cesur Yeni Dünya"
       },
       "creator": "Aldous Huxley",
@@ -53280,7 +53439,7 @@ const siteData = {
       "id": "donusum-kafka",
       "type": "book",
       "title": {
-        "en": "Dönüşüm",
+        "en": "The Metamorphosis",
         "tr": "Dönüşüm"
       },
       "creator": "Franz Kafka",
@@ -54299,7 +54458,7 @@ const siteData = {
       "id": "kolera-gunlerinde-ask-márquez",
       "type": "book",
       "title": {
-        "en": "Kolera Günlerinde Aşk",
+        "en": "Love in the Time of Cholera",
         "tr": "Kolera Günlerinde Aşk"
       },
       "creator": "Gabriel García Márquez",
@@ -56200,7 +56359,7 @@ const siteData = {
       "id": "benimle-tanismadan-once-barnes",
       "type": "book",
       "title": {
-        "en": "Benimle Tanışmadan Önce",
+        "en": "Before She Met Me",
         "tr": "Benimle Tanışmadan Önce"
       },
       "creator": "Julian Barnes",
@@ -57328,7 +57487,7 @@ const siteData = {
       "id": "damizlik-kizin-oykusu-atwood",
       "type": "book",
       "title": {
-        "en": "Damızlık Kızın Öyküsü",
+        "en": "The Handmaid's Tale",
         "tr": "Damızlık Kızın Öyküsü"
       },
       "creator": "Margaret Atwood",
@@ -57928,6 +58087,53 @@ const siteData = {
           "peyami-safa",
           "turkey",
           "1968"
+        ]
+      }
+    },
+    {
+      "id": "free-willy-1993",
+      "type": "film",
+      "title": {
+        "en": "Free Willy",
+        "tr": "Free Willy"
+      },
+      "creator": "Simon Wincer",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/1c/av/so/8t/free%20willy-1200-1200-675-675-crop-000000.jpg?v=4e80758784",
+      "letterboxdUrl": "https://boxd.it/dXKYZZ",
+      "year": "1993",
+      "watchedDate": "2026-04-13",
+      "note": {
+        "en": "Watched on 2026-04-13. Rated 5/5.",
+        "tr": "2026-04-13 tarihinde izlendi. Puan: 5/5."
+      },
+      "rating": "5/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>Some movies just feel like home and this one will always be a return to my childhood. I dont even know how many times I watched Free Willy as a kid but coming across it in the flight selection and watching it now as an adult brought back that exact same feeling.</p><p>I know its not a five star film in the traditional sense, but to me its something else entirely because it still captures that same simple, emotional, almost magical feeling that is so hard to put into words :&#x27;)</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "simon-wincer",
+          "united-states",
+          "1993"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "simon-wincer",
+          "united-states",
+          "1993"
         ]
       }
     },

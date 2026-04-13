@@ -36,7 +36,7 @@ const translations = {
     backToHome: "Ana Sayfaya Dön",
     bookClubTitle: "Kitap Kulübü",
     bookClubIntro:
-      "2023'te üç arkadaşın küçük bir buluşması olarak başlayan bu kitap kulübü, zamanla ülkeleri ve saat dilimlerini aşan bir okuma çevresine dönüştü. Üç yılı aşkın süredir birlikte okumaya ve kitaplar üzerine konuşmaya devam ediyoruz. Zamanla aramıza yenileri katıldı; bugün bu yolculuğu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben sürdürüyoruz. Kitaplardan bizim kadar keyif alan meraklı okurlara kapımız her zaman açık.",
+      "2023'te üç arkadaşın küçük bir buluşması olarak başlayan bu kitap kulübü, zamanla ülkeleri ve saat dilimlerini aşan bir okuma çevresine dönüştü. Üç yılı aşkın süredir birlikte okumaya ve kitaplar üzerine konuşmaya devam ediyoruz. Zamanla aramıza katılan dostlarla bugün bu yolculuğu Berfin, Zeyneb, Seda, Zeynep, Rana ve ben sürdürüyoruz. Kitaplardan bizim kadar keyif alan meraklı okurlara kapımız her zaman açık.",
     moderatorLabel: "Moderator",
     authorLabel: "Yazar",
     dateLabel: "Tarih",

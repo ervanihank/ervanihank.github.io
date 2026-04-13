@@ -239,6 +239,21 @@ If you did not download new Goodreads or Letterboxd exports and only edited manu
 python3 tools/update_site_data.py --skip-auto
 ```
 
+## Goodreads-Only Update
+
+If you only updated Goodreads:
+
+```bash
+python3 tools/generators/generate_book_dataset.py
+python3 tools/update_site_data.py --skip-auto --no-zip-import
+```
+
+If some English titles are still wrong after that:
+
+1. Edit `data/config/book-title-map.json`
+2. Add the published English title keyed by Goodreads book id
+3. Run the same two commands again
+
 That is the fastest safe update path.
 
 ## Important Files For Maintenance
