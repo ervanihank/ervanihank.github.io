@@ -167,7 +167,12 @@ function renderNotesHeader() {
     return;
   }
 
-  title.textContent = entry.book;
+  const displayTitle =
+    state.lang === "tr"
+      ? (entry.book || entry.englishTitle || t("unknownSession"))
+      : (entry.englishTitle || entry.book || t("unknownSession"));
+
+  title.textContent = displayTitle;
   const authorText = Array.isArray(entry.authors) ? entry.authors.join(", ") : "";
   const dateText = formatBookClubDate(entry.date);
   const metaParts = [

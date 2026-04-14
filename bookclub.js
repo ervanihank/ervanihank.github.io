@@ -16,10 +16,12 @@ const translations = {
     dateLabel: "Date",
     timelineSummary: "21 book club sessions since 2023",
     readingHabitsLabel: "Reading Habits",
+    readingHabitsDescription:
+      "In this session, we talked more broadly about our reading habits through books on reading and the ways they shape our relationship to literature.",
     relatedBooksLabel: "Discussed books",
     openNotesLabel: "Open meeting notes",
     openBookPageLabel: "Open book page",
-    noPhotoText: "Sometimes we forgot to take photos :(",
+    noPhotoText: "Sometimes we forgot to take a photo :(",
     noDate: "Who knows when",
     noModerator: "Open moderator",
     empty: "No book club entries found yet.",
@@ -42,6 +44,8 @@ const translations = {
     dateLabel: "Tarih",
     timelineSummary: "2023'ten bu yana 21 kitap kulübü oturumu",
     readingHabitsLabel: "Okuma Alışkanlıkları",
+    readingHabitsDescription:
+      "Bu oturumda, okuma üzerine kitapların ışığında kendi okuma alışkanlıklarımızı ve edebiyatla kurduğumuz ilişkiyi daha genel bir çerçevede konuştuk.",
     relatedBooksLabel: "Konusulan kitaplar",
     openNotesLabel: "Toplantı notlarını aç",
     openBookPageLabel: "Kitap sayfasını aç",
@@ -56,6 +60,22 @@ const translations = {
 const state = {
   lang: localStorage.getItem("enk_lang") || "en",
 };
+
+const authorIcon = `
+  <svg class="bookclub-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+    <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z"></path>
+    <path d="M5 20a7 7 0 0 1 14 0"></path>
+  </svg>
+`;
+
+const moderatorIcon = `
+  <svg class="bookclub-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+    <rect x="9" y="3" width="6" height="10" rx="3"></rect>
+    <path d="M6.5 10.5a5.5 5.5 0 0 0 11 0"></path>
+    <path d="M12 16v5"></path>
+    <path d="M9 21h6"></path>
+  </svg>
+`;
 
 function getSharedLastUpdated() {
   const value = typeof siteData !== "undefined" ? siteData?.lastUpdated : "";
@@ -346,13 +366,15 @@ function renderBookClubPage() {
           ? (entry.book || entry.englishTitle)
           : (entry.englishTitle || entry.book);
       const authorText = Array.isArray(entry.authors) ? entry.authors.join(", ") : "";
-      const authorLine = authorText ? `<p class="journal-meta">${t("authorLabel")}: ${authorText}</p>` : "";
+      const authorLine = authorText
+        ? `<p class="journal-meta bookclub-meta-pill">${authorIcon}<span class="bookclub-meta-label">${t("authorLabel")}</span><span class="bookclub-meta-value">${authorText}</span></p>`
+        : "";
       const dateValue = formatBookClubDate(entry.date);
       const parsedDate = parseBookClubDate(entry.date);
       const fancyDate = parsedDate
-        ? `<div class="bookclub-date-stack"><p class="journal-meta bookclub-date-caption">${t("dateLabel")}</p><div class="bookclub-date-badge"><span class="bookclub-date-month">${dateValue}</span></div></div>`
+        ? `<div class="bookclub-date-stack"><div class="bookclub-date-badge"><span class="bookclub-date-month">${dateValue}</span></div></div>`
         : `<p class="journal-meta">${t("dateLabel")}: ${dateValue}</p>`;
-      const moderatorLine = `<p class="journal-meta">${t("moderatorLabel")}: ${entry.moderator || t("noModerator")}</p>`;
+      const moderatorLine = `<p class="journal-meta bookclub-meta-pill">${moderatorIcon}<span class="bookclub-meta-label">${t("moderatorLabel")}</span><span class="bookclub-meta-value">${entry.moderator || t("noModerator")}</span></p>`;
       const photoHtml = entry.photoUrl
         ? `<img class="bookclub-cover" src="${entry.photoUrl}" alt="${displayTitle} cover" loading="lazy" onerror="this.style.display='none'" />`
         : `<div class="bookclub-cover bookclub-cover-fallback">${t("noPhotoText")}</div>`;
@@ -361,9 +383,10 @@ function renderBookClubPage() {
           ? (entry.relatedBooksTr || entry.relatedBooks || [])
           : (entry.relatedBooksEn || entry.relatedBooks || []);
       const relatedBooks = Array.isArray(relatedBookList) && relatedBookList.length > 0
-        ? `<p class="journal-meta"><strong>${t("relatedBooksLabel")}:</strong> ${relatedBookList.join(", ")}</p>`
+        ? `<p class="journal-meta bookclub-related-books"><strong>${t("relatedBooksLabel")}:</strong> ${relatedBookList.join(", ")}</p>`
         : "";
-      const description = entry.description ? `<p class="journal-meta">${entry.description}</p>` : "";
+      const resolvedDescription = entry.description || (entry.isReadingHabits ? t("readingHabitsDescription") : "");
+      const description = resolvedDescription ? `<p class="journal-meta bookclub-description">${resolvedDescription}</p>` : "";
       const linkedBook = resolveBookEntryForClubItem(entry, bookLookup);
       const linkedBookHref = linkedBook ? `entry-detail.html?id=${encodeURIComponent(linkedBook.id)}&from=bookclub` : "";
       const linkedBookHtml = linkedBookHref
@@ -373,9 +396,12 @@ function renderBookClubPage() {
         <article class="bookclub-entry">
           ${photoHtml}
           <div class="bookclub-entry-body">
-            <h3>${displayTitle}</h3>
+            <div class="bookclub-entry-header">
+              <h3>${displayTitle}</h3>
+              ${parsedDate ? fancyDate : ""}
+            </div>
             ${authorLine}
-            ${fancyDate}
+            ${parsedDate ? "" : fancyDate}
             ${moderatorLine}
             ${description}
             ${relatedBooks}
