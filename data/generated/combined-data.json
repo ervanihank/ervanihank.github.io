@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-13",
-  "generatedAt": "2026-04-13T19:00:23.854994+00:00",
+  "lastUpdated": "2026-04-17",
+  "generatedAt": "2026-04-17T19:07:19.348930+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -99,6 +99,54 @@
           "library",
           "feride-cicekoglu",
           "turkey"
+        ]
+      }
+    },
+    {
+      "id": "ciceklenmeler-kesmez",
+      "type": "book",
+      "title": {
+        "en": "Çiçeklenmeler",
+        "tr": "Çiçeklenmeler"
+      },
+      "creator": "Melisa Kesmez",
+      "country": "turkey",
+      "countryLabel": {
+        "en": "Turkey",
+        "tr": "Turkey"
+      },
+      "year": "2025",
+      "readDate": "2026/04/16",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737107000i/223717285.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/223717285",
+      "bookClubUrl": null,
+      "rating": "2/5",
+      "note": {
+        "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+        "tr": "Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "melisa-kesmez",
+          "turkey",
+          "2025"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "melisa-kesmez",
+          "turkey",
+          "2025"
         ]
       }
     },
@@ -10307,6 +10355,53 @@
     }
   ],
   "films": [
+    {
+      "id": "it-ends-with-us-2024",
+      "type": "film",
+      "title": {
+        "en": "It Ends with Us",
+        "tr": "It Ends with Us"
+      },
+      "creator": "Justin Baldoni",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/ub/am/d6/6l/tqTBpCJ4IXew9auXmVGpBan2NPN-1200-1200-675-675-crop-000000.jpg?v=8e2fda32eb",
+      "letterboxdUrl": "https://boxd.it/e0LEFp",
+      "year": "2024",
+      "watchedDate": "2026-04-17",
+      "note": {
+        "en": "Watched on 2026-04-17. Rated 3/5.",
+        "tr": "2026-04-17 tarihinde izlendi. Puan: 3/5."
+      },
+      "rating": "3/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>“Why did you stay with him?”</p><p>“It should have been harder to leave.. and I love him.”</p><p>“Yeah, me, too.”</p><p>Honestly i don&#x27;t really know about the Colleen Hoover hate or the drama between Blake Lively and Justin baldoni. I just like finally seeing a woman choose to leave her abusive partner even though she still loves him. she didnt use &quot;but I love him&quot; excuse to stay and ruin her own life. She just chose herself instead, unlike her mother. That deserves 3 stars!</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "justin-baldoni",
+          "united-states",
+          "2024"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "justin-baldoni",
+          "united-states",
+          "2024"
+        ]
+      }
+    },
     {
       "id": "free-willy-1993",
       "type": "film",
@@ -47506,7 +47601,7 @@
       "nobel": "",
       "rating": "",
       "participants": "",
-      "photoUrl": "assets/images/bookclub/Becoming Myself.jpeg",
+      "photoUrl": null,
       "slug": "bir-psikiyatristin-anilari"
     },
     {
@@ -47881,6 +47976,54 @@
           "library",
           "feride-cicekoglu",
           "turkey"
+        ]
+      }
+    },
+    {
+      "id": "ciceklenmeler-kesmez",
+      "type": "book",
+      "title": {
+        "en": "Çiçeklenmeler",
+        "tr": "Çiçeklenmeler"
+      },
+      "creator": "Melisa Kesmez",
+      "country": "turkey",
+      "countryLabel": {
+        "en": "Turkey",
+        "tr": "Turkey"
+      },
+      "year": "2025",
+      "readDate": "2026/04/16",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737107000i/223717285.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/223717285",
+      "bookClubUrl": null,
+      "rating": "2/5",
+      "note": {
+        "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+        "tr": "Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "melisa-kesmez",
+          "turkey",
+          "2025"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "melisa-kesmez",
+          "turkey",
+          "2025"
         ]
       }
     },
@@ -58084,6 +58227,53 @@
           "peyami-safa",
           "turkey",
           "1968"
+        ]
+      }
+    },
+    {
+      "id": "it-ends-with-us-2024",
+      "type": "film",
+      "title": {
+        "en": "It Ends with Us",
+        "tr": "It Ends with Us"
+      },
+      "creator": "Justin Baldoni",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/ub/am/d6/6l/tqTBpCJ4IXew9auXmVGpBan2NPN-1200-1200-675-675-crop-000000.jpg?v=8e2fda32eb",
+      "letterboxdUrl": "https://boxd.it/e0LEFp",
+      "year": "2024",
+      "watchedDate": "2026-04-17",
+      "note": {
+        "en": "Watched on 2026-04-17. Rated 3/5.",
+        "tr": "2026-04-17 tarihinde izlendi. Puan: 3/5."
+      },
+      "rating": "3/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>“Why did you stay with him?”</p><p>“It should have been harder to leave.. and I love him.”</p><p>“Yeah, me, too.”</p><p>Honestly i don&#x27;t really know about the Colleen Hoover hate or the drama between Blake Lively and Justin baldoni. I just like finally seeing a woman choose to leave her abusive partner even though she still loves him. she didnt use &quot;but I love him&quot; excuse to stay and ruin her own life. She just chose herself instead, unlike her mother. That deserves 3 stars!</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "justin-baldoni",
+          "united-states",
+          "2024"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "justin-baldoni",
+          "united-states",
+          "2024"
         ]
       }
     },

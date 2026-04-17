@@ -48,6 +48,30 @@ def _latest(paths: Sequence[Path]) -> Optional[Path]:
     return max(items, key=lambda p: p.stat().st_mtime)
 
 
+def _extract_timestamp_from_name(path: Path) -> Optional[datetime]:
+    match = re.search(r"(\d{4}-\d{2}-\d{2}-\d{2}-\d{2})-utc(?:\.zip)?$", path.name)
+    if not match:
+        return None
+    try:
+        return datetime.strptime(match.group(1), "%Y-%m-%d-%H-%M")
+    except ValueError:
+        return None
+
+
+def _latest_by_embedded_timestamp(paths: Sequence[Path]) -> Optional[Path]:
+    items = [p for p in paths if p.exists()]
+    if not items:
+        return None
+
+    def sort_key(path: Path) -> tuple[int, datetime, float]:
+        embedded = _extract_timestamp_from_name(path)
+        if embedded is not None:
+            return (1, embedded, path.stat().st_mtime)
+        return (0, datetime.min, path.stat().st_mtime)
+
+    return max(items, key=sort_key)
+
+
 def _extract_zip(zip_path: Path, destination_root: Path) -> Path:
     target_dir = destination_root / zip_path.stem
     if target_dir.exists():
@@ -76,8 +100,18 @@ def _find_letterboxd_export_dir(base_dir: Path) -> Optional[Path]:
 
 
 def resolve_letterboxd_export_dir(use_zip: bool) -> Optional[Path]:
-    latest_dir = _latest([p for p in ROOT.glob("letterboxd-*") if p.is_dir()])
-    latest_zip = _latest([p for p in ROOT.glob("letterboxd-*.zip") if p.is_file()])
+    latest_dir = _latest_by_embedded_timestamp(
+        [
+            *[p for p in ROOT.glob("letterboxd-*") if p.is_dir()],
+            *[p for p in LETTERBOXD_IMPORT_DIR.glob("letterboxd-*") if p.is_dir()],
+        ]
+    )
+    latest_zip = _latest_by_embedded_timestamp(
+        [
+            *[p for p in ROOT.glob("letterboxd-*.zip") if p.is_file()],
+            *[p for p in LETTERBOXD_IMPORT_DIR.glob("letterboxd-*.zip") if p.is_file()],
+        ]
+    )
 
     if use_zip and latest_zip and (not latest_dir or latest_zip.stat().st_mtime >= latest_dir.stat().st_mtime):
         _log(f"Extracting Letterboxd zip: {latest_zip.name}")
@@ -97,7 +131,11 @@ def resolve_letterboxd_export_dir(use_zip: bool) -> Optional[Path]:
             for p in LETTERBOXD_IMPORT_DIR.glob("*")
             if p.is_dir() and _find_letterboxd_export_dir(p)
         ],
-        key=lambda p: p.stat().st_mtime,
+        key=lambda p: (
+            _extract_timestamp_from_name(p) is not None,
+            _extract_timestamp_from_name(p) or datetime.min,
+            p.stat().st_mtime,
+        ),
         reverse=True,
     )
     if extracted_candidates:

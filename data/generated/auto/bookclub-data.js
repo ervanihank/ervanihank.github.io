@@ -266,7 +266,7 @@ const bookClubEntries = [
     "nobel": "",
     "rating": "",
     "participants": "",
-    "photoUrl": "assets/images/bookclub/Becoming Myself.jpeg",
+    "photoUrl": null,
     "slug": "bir-psikiyatristin-anilari"
   },
   {

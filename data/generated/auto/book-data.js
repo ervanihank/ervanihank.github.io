@@ -1,8 +1,56 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-13T14:59:54.612421
+// Generated: 2026-04-17T15:07:19.279624
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
+  {
+    "id": "ciceklenmeler-kesmez",
+    "type": "book",
+    "title": {
+      "en": "Çiçeklenmeler",
+      "tr": "Çiçeklenmeler"
+    },
+    "creator": "Melisa Kesmez",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "year": "2025",
+    "readDate": "2026/04/16",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737107000i/223717285.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/223717285",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.",
+      "tr": "Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I only wrote my notes for this book in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Melisa Kesmez’den okuduğum ikinci kitap bu. Yazarın naif üslubu kesinlikle okuru bir yas hikayesinde bile sarıp sarmalıyor, insanı güvende hissettiriyor. Ama Çiçeklenmeler’deki o fazla zarif tesadüfler bende hikayenin inandırıcılığını zayıflatan bir duygu yarattı. Arka kapağıdan Türkan’ın yıllar süren alışkanlıklarından sıyrılıp yasıyla yaşamayı öğrenirken vereceği o sancılı mücadeleyi görmeyi beklemiştim. Onun yerine kendimi olayların hızla aktığı ve biraz da karavan estetiğiyle süslenmiş bir yol hikayesinin içinde buldum.<br/><br/>Hayatını bir adamı severek geçirmiş ve uzun süre o sevginin gölgesinde kalmış bir ruhun karavanıyla yollara düştüğü iyileşme hikayesi zaten yeterince klişeyken, bir de yolculuğun daha ilk durağında kendine yeni bir yol arkadaşı bulması ve bu arkadaşlığın güneşinde hemen çiçeklenmesi bana hayatın gerçeğinden uzak, fazla iyimser ve steril geldi. Türkan’ın iç sesini daha fazla duyabilseydik, bir kadına iyi gelen yol arkadaşı bir erkek değil de keşke bu sefer başka bir kadın olsaydı belki daha ikna edici ve çok daha samimi bir hikaye olurdu.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "melisa-kesmez",
+        "turkey",
+        "2025"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "melisa-kesmez",
+        "turkey",
+        "2025"
+      ]
+    }
+  },
   {
     "id": "kucuk-yuvarlak-taslar-kesmez",
     "type": "book",

@@ -37153,5 +37153,52 @@ const filmDiaryEntries = [
         "1993"
       ]
     }
+  },
+  {
+    "id": "it-ends-with-us-2024",
+    "type": "film",
+    "title": {
+      "en": "It Ends with Us",
+      "tr": "It Ends with Us"
+    },
+    "creator": "Justin Baldoni",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/ub/am/d6/6l/tqTBpCJ4IXew9auXmVGpBan2NPN-1200-1200-675-675-crop-000000.jpg?v=8e2fda32eb",
+    "letterboxdUrl": "https://boxd.it/e0LEFp",
+    "year": "2024",
+    "watchedDate": "2026-04-17",
+    "note": {
+      "en": "Watched on 2026-04-17. Rated 3/5.",
+      "tr": "2026-04-17 tarihinde izlendi. Puan: 3/5."
+    },
+    "rating": "3/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>\u201cWhy did you stay with him?\u201d</p><p>\u201cIt should have been harder to leave.. and I love him.\u201d</p><p>\u201cYeah, me, too.\u201d</p><p>Honestly i don&#x27;t really know about the Colleen Hoover hate or the drama between Blake Lively and Justin baldoni. I just like finally seeing a woman choose to leave her abusive partner even though she still loves him. she didnt use &quot;but I love him&quot; excuse to stay and ruin her own life. She just chose herself instead, unlike her mother. That deserves 3 stars!</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "justin-baldoni",
+        "united-states",
+        "2024"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "justin-baldoni",
+        "united-states",
+        "2024"
+      ]
+    }
   }
 ];
