@@ -37200,5 +37200,52 @@ const filmDiaryEntries = [
         "2024"
       ]
     }
+  },
+  {
+    "id": "the-drama-2026",
+    "type": "film",
+    "title": {
+      "en": "The Drama",
+      "tr": "The Drama"
+    },
+    "creator": "Kristoffer Borgli",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/6o/d7/gp/q6/5qzLJcwua0ETNYgGRIXu40i4lKK-1200-1200-675-675-crop-000000.jpg?v=75557b55bb",
+    "letterboxdUrl": "https://boxd.it/e2EtN7",
+    "year": "2026",
+    "watchedDate": "2026-04-19",
+    "note": {
+      "en": "Watched on 2026-04-19. Rated 4/5.",
+      "tr": "2026-04-19 tarihinde izlendi. Puan: 4/5."
+    },
+    "rating": "4/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>If you plan to see this with your partner clear your schedule for a 1 hour post-movie ethical discussion and a confession of the absolute worst thing you\u2019ve ever done.  Anddd... good luck to your relationship!</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "kristoffer-borgli",
+        "united-states",
+        "2026"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "kristoffer-borgli",
+        "united-states",
+        "2026"
+      ]
+    }
   }
 ];

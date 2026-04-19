@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-17T15:07:19.279624
+// Generated: 2026-04-19T16:17:44.781169
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
