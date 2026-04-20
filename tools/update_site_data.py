@@ -446,6 +446,10 @@ def main() -> int:
         f"unknown countries: {unknown_countries}, "
         f"missing covers: {missing_covers}"
     )
+    _log(
+        "Film quote rule: Letterboxd reviews wrapped in <blockquote> are imported into quotations "
+        'with straight quotes, not left inside diary notes.'
+    )
     if unknown_directors or unknown_countries or missing_covers:
         _log(
             "Update rule: if unknown metadata remains, rerun tools/generators/generate_film_dataset.py with latest Letterboxd export "

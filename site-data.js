@@ -2,8 +2,8 @@
 // Use tools/update_site_data.py or ./update_site_data.sh
 
 const siteData = {
-  "lastUpdated": "2026-04-19",
-  "generatedAt": "2026-04-19T20:17:44.853276+00:00",
+  "lastUpdated": "2026-04-20",
+  "generatedAt": "2026-04-20T17:22:57.932357+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -10359,6 +10359,57 @@ const siteData = {
   ],
   "films": [
     {
+      "id": "le-havre-2011",
+      "type": "film",
+      "title": {
+        "en": "Le Havre",
+        "tr": "Le Havre"
+      },
+      "creator": "Aki Kaurismäki",
+      "country": "finland",
+      "countryLabel": {
+        "en": "Finland",
+        "tr": "Finland"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/8a/v7/4y/7k/le-havre-1200-1200-675-675-crop-000000.jpg?v=dc5c474a42",
+      "letterboxdUrl": "https://boxd.it/e3odEv",
+      "year": "2011",
+      "watchedDate": "2026-04-20",
+      "note": {
+        "en": "Watched on 2026-04-20. Rated 3.5/5.",
+        "tr": "2026-04-20 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [
+          "\"- So there's no hope?\n\n- Miracles do happen.\n\n- Not in my neighbourhood.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "aki-kaurism-ki",
+          "finland",
+          "2011"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "aki-kaurism-ki",
+          "finland",
+          "2011"
+        ]
+      }
+    },
+    {
       "id": "the-drama-2026",
       "type": "film",
       "title": {
@@ -10606,7 +10657,7 @@ const siteData = {
         "en": "United States",
         "tr": "Amerika Birleşik Devletleri"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/dxead9",
       "year": "2006",
       "watchedDate": "2026-03-15",
@@ -10708,12 +10759,12 @@ const siteData = {
       },
       "rating": "4/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>No long-form note added for this movie yet.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin henuz uzun bir not eklenmedi.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
         "en": [
-          "I have so much strength in me. You have no idea. I have a love in my life. It makes me stronger than anything you can imagine."
+          "\"I have so much strength in me. You have no idea. I have a love in my life. It makes me stronger than anything you can imagine.\""
         ],
         "tr": [
           "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
@@ -11736,7 +11787,7 @@ const siteData = {
         "en": "Norway",
         "tr": "Norveç"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BNTMwMTk0Y2QtY2VhNy00OGYwLThkMjMtZjkwMGI3MTJiMjAyXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/c4mi13",
       "year": "2025",
       "watchedDate": "2025-12-15",
@@ -12627,7 +12678,7 @@ const siteData = {
         "en": "İran",
         "tr": "İran"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/bHR6R7",
       "year": "2025",
       "watchedDate": "2025-11-13",
@@ -12719,7 +12770,7 @@ const siteData = {
         "en": "France",
         "tr": "Fransa"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ0OTc4MDcxMl5BMl5BanBnXkFtZTgwNjIzMjA0NzE@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/bDwu9b",
       "year": "1965",
       "watchedDate": "2025-11-07",
@@ -13093,7 +13144,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzg3OTMyODQ1M15BMl5BanBnXkFtZTcwNjMwMTEwNw@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/b8ZAUL",
       "year": "2011",
       "watchedDate": "2025-09-22",
@@ -13477,12 +13528,16 @@ const siteData = {
       },
       "rating": "5/5",
       "essay": {
-        "en": "<h3>Diary Review</h3><p>&lt;blockquote&gt;“The first thing God created was the journey, then came doubt, and nostalgia.”&lt;/blockquote&gt;</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "\"The first thing God created was the journey, then came doubt, and nostalgia.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
       },
       "tags": {
         "en": [
@@ -14260,13 +14315,13 @@ const siteData = {
         "en": "Black Mirror: Bête Noire",
         "tr": "Black Mirror: Bête Noire"
       },
-      "creator": "Toby Haynes",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/fo/om/ya/i3/bete-1200-1200-675-675-crop-000000.jpg?v=16ebc7776d",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/U1VI",
       "year": "2025",
       "watchedDate": "2025-08-07",
@@ -14287,14 +14342,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "toby-haynes",
           "unknown",
           "2025"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "toby-haynes",
           "unknown",
           "2025"
         ]
@@ -14401,13 +14454,13 @@ const siteData = {
         "en": "Black Mirror: Fifteen Million Merits",
         "tr": "Black Mirror: Fifteen Million Merits"
       },
-      "creator": "Euros Lyn",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/id/7y/hu/1b/fifteen-1200-1200-675-675-crop-000000.jpg?v=08e365cd5f",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQYU",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -14428,14 +14481,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "euros-lyn",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "euros-lyn",
           "unknown",
           "2011"
         ]
@@ -14636,13 +14687,13 @@ const siteData = {
         "en": "Black Mirror: Nosedive",
         "tr": "Black Mirror: Nosedive"
       },
-      "creator": "Joe Wright",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/kx/u2/q6/gx/nosedive-1200-1200-675-675-crop-000000.jpg?v=cda4b6ee91",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hK9G",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -14663,14 +14714,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "joe-wright",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "joe-wright",
           "unknown",
           "2016"
         ]
@@ -14683,13 +14732,13 @@ const siteData = {
         "en": "Black Mirror: Playtest",
         "tr": "Black Mirror: Playtest"
       },
-      "creator": "Dan Trachtenberg",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/gj/17/3x/7y/playtest-1200-1200-675-675-crop-000000.jpg?v=472d06b604",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRR6",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -14710,14 +14759,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "dan-trachtenberg",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "dan-trachtenberg",
           "unknown",
           "2016"
         ]
@@ -14824,13 +14871,13 @@ const siteData = {
         "en": "Black Mirror: Shut Up and Dance",
         "tr": "Black Mirror: Shut Up and Dance"
       },
-      "creator": "James Watkins",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/yc/z4/79/re/shut%20up-1200-1200-675-675-crop-000000.jpg?v=fc9b0c6f04",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRRq",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -14851,14 +14898,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "james-watkins",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "james-watkins",
           "unknown",
           "2016"
         ]
@@ -14918,13 +14963,13 @@ const siteData = {
         "en": "Black Mirror: The Entire History of You",
         "tr": "Black Mirror: The Entire History of You"
       },
-      "creator": "Brian Welsh",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/cg/pa/7y/ia/entire-1200-1200-675-675-crop-000000.jpg?v=782a7b959a",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQZ4",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -14945,14 +14990,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "brian-welsh",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "brian-welsh",
           "unknown",
           "2011"
         ]
@@ -14965,13 +15008,13 @@ const siteData = {
         "en": "Black Mirror: The National Anthem",
         "tr": "Black Mirror: The National Anthem"
       },
-      "creator": "Otto Bathurst",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/5l/a7/wb/i0/national-1200-1200-675-675-crop-000000.jpg?v=449cb03539",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQYK",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -14992,14 +15035,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "otto-bathurst",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "otto-bathurst",
           "unknown",
           "2011"
         ]
@@ -15012,13 +15053,13 @@ const siteData = {
         "en": "Black Mirror: The Waldo Moment",
         "tr": "Black Mirror: The Waldo Moment"
       },
-      "creator": "Bryn Higgins",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/h8/i2/wy/q0/waldo-1200-1200-675-675-crop-000000.jpg?v=6581f55bf2",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRpQ",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -15039,14 +15080,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "bryn-higgins",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "bryn-higgins",
           "unknown",
           "2013"
         ]
@@ -15059,13 +15098,13 @@ const siteData = {
         "en": "Black Mirror: White Bear",
         "tr": "Black Mirror: White Bear"
       },
-      "creator": "Carl Tibbetts",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/et/zw/xv/rk/white%20bear-1200-1200-675-675-crop-000000.jpg?v=7eb2713764",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRpG",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -15086,14 +15125,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "carl-tibbetts",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "carl-tibbetts",
           "unknown",
           "2013"
         ]
@@ -15623,13 +15660,13 @@ const siteData = {
         "en": "Sen Bir Meleksin",
         "tr": "Sen Bir Meleksin"
       },
-      "creator": "Nejat Saydam",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/3/1/7/3/0/2/317302-sen-bir-meleksin-0-230-0-345-crop.jpg?v=3e7df467bf",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/djrK",
       "year": "1969",
       "watchedDate": "2025-08-07",
@@ -15650,14 +15687,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "nejat-saydam",
           "unknown",
           "1969"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "nejat-saydam",
           "unknown",
           "1969"
         ]
@@ -15999,13 +16034,13 @@ const siteData = {
         "en": "Water and Fire",
         "tr": "Water and Fire"
       },
-      "creator": "Özcan Deniz",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/9/5/2/7/5/195275-water-and-fire-0-230-0-345-crop.jpg?v=0e0e43ab92",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/8bZY",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -16026,14 +16061,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2013"
         ]
@@ -16093,13 +16126,13 @@ const siteData = {
         "en": "You're My Home",
         "tr": "You're My Home"
       },
-      "creator": "Özcan Deniz",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/1/2/108112-evim-sensin-0-230-0-345-crop.jpg?v=d58afddaa6",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/4xfq",
       "year": "2012",
       "watchedDate": "2025-08-07",
@@ -16120,14 +16153,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2012"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2012"
         ]
@@ -16146,7 +16177,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/6/8/5/0/6/3/685063-habil-qabil-0-230-0-345-crop.jpg?v=18454be9d2",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/sKa2",
       "year": "2003",
       "watchedDate": "2025-08-06",
@@ -18823,7 +18854,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/H9WI",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -18909,13 +18940,13 @@ const siteData = {
         "en": "Demirkırat: Crisis",
         "tr": "Demirkırat: Crisis"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/1/9/1029919-demirkrat-crisis-0-230-0-345-crop.jpg?v=18748a8c04",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HdhY",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -18936,14 +18967,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -19050,13 +19079,13 @@ const siteData = {
         "en": "Demirkırat: The Goverment",
         "tr": "Demirkırat: The Goverment"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/2/1/7/1029217-demirkrat-the-goverment-0-230-0-345-crop.jpg?v=7eebb13200",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HbsK",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -19077,14 +19106,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -19097,13 +19124,13 @@ const siteData = {
         "en": "Demirkırat: Victory",
         "tr": "Demirkırat: Victory"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/1/9/1/1029191-demirkrat-zafer-0-230-0-345-crop.jpg?v=a832a17cc1",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/Hboy",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -19124,14 +19151,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -19332,13 +19357,13 @@ const siteData = {
         "en": "Demirkırat: Fight",
         "tr": "Demirkırat: Fight"
       },
-      "creator": "Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/9/3/4/1028934-demirkrat-fight-0-230-0-345-crop.jpg?v=d7683642f6",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HaJ6",
       "year": "1991",
       "watchedDate": "2025-05-30",
@@ -19359,14 +19384,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -19714,7 +19737,7 @@ const siteData = {
         "en": "South Korea",
         "tr": "Güney Kore"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BN2NhZjcxYjItNDhlOC00Y2U2LWE4NDktMDJhNTQ1NzNjMmNmXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/9Cll45",
       "year": "2022",
       "watchedDate": "2025-05-05",
@@ -22401,12 +22424,16 @@ const siteData = {
       },
       "rating": "4/5",
       "essay": {
-        "en": "<h3>Diary Review</h3><p>&lt;blockquote&gt;I always knew. That it was too good to be true. That it couldn&#x27;t last. That life isn&#x27;t like that, life isn&#x27;t generous. You mustn&#x27;t love someone. You mustn&#x27;t become attached to someone. Life begrudges you that. It takes everything away from you and it laughs in your face. It betrays you.&lt;/blockquote&gt;</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "\"I always knew. That it was too good to be true. That it couldn't last. That life isn't like that, life isn't generous. You mustn't love someone. You mustn't become attached to someone. Life begrudges you that. It takes everything away from you and it laughs in your face. It betrays you.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
       },
       "tags": {
         "en": [
@@ -23989,7 +24016,7 @@ const siteData = {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ5ODMxNTIyNV5BMl5BanBnXkFtZTcwNjQ1ODgyNQ@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/5dfpGN",
       "year": "2010",
       "watchedDate": "2023-11-24",
@@ -24034,7 +24061,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzM5YTE1NDQtMDg0My00MTlmLTgwMjMtOGQyYzVjYmM3ZWQ1XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/5c6HJN",
       "year": "2023",
       "watchedDate": "2023-11-21",
@@ -24324,12 +24351,12 @@ const siteData = {
       },
       "rating": "4.5/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>No long-form note added for this movie yet.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin henuz uzun bir not eklenmedi.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
         "en": [
-          "Mountains and rivers can be moved but men's nature cannot be moved"
+          "\"Mountains and rivers can be moved but men's nature cannot be moved\""
         ],
         "tr": [
           "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
@@ -29394,7 +29421,7 @@ const siteData = {
         "en": "Ireland",
         "tr": "İrlanda"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BOTkzMWI4OTEtMTk0MS00MTUxLWI4NTYtYmRiNWM4Zjc1MGRhXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/3EUORb",
       "year": "2022",
       "watchedDate": "2023-01-07",
@@ -32541,7 +32568,7 @@ const siteData = {
         "en": "France",
         "tr": "Fransa"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BNWNkNzEyM2QtMmE1ZC00Zjg5LWE2MDUtYWFhNzE5ZTRhZWNlXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/2iUAnP",
       "year": "2021",
       "watchedDate": "2021-11-21",
@@ -32633,7 +32660,7 @@ const siteData = {
         "en": "United States",
         "tr": "Amerika Birleşik Devletleri"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMDBiNWZjZjUtODJiMC00OGEwLWIwYTItMDNmZjdmN2M3NjY0XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/2ggNIj",
       "year": "2021",
       "watchedDate": "2021-11-05",
@@ -34276,7 +34303,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYTY3N2IyMmMtMTViZC00NWI0LWEwMDEtNzEyNmFiNzQ4MWM3XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/24ZbZD",
       "year": "2019",
       "watchedDate": "2021-08-19",
@@ -34378,12 +34405,16 @@ const siteData = {
       },
       "rating": "3.5/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>I only wrote my notes for this movie in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>&lt;blockquote&gt;Çünkü biz aslında biraz da kaybettiklerimiziz&lt;/blockquote&gt;</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
+        ]
       },
       "tags": {
         "en": [
@@ -35543,7 +35574,7 @@ const siteData = {
         "en": "Canada",
         "tr": "Kanada"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYzY0Njg2OWMtYzA2My00NmJjLTk1ZDgtZDZhNTA4M2UzNDkwXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/1OKq1p",
       "year": "2020",
       "watchedDate": "2021-04-25",
@@ -39671,13 +39702,13 @@ const siteData = {
         "en": "Gênco",
         "tr": "Gênco"
       },
-      "creator": "Ali Kemal Çınar",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/2/3/9/1/412391-genco-0-230-0-345-crop.jpg?v=564839f69a",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hiOG",
       "year": "2017",
       "watchedDate": "2020-08-17",
@@ -39698,14 +39729,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "ali-kemal-nar",
           "unknown",
           "2017"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "ali-kemal-nar",
           "unknown",
           "2017"
         ]
@@ -58281,6 +58310,57 @@ const siteData = {
       }
     },
     {
+      "id": "le-havre-2011",
+      "type": "film",
+      "title": {
+        "en": "Le Havre",
+        "tr": "Le Havre"
+      },
+      "creator": "Aki Kaurismäki",
+      "country": "finland",
+      "countryLabel": {
+        "en": "Finland",
+        "tr": "Finland"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/8a/v7/4y/7k/le-havre-1200-1200-675-675-crop-000000.jpg?v=dc5c474a42",
+      "letterboxdUrl": "https://boxd.it/e3odEv",
+      "year": "2011",
+      "watchedDate": "2026-04-20",
+      "note": {
+        "en": "Watched on 2026-04-20. Rated 3.5/5.",
+        "tr": "2026-04-20 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [
+          "\"- So there's no hope?\n\n- Miracles do happen.\n\n- Not in my neighbourhood.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "aki-kaurism-ki",
+          "finland",
+          "2011"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "aki-kaurism-ki",
+          "finland",
+          "2011"
+        ]
+      }
+    },
+    {
       "id": "the-drama-2026",
       "type": "film",
       "title": {
@@ -58528,7 +58608,7 @@ const siteData = {
         "en": "United States",
         "tr": "Amerika Birleşik Devletleri"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/dxead9",
       "year": "2006",
       "watchedDate": "2026-03-15",
@@ -58630,12 +58710,12 @@ const siteData = {
       },
       "rating": "4/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>No long-form note added for this movie yet.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin henuz uzun bir not eklenmedi.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
         "en": [
-          "I have so much strength in me. You have no idea. I have a love in my life. It makes me stronger than anything you can imagine."
+          "\"I have so much strength in me. You have no idea. I have a love in my life. It makes me stronger than anything you can imagine.\""
         ],
         "tr": [
           "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
@@ -59658,7 +59738,7 @@ const siteData = {
         "en": "Norway",
         "tr": "Norveç"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BNTMwMTk0Y2QtY2VhNy00OGYwLThkMjMtZjkwMGI3MTJiMjAyXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/c4mi13",
       "year": "2025",
       "watchedDate": "2025-12-15",
@@ -60549,7 +60629,7 @@ const siteData = {
         "en": "İran",
         "tr": "İran"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/bHR6R7",
       "year": "2025",
       "watchedDate": "2025-11-13",
@@ -60641,7 +60721,7 @@ const siteData = {
         "en": "France",
         "tr": "Fransa"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ0OTc4MDcxMl5BMl5BanBnXkFtZTgwNjIzMjA0NzE@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/bDwu9b",
       "year": "1965",
       "watchedDate": "2025-11-07",
@@ -61015,7 +61095,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzg3OTMyODQ1M15BMl5BanBnXkFtZTcwNjMwMTEwNw@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/b8ZAUL",
       "year": "2011",
       "watchedDate": "2025-09-22",
@@ -61399,12 +61479,16 @@ const siteData = {
       },
       "rating": "5/5",
       "essay": {
-        "en": "<h3>Diary Review</h3><p>&lt;blockquote&gt;“The first thing God created was the journey, then came doubt, and nostalgia.”&lt;/blockquote&gt;</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "\"The first thing God created was the journey, then came doubt, and nostalgia.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
       },
       "tags": {
         "en": [
@@ -62182,13 +62266,13 @@ const siteData = {
         "en": "Black Mirror: Bête Noire",
         "tr": "Black Mirror: Bête Noire"
       },
-      "creator": "Toby Haynes",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/fo/om/ya/i3/bete-1200-1200-675-675-crop-000000.jpg?v=16ebc7776d",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/U1VI",
       "year": "2025",
       "watchedDate": "2025-08-07",
@@ -62209,14 +62293,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "toby-haynes",
           "unknown",
           "2025"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "toby-haynes",
           "unknown",
           "2025"
         ]
@@ -62323,13 +62405,13 @@ const siteData = {
         "en": "Black Mirror: Fifteen Million Merits",
         "tr": "Black Mirror: Fifteen Million Merits"
       },
-      "creator": "Euros Lyn",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/id/7y/hu/1b/fifteen-1200-1200-675-675-crop-000000.jpg?v=08e365cd5f",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQYU",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -62350,14 +62432,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "euros-lyn",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "euros-lyn",
           "unknown",
           "2011"
         ]
@@ -62558,13 +62638,13 @@ const siteData = {
         "en": "Black Mirror: Nosedive",
         "tr": "Black Mirror: Nosedive"
       },
-      "creator": "Joe Wright",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/kx/u2/q6/gx/nosedive-1200-1200-675-675-crop-000000.jpg?v=cda4b6ee91",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hK9G",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -62585,14 +62665,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "joe-wright",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "joe-wright",
           "unknown",
           "2016"
         ]
@@ -62605,13 +62683,13 @@ const siteData = {
         "en": "Black Mirror: Playtest",
         "tr": "Black Mirror: Playtest"
       },
-      "creator": "Dan Trachtenberg",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/gj/17/3x/7y/playtest-1200-1200-675-675-crop-000000.jpg?v=472d06b604",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRR6",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -62632,14 +62710,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "dan-trachtenberg",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "dan-trachtenberg",
           "unknown",
           "2016"
         ]
@@ -62746,13 +62822,13 @@ const siteData = {
         "en": "Black Mirror: Shut Up and Dance",
         "tr": "Black Mirror: Shut Up and Dance"
       },
-      "creator": "James Watkins",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/yc/z4/79/re/shut%20up-1200-1200-675-675-crop-000000.jpg?v=fc9b0c6f04",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRRq",
       "year": "2016",
       "watchedDate": "2025-08-07",
@@ -62773,14 +62849,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "james-watkins",
           "unknown",
           "2016"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "james-watkins",
           "unknown",
           "2016"
         ]
@@ -62840,13 +62914,13 @@ const siteData = {
         "en": "Black Mirror: The Entire History of You",
         "tr": "Black Mirror: The Entire History of You"
       },
-      "creator": "Brian Welsh",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/cg/pa/7y/ia/entire-1200-1200-675-675-crop-000000.jpg?v=782a7b959a",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQZ4",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -62867,14 +62941,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "brian-welsh",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "brian-welsh",
           "unknown",
           "2011"
         ]
@@ -62887,13 +62959,13 @@ const siteData = {
         "en": "Black Mirror: The National Anthem",
         "tr": "Black Mirror: The National Anthem"
       },
-      "creator": "Otto Bathurst",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/5l/a7/wb/i0/national-1200-1200-675-675-crop-000000.jpg?v=449cb03539",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hQYK",
       "year": "2011",
       "watchedDate": "2025-08-07",
@@ -62914,14 +62986,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "otto-bathurst",
           "unknown",
           "2011"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "otto-bathurst",
           "unknown",
           "2011"
         ]
@@ -62934,13 +63004,13 @@ const siteData = {
         "en": "Black Mirror: The Waldo Moment",
         "tr": "Black Mirror: The Waldo Moment"
       },
-      "creator": "Bryn Higgins",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/h8/i2/wy/q0/waldo-1200-1200-675-675-crop-000000.jpg?v=6581f55bf2",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRpQ",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -62961,14 +63031,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "bryn-higgins",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "bryn-higgins",
           "unknown",
           "2013"
         ]
@@ -62981,13 +63049,13 @@ const siteData = {
         "en": "Black Mirror: White Bear",
         "tr": "Black Mirror: White Bear"
       },
-      "creator": "Carl Tibbetts",
+      "creator": "Unknown",
       "country": "unitedKingdom",
       "countryLabel": {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/et/zw/xv/rk/white%20bear-1200-1200-675-675-crop-000000.jpg?v=7eb2713764",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hRpG",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -63008,14 +63076,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "carl-tibbetts",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "carl-tibbetts",
           "unknown",
           "2013"
         ]
@@ -63545,13 +63611,13 @@ const siteData = {
         "en": "Sen Bir Meleksin",
         "tr": "Sen Bir Meleksin"
       },
-      "creator": "Nejat Saydam",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/3/1/7/3/0/2/317302-sen-bir-meleksin-0-230-0-345-crop.jpg?v=3e7df467bf",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/djrK",
       "year": "1969",
       "watchedDate": "2025-08-07",
@@ -63572,14 +63638,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "nejat-saydam",
           "unknown",
           "1969"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "nejat-saydam",
           "unknown",
           "1969"
         ]
@@ -63921,13 +63985,13 @@ const siteData = {
         "en": "Water and Fire",
         "tr": "Water and Fire"
       },
-      "creator": "Özcan Deniz",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/9/5/2/7/5/195275-water-and-fire-0-230-0-345-crop.jpg?v=0e0e43ab92",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/8bZY",
       "year": "2013",
       "watchedDate": "2025-08-07",
@@ -63948,14 +64012,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2013"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2013"
         ]
@@ -64015,13 +64077,13 @@ const siteData = {
         "en": "You're My Home",
         "tr": "You're My Home"
       },
-      "creator": "Özcan Deniz",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/1/2/108112-evim-sensin-0-230-0-345-crop.jpg?v=d58afddaa6",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/4xfq",
       "year": "2012",
       "watchedDate": "2025-08-07",
@@ -64042,14 +64104,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2012"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "zcan-deniz",
           "unknown",
           "2012"
         ]
@@ -64068,7 +64128,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/6/8/5/0/6/3/685063-habil-qabil-0-230-0-345-crop.jpg?v=18454be9d2",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/sKa2",
       "year": "2003",
       "watchedDate": "2025-08-06",
@@ -66745,7 +66805,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/H9WI",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -66831,13 +66891,13 @@ const siteData = {
         "en": "Demirkırat: Crisis",
         "tr": "Demirkırat: Crisis"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/1/9/1029919-demirkrat-crisis-0-230-0-345-crop.jpg?v=18748a8c04",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HdhY",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -66858,14 +66918,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -66972,13 +67030,13 @@ const siteData = {
         "en": "Demirkırat: The Goverment",
         "tr": "Demirkırat: The Goverment"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/2/1/7/1029217-demirkrat-the-goverment-0-230-0-345-crop.jpg?v=7eebb13200",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HbsK",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -66999,14 +67057,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -67019,13 +67075,13 @@ const siteData = {
         "en": "Demirkırat: Victory",
         "tr": "Demirkırat: Victory"
       },
-      "creator": "Can Dündar, Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/1/9/1/1029191-demirkrat-zafer-0-230-0-345-crop.jpg?v=a832a17cc1",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/Hboy",
       "year": "1991",
       "watchedDate": "2025-06-02",
@@ -67046,14 +67102,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "can-d-ndar-b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -67254,13 +67308,13 @@ const siteData = {
         "en": "Demirkırat: Fight",
         "tr": "Demirkırat: Fight"
       },
-      "creator": "Bülent Çaplı",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/9/3/4/1028934-demirkrat-fight-0-230-0-345-crop.jpg?v=d7683642f6",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/HaJ6",
       "year": "1991",
       "watchedDate": "2025-05-30",
@@ -67281,14 +67335,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "b-lent-apl",
           "unknown",
           "1991"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "b-lent-apl",
           "unknown",
           "1991"
         ]
@@ -67636,7 +67688,7 @@ const siteData = {
         "en": "South Korea",
         "tr": "Güney Kore"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BN2NhZjcxYjItNDhlOC00Y2U2LWE4NDktMDJhNTQ1NzNjMmNmXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/9Cll45",
       "year": "2022",
       "watchedDate": "2025-05-05",
@@ -70323,12 +70375,16 @@ const siteData = {
       },
       "rating": "4/5",
       "essay": {
-        "en": "<h3>Diary Review</h3><p>&lt;blockquote&gt;I always knew. That it was too good to be true. That it couldn&#x27;t last. That life isn&#x27;t like that, life isn&#x27;t generous. You mustn&#x27;t love someone. You mustn&#x27;t become attached to someone. Life begrudges you that. It takes everything away from you and it laughs in your face. It betrays you.&lt;/blockquote&gt;</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "\"I always knew. That it was too good to be true. That it couldn't last. That life isn't like that, life isn't generous. You mustn't love someone. You mustn't become attached to someone. Life begrudges you that. It takes everything away from you and it laughs in your face. It betrays you.\""
+        ],
+        "tr": [
+          "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+        ]
       },
       "tags": {
         "en": [
@@ -71911,7 +71967,7 @@ const siteData = {
         "en": "United Kingdom",
         "tr": "Birleşik Krallık"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ5ODMxNTIyNV5BMl5BanBnXkFtZTcwNjQ1ODgyNQ@@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/5dfpGN",
       "year": "2010",
       "watchedDate": "2023-11-24",
@@ -71956,7 +72012,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzM5YTE1NDQtMDg0My00MTlmLTgwMjMtOGQyYzVjYmM3ZWQ1XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/5c6HJN",
       "year": "2023",
       "watchedDate": "2023-11-21",
@@ -72246,12 +72302,12 @@ const siteData = {
       },
       "rating": "4.5/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>No long-form note added for this movie yet.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin henuz uzun bir not eklenmedi.</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
         "en": [
-          "Mountains and rivers can be moved but men's nature cannot be moved"
+          "\"Mountains and rivers can be moved but men's nature cannot be moved\""
         ],
         "tr": [
           "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
@@ -77316,7 +77372,7 @@ const siteData = {
         "en": "Ireland",
         "tr": "İrlanda"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BOTkzMWI4OTEtMTk0MS00MTUxLWI4NTYtYmRiNWM4Zjc1MGRhXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/3EUORb",
       "year": "2022",
       "watchedDate": "2023-01-07",
@@ -80463,7 +80519,7 @@ const siteData = {
         "en": "France",
         "tr": "Fransa"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BNWNkNzEyM2QtMmE1ZC00Zjg5LWE2MDUtYWFhNzE5ZTRhZWNlXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/2iUAnP",
       "year": "2021",
       "watchedDate": "2021-11-21",
@@ -80555,7 +80611,7 @@ const siteData = {
         "en": "United States",
         "tr": "Amerika Birleşik Devletleri"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BMDBiNWZjZjUtODJiMC00OGEwLWIwYTItMDNmZjdmN2M3NjY0XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/2ggNIj",
       "year": "2021",
       "watchedDate": "2021-11-05",
@@ -82198,7 +82254,7 @@ const siteData = {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYTY3N2IyMmMtMTViZC00NWI0LWEwMDEtNzEyNmFiNzQ4MWM3XkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/24ZbZD",
       "year": "2019",
       "watchedDate": "2021-08-19",
@@ -82300,12 +82356,16 @@ const siteData = {
       },
       "rating": "3.5/5",
       "essay": {
-        "en": "<h3>Diary Note</h3><p>I only wrote my notes for this movie in Turkish and preferred not to force an English translation. Please check the Turkish version.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>&lt;blockquote&gt;Çünkü biz aslında biraz da kaybettiklerimiziz&lt;/blockquote&gt;</p>"
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
       },
       "quotes": {
-        "en": [],
-        "tr": []
+        "en": [
+          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
+        ]
       },
       "tags": {
         "en": [
@@ -83465,7 +83525,7 @@ const siteData = {
         "en": "Canada",
         "tr": "Kanada"
       },
-      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYzY0Njg2OWMtYzA2My00NmJjLTk1ZDgtZDZhNTA4M2UzNDkwXkEyXkFqcGc@._V1_.jpg",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/1OKq1p",
       "year": "2020",
       "watchedDate": "2021-04-25",
@@ -87593,13 +87653,13 @@ const siteData = {
         "en": "Gênco",
         "tr": "Gênco"
       },
-      "creator": "Ali Kemal Çınar",
+      "creator": "Unknown",
       "country": "turkey",
       "countryLabel": {
         "en": "Turkey",
         "tr": "Türkiye"
       },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/2/3/9/1/412391-genco-0-230-0-345-crop.jpg?v=564839f69a",
+      "coverUrl": null,
       "letterboxdUrl": "https://boxd.it/hiOG",
       "year": "2017",
       "watchedDate": "2020-08-17",
@@ -87620,14 +87680,12 @@ const siteData = {
         "en": [
           "letterboxd",
           "watched",
-          "ali-kemal-nar",
           "unknown",
           "2017"
         ],
         "tr": [
           "letterboxd",
           "watched",
-          "ali-kemal-nar",
           "unknown",
           "2017"
         ]

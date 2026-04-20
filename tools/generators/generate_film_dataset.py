@@ -24,6 +24,7 @@ TR_NOTE_EN_ONLY = (
 )
 EN_QUOTE_TR_ONLY = "I only kept quotations for this movie in Turkish. Please check the Turkish version."
 TR_QUOTE_EN_ONLY = "Bu film icin alintilari sadece Ingilizce tuttum. Lutfen Ingilizce versiyona bakiniz."
+BLOCKQUOTE_RE = re.compile(r"<blockquote>(.*?)</blockquote>", re.I | re.S)
 
 
 def load_js_array(path, variable_name):
@@ -173,6 +174,14 @@ def clean_review(text):
     return re.sub(r"\n{3,}", "\n\n", value)
 
 
+def strip_html_tags(text):
+    value = html.unescape(text or "")
+    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.I)
+    value = re.sub(r"</p\s*>", "\n\n", value, flags=re.I)
+    value = re.sub(r"<[^>]+>", "", value)
+    return clean_review(value)
+
+
 def is_likely_turkish_text(text):
     value = (text or "").strip()
     if not value:
@@ -197,13 +206,34 @@ def is_quotation(text):
     )
 
 
-def extract_quotation(text):
-    value = clean_review(text)
-    if not is_quotation(value):
-        return value
+def normalize_quotation_text(text):
+    value = strip_html_tags(text)
+    if not value:
+        return ""
     if (value.startswith('"') and value.endswith('"')) or (value.startswith("“") and value.endswith("”")):
-        return value[1:-1].strip()
-    return value
+        value = value[1:-1].strip()
+    return f'"{value}"'
+
+
+def extract_review_parts(text):
+    raw = clean_review(text)
+    if not raw:
+        return "", []
+
+    quote_values = [normalize_quotation_text(match) for match in BLOCKQUOTE_RE.findall(raw)]
+    quote_values = [value for value in quote_values if value]
+    note_text = strip_html_tags(BLOCKQUOTE_RE.sub("", raw))
+
+    if not quote_values and is_quotation(note_text):
+        quote_values = [normalize_quotation_text(note_text)]
+        note_text = ""
+
+    return note_text, quote_values
+
+
+def extract_quotation(text):
+    value = normalize_quotation_text(text)
+    return value[1:-1] if value.startswith('"') and value.endswith('"') else value
 
 
 def review_to_html(text):
@@ -627,27 +657,26 @@ def build_entries(films, reviews, metadata):
             ("Unknown", "unknown", "Unknown", None),
         )
         review_text = (reviews.get(key) or {}).get("text", "").strip()
+        review_note_text, review_quote_values = extract_review_parts(review_text)
         is_turkish_review = is_likely_turkish_text(review_text)
 
-        if review_text and is_quotation(review_text):
-            quote_source = [extract_quotation(review_text)]
-            if is_turkish_review:
-                quote_values_en = [EN_QUOTE_TR_ONLY]
-                quote_values_tr = quote_source
-            else:
-                quote_values_en = quote_source
-                quote_values_tr = [TR_QUOTE_EN_ONLY]
-            essay_en = "<h3>Diary Note</h3><p>No long-form note added for this movie yet.</p>"
-            essay_tr = "<h3>Gunluk Notu</h3><p>Bu film icin henuz uzun bir not eklenmedi.</p>"
-        elif review_text:
+        if review_note_text:
             if is_turkish_review:
                 essay_en = f"<h3>Diary Note</h3><p>{EN_NOTE_TR_ONLY}</p>"
-                essay_tr = review_to_html(review_text).replace("Diary Review", "Gunluk Notu")
+                essay_tr = review_to_html(review_note_text).replace("Diary Review", "Gunluk Notu")
             else:
-                essay_en = review_to_html(review_text)
+                essay_en = review_to_html(review_note_text)
                 essay_tr = f"<h3>Gunluk Notu</h3><p>{TR_NOTE_EN_ONLY}</p>"
-            quote_values_en = []
-            quote_values_tr = []
+        elif review_quote_values:
+            essay_en = (
+                "<h3>Diary Note</h3>"
+                "<p>I haven't taken notes on this film. "
+                "I am keeping this entry as a memory marker in my viewing journey.</p>"
+            )
+            essay_tr = (
+                "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. "
+                "Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+            )
         else:
             essay_en = (
                 "<h3>Diary Note</h3>"
@@ -658,6 +687,14 @@ def build_entries(films, reviews, metadata):
                 "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. "
                 "Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
             )
+        if review_quote_values:
+            if is_turkish_review:
+                quote_values_en = [EN_QUOTE_TR_ONLY]
+                quote_values_tr = review_quote_values
+            else:
+                quote_values_en = review_quote_values
+                quote_values_tr = [TR_QUOTE_EN_ONLY]
+        else:
             quote_values_en = []
             quote_values_tr = []
 
@@ -737,7 +774,12 @@ def main():
 
     entries = build_entries(films, reviews, metadata)
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("const filmDiaryEntries = " + json.dumps(entries, ensure_ascii=True, indent=2) + ";\n", encoding="utf-8")
+    OUT.write_text(
+        "// Auto-generated film dataset. Re-run generate_film_dataset.py to update.\n"
+        "// Letterboxd blockquote reviews are imported into quotations with straight quotes.\n"
+        "const filmDiaryEntries = " + json.dumps(entries, ensure_ascii=True, indent=2) + ";\n",
+        encoding="utf-8",
+    )
     print(f"Source export: {export_dir}")
     print(f"Reused metadata for {reused_count} existing films; fetched {len(pending_values)} film metadata records")
     print(f"Wrote {len(entries)} entries to {OUT}")
