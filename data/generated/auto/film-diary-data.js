@@ -6165,13 +6165,13 @@ const filmDiaryEntries = [
       "en": "G\u00eanco",
       "tr": "G\u00eanco"
     },
-    "creator": "Unknown",
+    "creator": "Ali Kemal \u00c7\u0131nar",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/4/1/2/3/9/1/412391-genco-0-230-0-345-crop.jpg?v=564839f69a",
     "letterboxdUrl": "https://boxd.it/hiOG",
     "year": "2017",
     "watchedDate": "2020-08-17",
@@ -6192,12 +6192,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "ali-kemal-nar",
         "unknown",
         "2017"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "ali-kemal-nar",
         "unknown",
         "2017"
       ]
@@ -11997,7 +11999,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BYzY0Njg2OWMtYzA2My00NmJjLTk1ZDgtZDZhNTA4M2UzNDkwXkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/1OKq1p",
     "year": "2020",
     "watchedDate": "2021-04-25",
@@ -13268,7 +13270,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BYTY3N2IyMmMtMTViZC00NWI0LWEwMDEtNzEyNmFiNzQ4MWM3XkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/24ZbZD",
     "year": "2019",
     "watchedDate": "2021-08-19",
@@ -14958,7 +14960,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMDBiNWZjZjUtODJiMC00OGEwLWIwYTItMDNmZjdmN2M3NjY0XkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/2ggNIj",
     "year": "2021",
     "watchedDate": "2021-11-05",
@@ -15144,7 +15146,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNWNkNzEyM2QtMmE1ZC00Zjg5LWE2MDUtYWFhNzE5ZTRhZWNlXkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/2iUAnP",
     "year": "2021",
     "watchedDate": "2021-11-21",
@@ -18197,7 +18199,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BOTkzMWI4OTEtMTk0MS00MTUxLWI4NTYtYmRiNWM4Zjc1MGRhXkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/3EUORb",
     "year": "2022",
     "watchedDate": "2023-01-07",
@@ -23557,7 +23559,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzM5YTE1NDQtMDg0My00MTlmLTgwMjMtOGQyYzVjYmM3ZWQ1XkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/5c6HJN",
     "year": "2023",
     "watchedDate": "2023-11-21",
@@ -23649,7 +23651,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ5ODMxNTIyNV5BMl5BanBnXkFtZTcwNjQ1ODgyNQ@@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/5dfpGN",
     "year": "2010",
     "watchedDate": "2023-11-24",
@@ -27881,7 +27883,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BN2NhZjcxYjItNDhlOC00Y2U2LWE4NDktMDJhNTQ1NzNjMmNmXkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/9Cll45",
     "year": "2022",
     "watchedDate": "2025-05-05",
@@ -28296,13 +28298,13 @@ const filmDiaryEntries = [
       "en": "Demirk\u0131rat: Fight",
       "tr": "Demirk\u0131rat: Fight"
     },
-    "creator": "Unknown",
+    "creator": "B\u00fclent \u00c7apl\u0131",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/9/3/4/1028934-demirkrat-fight-0-230-0-345-crop.jpg?v=d7683642f6",
     "letterboxdUrl": "https://boxd.it/HaJ6",
     "year": "1991",
     "watchedDate": "2025-05-30",
@@ -28323,12 +28325,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "b-lent-apl",
         "unknown",
         "1991"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "b-lent-apl",
         "unknown",
         "1991"
       ]
@@ -28535,7 +28539,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
     "letterboxdUrl": "https://boxd.it/H9WI",
     "year": "1991",
     "watchedDate": "2025-06-02",
@@ -28621,13 +28625,13 @@ const filmDiaryEntries = [
       "en": "Demirk\u0131rat: Crisis",
       "tr": "Demirk\u0131rat: Crisis"
     },
-    "creator": "Unknown",
+    "creator": "Can D\u00fcndar, B\u00fclent \u00c7apl\u0131",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/1/9/1029919-demirkrat-crisis-0-230-0-345-crop.jpg?v=18748a8c04",
     "letterboxdUrl": "https://boxd.it/HdhY",
     "year": "1991",
     "watchedDate": "2025-06-02",
@@ -28648,12 +28652,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ]
@@ -28760,13 +28766,13 @@ const filmDiaryEntries = [
       "en": "Demirk\u0131rat: The Goverment",
       "tr": "Demirk\u0131rat: The Goverment"
     },
-    "creator": "Unknown",
+    "creator": "Can D\u00fcndar, B\u00fclent \u00c7apl\u0131",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/2/1/7/1029217-demirkrat-the-goverment-0-230-0-345-crop.jpg?v=7eebb13200",
     "letterboxdUrl": "https://boxd.it/HbsK",
     "year": "1991",
     "watchedDate": "2025-06-02",
@@ -28787,12 +28793,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ]
@@ -28805,13 +28813,13 @@ const filmDiaryEntries = [
       "en": "Demirk\u0131rat: Victory",
       "tr": "Demirk\u0131rat: Victory"
     },
-    "creator": "Unknown",
+    "creator": "Can D\u00fcndar, B\u00fclent \u00c7apl\u0131",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/1/9/1/1029191-demirkrat-zafer-0-230-0-345-crop.jpg?v=a832a17cc1",
     "letterboxdUrl": "https://boxd.it/Hboy",
     "year": "1991",
     "watchedDate": "2025-06-02",
@@ -28832,12 +28840,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "can-d-ndar-b-lent-apl",
         "unknown",
         "1991"
       ]
@@ -31441,7 +31451,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/6/8/5/0/6/3/685063-habil-qabil-0-230-0-345-crop.jpg?v=18454be9d2",
     "letterboxdUrl": "https://boxd.it/sKa2",
     "year": "2003",
     "watchedDate": "2025-08-06",
@@ -31762,13 +31772,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: B\u00eate Noire",
       "tr": "Black Mirror: B\u00eate Noire"
     },
-    "creator": "Unknown",
+    "creator": "Toby Haynes",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/fo/om/ya/i3/bete-1200-1200-675-675-crop-000000.jpg?v=16ebc7776d",
     "letterboxdUrl": "https://boxd.it/U1VI",
     "year": "2025",
     "watchedDate": "2025-08-07",
@@ -31789,12 +31799,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "toby-haynes",
         "unknown",
         "2025"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "toby-haynes",
         "unknown",
         "2025"
       ]
@@ -31901,13 +31913,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: Fifteen Million Merits",
       "tr": "Black Mirror: Fifteen Million Merits"
     },
-    "creator": "Unknown",
+    "creator": "Euros Lyn",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/id/7y/hu/1b/fifteen-1200-1200-675-675-crop-000000.jpg?v=08e365cd5f",
     "letterboxdUrl": "https://boxd.it/hQYU",
     "year": "2011",
     "watchedDate": "2025-08-07",
@@ -31928,12 +31940,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "euros-lyn",
         "unknown",
         "2011"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "euros-lyn",
         "unknown",
         "2011"
       ]
@@ -32134,13 +32148,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: Nosedive",
       "tr": "Black Mirror: Nosedive"
     },
-    "creator": "Unknown",
+    "creator": "Joe Wright",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/kx/u2/q6/gx/nosedive-1200-1200-675-675-crop-000000.jpg?v=cda4b6ee91",
     "letterboxdUrl": "https://boxd.it/hK9G",
     "year": "2016",
     "watchedDate": "2025-08-07",
@@ -32161,12 +32175,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "joe-wright",
         "unknown",
         "2016"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "joe-wright",
         "unknown",
         "2016"
       ]
@@ -32179,13 +32195,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: Playtest",
       "tr": "Black Mirror: Playtest"
     },
-    "creator": "Unknown",
+    "creator": "Dan Trachtenberg",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/gj/17/3x/7y/playtest-1200-1200-675-675-crop-000000.jpg?v=472d06b604",
     "letterboxdUrl": "https://boxd.it/hRR6",
     "year": "2016",
     "watchedDate": "2025-08-07",
@@ -32206,12 +32222,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "dan-trachtenberg",
         "unknown",
         "2016"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "dan-trachtenberg",
         "unknown",
         "2016"
       ]
@@ -32318,13 +32336,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: Shut Up and Dance",
       "tr": "Black Mirror: Shut Up and Dance"
     },
-    "creator": "Unknown",
+    "creator": "James Watkins",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/yc/z4/79/re/shut%20up-1200-1200-675-675-crop-000000.jpg?v=fc9b0c6f04",
     "letterboxdUrl": "https://boxd.it/hRRq",
     "year": "2016",
     "watchedDate": "2025-08-07",
@@ -32345,12 +32363,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "james-watkins",
         "unknown",
         "2016"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "james-watkins",
         "unknown",
         "2016"
       ]
@@ -32410,13 +32430,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: The Entire History of You",
       "tr": "Black Mirror: The Entire History of You"
     },
-    "creator": "Unknown",
+    "creator": "Brian Welsh",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/cg/pa/7y/ia/entire-1200-1200-675-675-crop-000000.jpg?v=782a7b959a",
     "letterboxdUrl": "https://boxd.it/hQZ4",
     "year": "2011",
     "watchedDate": "2025-08-07",
@@ -32437,12 +32457,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "brian-welsh",
         "unknown",
         "2011"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "brian-welsh",
         "unknown",
         "2011"
       ]
@@ -32455,13 +32477,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: The National Anthem",
       "tr": "Black Mirror: The National Anthem"
     },
-    "creator": "Unknown",
+    "creator": "Otto Bathurst",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/5l/a7/wb/i0/national-1200-1200-675-675-crop-000000.jpg?v=449cb03539",
     "letterboxdUrl": "https://boxd.it/hQYK",
     "year": "2011",
     "watchedDate": "2025-08-07",
@@ -32482,12 +32504,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "otto-bathurst",
         "unknown",
         "2011"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "otto-bathurst",
         "unknown",
         "2011"
       ]
@@ -32500,13 +32524,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: The Waldo Moment",
       "tr": "Black Mirror: The Waldo Moment"
     },
-    "creator": "Unknown",
+    "creator": "Bryn Higgins",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/h8/i2/wy/q0/waldo-1200-1200-675-675-crop-000000.jpg?v=6581f55bf2",
     "letterboxdUrl": "https://boxd.it/hRpQ",
     "year": "2013",
     "watchedDate": "2025-08-07",
@@ -32527,12 +32551,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "bryn-higgins",
         "unknown",
         "2013"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "bryn-higgins",
         "unknown",
         "2013"
       ]
@@ -32545,13 +32571,13 @@ const filmDiaryEntries = [
       "en": "Black Mirror: White Bear",
       "tr": "Black Mirror: White Bear"
     },
-    "creator": "Unknown",
+    "creator": "Carl Tibbetts",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/et/zw/xv/rk/white%20bear-1200-1200-675-675-crop-000000.jpg?v=7eb2713764",
     "letterboxdUrl": "https://boxd.it/hRpG",
     "year": "2013",
     "watchedDate": "2025-08-07",
@@ -32572,12 +32598,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "carl-tibbetts",
         "unknown",
         "2013"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "carl-tibbetts",
         "unknown",
         "2013"
       ]
@@ -33107,13 +33135,13 @@ const filmDiaryEntries = [
       "en": "Sen Bir Meleksin",
       "tr": "Sen Bir Meleksin"
     },
-    "creator": "Unknown",
+    "creator": "Nejat Saydam",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/3/1/7/3/0/2/317302-sen-bir-meleksin-0-230-0-345-crop.jpg?v=3e7df467bf",
     "letterboxdUrl": "https://boxd.it/djrK",
     "year": "1969",
     "watchedDate": "2025-08-07",
@@ -33134,12 +33162,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "nejat-saydam",
         "unknown",
         "1969"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "nejat-saydam",
         "unknown",
         "1969"
       ]
@@ -33481,13 +33511,13 @@ const filmDiaryEntries = [
       "en": "Water and Fire",
       "tr": "Water and Fire"
     },
-    "creator": "Unknown",
+    "creator": "\u00d6zcan Deniz",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/9/5/2/7/5/195275-water-and-fire-0-230-0-345-crop.jpg?v=0e0e43ab92",
     "letterboxdUrl": "https://boxd.it/8bZY",
     "year": "2013",
     "watchedDate": "2025-08-07",
@@ -33508,12 +33538,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "zcan-deniz",
         "unknown",
         "2013"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "zcan-deniz",
         "unknown",
         "2013"
       ]
@@ -33573,13 +33605,13 @@ const filmDiaryEntries = [
       "en": "You're My Home",
       "tr": "You're My Home"
     },
-    "creator": "Unknown",
+    "creator": "\u00d6zcan Deniz",
     "country": "unknown",
     "countryLabel": {
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/1/2/108112-evim-sensin-0-230-0-345-crop.jpg?v=d58afddaa6",
     "letterboxdUrl": "https://boxd.it/4xfq",
     "year": "2012",
     "watchedDate": "2025-08-07",
@@ -33600,12 +33632,14 @@ const filmDiaryEntries = [
       "en": [
         "letterboxd",
         "watched",
+        "zcan-deniz",
         "unknown",
         "2012"
       ],
       "tr": [
         "letterboxd",
         "watched",
+        "zcan-deniz",
         "unknown",
         "2012"
       ]
@@ -34474,7 +34508,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMzg3OTMyODQ1M15BMl5BanBnXkFtZTcwNjMwMTEwNw@@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/b8ZAUL",
     "year": "2011",
     "watchedDate": "2025-09-22",
@@ -34848,7 +34882,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTQ0OTc4MDcxMl5BMl5BanBnXkFtZTgwNjIzMjA0NzE@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/bDwu9b",
     "year": "1965",
     "watchedDate": "2025-11-07",
@@ -34940,7 +34974,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/bHR6R7",
     "year": "2025",
     "watchedDate": "2025-11-13",
@@ -35831,7 +35865,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNTMwMTk0Y2QtY2VhNy00OGYwLThkMjMtZjkwMGI3MTJiMjAyXkEyXkFqcGc@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/c4mi13",
     "year": "2025",
     "watchedDate": "2025-12-15",
@@ -36961,7 +36995,7 @@ const filmDiaryEntries = [
       "en": "Unknown",
       "tr": "Unknown"
     },
-    "coverUrl": null,
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_.jpg",
     "letterboxdUrl": "https://boxd.it/dxead9",
     "year": "2006",
     "watchedDate": "2026-03-15",
@@ -37276,6 +37310,53 @@ const filmDiaryEntries = [
         "aki-kaurism-ki",
         "finland",
         "2011"
+      ]
+    }
+  },
+  {
+    "id": "project-hail-mary-2026",
+    "type": "film",
+    "title": {
+      "en": "Project Hail Mary",
+      "tr": "Project Hail Mary"
+    },
+    "creator": "Phil Lord, Christopher Miller",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/6/1/1/2/8/8/tmdb/o2xLxY1LdwBMsrGD9hjIaOrIQm6-1200-1200-675-675-crop-000000.jpg?v=70f2fabccc",
+    "letterboxdUrl": "https://boxd.it/e5wk0r",
+    "year": "2026",
+    "watchedDate": "2026-04-23",
+    "note": {
+      "en": "Watched on 2026-04-23. Rated 3/5.",
+      "tr": "2026-04-23 tarihinde izlendi. Puan: 3/5."
+    },
+    "rating": "3/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>End of the world (check)</p><p>Aliens (check)</p><p>American guy accidentally saving the day (check)</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "phil-lord-christopher-miller",
+        "united-states",
+        "2026"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "phil-lord-christopher-miller",
+        "united-states",
+        "2026"
       ]
     }
   }
