@@ -1,8 +1,104 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-23T13:39:19.006777
+// Generated: 2026-04-30T15:10:30.866732
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
+  {
+    "id": "babami-kim-oldurdu-louis",
+    "type": "book",
+    "title": {
+      "en": "Qui a tué mon père",
+      "tr": "Babamı Kim Öldürdü"
+    },
+    "creator": "Édouard Louis",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "2020",
+    "readDate": "2026/04/27",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1604074831i/55818945.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/55818945",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "edouard-louis",
+        "france",
+        "2020"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "edouard-louis",
+        "france",
+        "2020"
+      ]
+    }
+  },
+  {
+    "id": "bir-kadinin-kavgalari-ve-donusumleri-louis",
+    "type": "book",
+    "title": {
+      "en": "Combats et métamorphoses d'une femme",
+      "tr": "Bir Kadının Kavgaları ve Dönüşümleri"
+    },
+    "creator": "Édouard Louis",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "year": "2024",
+    "readDate": "2026/04/25",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1711398754i/210357967.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/210357967",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "edouard-louis",
+        "france",
+        "2024"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "edouard-louis",
+        "france",
+        "2024"
+      ]
+    }
+  },
   {
     "id": "ciceklenmeler-kesmez",
     "type": "book",
