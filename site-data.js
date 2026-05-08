@@ -3,7 +3,7 @@
 
 const siteData = {
   "lastUpdated": "2026-05-08",
-  "generatedAt": "2026-05-08T16:15:56.790782+00:00",
+  "generatedAt": "2026-05-08T17:26:44.485375+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -205,7 +205,7 @@ const siteData = {
       "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
       "type": "book",
       "title": {
-        "en": "Storia del nuovo cognome",
+        "en": "The Story of a New Name",
         "tr": "The Story of a New Name (Neapolitan Novels, #2)"
       },
       "creator": "Elena Ferrante",
@@ -253,7 +253,7 @@ const siteData = {
       "id": "babami-kim-oldurdu-louis",
       "type": "book",
       "title": {
-        "en": "Qui a tué mon père",
+        "en": "Who Killed My Father",
         "tr": "Babamı Kim Öldürdü"
       },
       "creator": "Édouard Louis",
@@ -301,7 +301,7 @@ const siteData = {
       "id": "bir-kadinin-kavgalari-ve-donusumleri-louis",
       "type": "book",
       "title": {
-        "en": "Combats et métamorphoses d'une femme",
+        "en": "A Woman's Battles and Transformations",
         "tr": "Bir Kadının Kavgaları ve Dönüşümleri"
       },
       "creator": "Édouard Louis",
@@ -48496,7 +48496,7 @@ const siteData = {
       "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
       "type": "book",
       "title": {
-        "en": "Storia del nuovo cognome",
+        "en": "The Story of a New Name",
         "tr": "The Story of a New Name (Neapolitan Novels, #2)"
       },
       "creator": "Elena Ferrante",
@@ -48544,7 +48544,7 @@ const siteData = {
       "id": "babami-kim-oldurdu-louis",
       "type": "book",
       "title": {
-        "en": "Qui a tué mon père",
+        "en": "Who Killed My Father",
         "tr": "Babamı Kim Öldürdü"
       },
       "creator": "Édouard Louis",
@@ -48592,7 +48592,7 @@ const siteData = {
       "id": "bir-kadinin-kavgalari-ve-donusumleri-louis",
       "type": "book",
       "title": {
-        "en": "Combats et métamorphoses d'une femme",
+        "en": "A Woman's Battles and Transformations",
         "tr": "Bir Kadının Kavgaları ve Dönüşümleri"
       },
       "creator": "Édouard Louis",

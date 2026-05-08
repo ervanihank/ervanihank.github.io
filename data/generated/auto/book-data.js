@@ -1,5 +1,5 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-05-08T12:15:53.910517
+// Generated: 2026-05-08T13:26:41.094513
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
@@ -103,7 +103,7 @@ const bookEntries = [
     "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
     "type": "book",
     "title": {
-      "en": "Storia del nuovo cognome",
+      "en": "The Story of a New Name",
       "tr": "The Story of a New Name (Neapolitan Novels, #2)"
     },
     "creator": "Elena Ferrante",
@@ -151,7 +151,7 @@ const bookEntries = [
     "id": "babami-kim-oldurdu-louis",
     "type": "book",
     "title": {
-      "en": "Qui a tué mon père",
+      "en": "Who Killed My Father",
       "tr": "Babamı Kim Öldürdü"
     },
     "creator": "Édouard Louis",
@@ -199,7 +199,7 @@ const bookEntries = [
     "id": "bir-kadinin-kavgalari-ve-donusumleri-louis",
     "type": "book",
     "title": {
-      "en": "Combats et métamorphoses d'une femme",
+      "en": "A Woman's Battles and Transformations",
       "tr": "Bir Kadının Kavgaları ve Dönüşümleri"
     },
     "creator": "Édouard Louis",
