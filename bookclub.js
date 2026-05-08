@@ -14,7 +14,8 @@ const translations = {
     moderatorLabel: "Moderator",
     authorLabel: "Author",
     dateLabel: "Date",
-    timelineSummary: "21 book club sessions since 2023",
+    timelineSummary: "{count} book club sessions since {year}",
+    timelineSummarySingular: "1 book club session since {year}",
     readingHabitsLabel: "Reading Habits",
     readingHabitsDescription:
       "In this session, we talked more broadly about our reading habits through books on reading and the ways they shape our relationship to literature.",
@@ -42,7 +43,8 @@ const translations = {
     moderatorLabel: "Moderator",
     authorLabel: "Yazar",
     dateLabel: "Tarih",
-    timelineSummary: "2023'ten bu yana 21 kitap kulübü oturumu",
+    timelineSummary: "{year}'ten bu yana {count} kitap kulübü oturumu",
+    timelineSummarySingular: "{year}'ten bu yana 1 kitap kulübü oturumu",
     readingHabitsLabel: "Okuma Alışkanlıkları",
     readingHabitsDescription:
       "Bu oturumda, okuma üzerine kitapların ışığında kendi okuma alışkanlıklarımızı ve edebiyatla kurduğumuz ilişkiyi daha genel bir çerçevede konuştuk.",
@@ -334,7 +336,20 @@ function buildTimelineSummary(entries) {
   if (!entries.length) {
     return "";
   }
-  return t("timelineSummary");
+  const years = entries
+    .map((entry) => {
+      const parsed = parseBookClubDate(entry.date);
+      if (parsed?.year) {
+        return parsed.year;
+      }
+      const sortYear = (entry.sortKey || "").match(/^(\d{4})/);
+      return sortYear ? parseInt(sortYear[1], 10) : null;
+    })
+    .filter((year) => Number.isInteger(year));
+  const startYear = years.length ? Math.min(...years) : 2023;
+  const count = entries.length;
+  const template = count === 1 ? t("timelineSummarySingular") : t("timelineSummary");
+  return template.replace("{count}", count).replace("{year}", startYear);
 }
 
 function renderBookClubPage() {

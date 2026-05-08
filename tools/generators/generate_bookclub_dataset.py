@@ -220,11 +220,21 @@ BOOKCLUB_CANONICAL = {
         "date": "March 2026",
         "moderator": "Zeyneb",
     },
+    "gorme bicimleri": {
+        "book": "Görme Biçimleri",
+        "englishTitle": "Ways of Seeing",
+        "authors": ["John Berger"],
+        "date": "May 2026",
+        "moderator": "Rana",
+        "photo": "assets/images/bookclub/Ways of Seeing (Gorme Bicimleri).jpeg",
+    },
 }
 
 BOOK_TITLE_ALIASES = {
     "utanc (disgrace)-coetzee": "utanc",
     "becoming myself": "bir psikiyatristin anilari",
+    "ways of seeing (gorme bicimleri)": "gorme bicimleri",
+    "ways of seeing": "gorme bicimleri",
 }
 
 

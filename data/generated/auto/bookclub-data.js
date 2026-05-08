@@ -300,6 +300,21 @@ const bookClubEntries = [
     "slug": "lolita"
   },
   {
+    "book": "Görme Biçimleri",
+    "englishTitle": "Ways of Seeing",
+    "authors": [
+      "John Berger"
+    ],
+    "date": "May 2026",
+    "sortKey": "2026-05-01",
+    "moderator": "Rana",
+    "nobel": "",
+    "rating": "",
+    "participants": "",
+    "photoUrl": "assets/images/bookclub/Ways of Seeing (Gorme Bicimleri).jpeg",
+    "slug": "gorme-bicimleri"
+  },
+  {
     "book": "Okuma Alışkanlıkları",
     "englishTitle": "Reading Habits",
     "authors": [],

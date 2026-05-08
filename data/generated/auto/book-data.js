@@ -1,8 +1,152 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-04-30T15:10:30.866732
+// Generated: 2026-05-08T12:15:53.910517
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
+  {
+    "id": "those-who-leave-and-those-who-stay-(neapolitan-novels,-#3)-ferrante",
+    "type": "book",
+    "title": {
+      "en": "Those Who Leave and Those Who Stay",
+      "tr": "Those Who Leave and Those Who Stay (Neapolitan Novels, #3)"
+    },
+    "creator": "Elena Ferrante",
+    "country": "italy",
+    "countryLabel": {
+      "en": "Italy",
+      "tr": "Italy"
+    },
+    "year": "2014",
+    "readDate": "2026/05/08",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1411338052i/23156040.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/23156040",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2014"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2014"
+      ]
+    }
+  },
+  {
+    "id": "ways-of-seeing-berger",
+    "type": "book",
+    "title": {
+      "en": "Ways of Seeing",
+      "tr": "Ways of Seeing"
+    },
+    "creator": "John Berger",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "year": "1990",
+    "readDate": "2026/05/02",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1703328414i/2784.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/2784",
+    "bookClubUrl": null,
+    "rating": "3/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "john-berger",
+        "united-kingdom",
+        "1990"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "john-berger",
+        "united-kingdom",
+        "1990"
+      ]
+    }
+  },
+  {
+    "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
+    "type": "book",
+    "title": {
+      "en": "Storia del nuovo cognome",
+      "tr": "The Story of a New Name (Neapolitan Novels, #2)"
+    },
+    "creator": "Elena Ferrante",
+    "country": "italy",
+    "countryLabel": {
+      "en": "Italy",
+      "tr": "Italy"
+    },
+    "year": "2013",
+    "readDate": "2026/04/28",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1641699224i/17465515.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/17465515",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2013"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2013"
+      ]
+    }
+  },
   {
     "id": "babami-kim-oldurdu-louis",
     "type": "book",

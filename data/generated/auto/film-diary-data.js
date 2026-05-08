@@ -18467,53 +18467,6 @@ const filmDiaryEntries = [
     }
   },
   {
-    "id": "delisin-1975",
-    "type": "film",
-    "title": {
-      "en": "Delisin",
-      "tr": "Delisin"
-    },
-    "creator": "Ergin Orbey",
-    "country": "turkey",
-    "countryLabel": {
-      "en": "Turkey",
-      "tr": "Turkey"
-    },
-    "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
-    "letterboxdUrl": "https://boxd.it/fVey",
-    "year": "1975",
-    "watchedDate": "2023-01-09",
-    "note": {
-      "en": "Watched on 2023-01-09. Rated Rating not recorded.",
-      "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
-    },
-    "rating": "Rating not recorded",
-    "essay": {
-      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-    },
-    "quotes": {
-      "en": [],
-      "tr": []
-    },
-    "tags": {
-      "en": [
-        "letterboxd",
-        "watched",
-        "ergin-orbey",
-        "turkey",
-        "1975"
-      ],
-      "tr": [
-        "letterboxd",
-        "watched",
-        "ergin-orbey",
-        "turkey",
-        "1975"
-      ]
-    }
-  },
-  {
     "id": "don-t-worry-i-m-fine-2006",
     "type": "film",
     "title": {
@@ -20249,6 +20202,53 @@ const filmDiaryEntries = [
         "a-an-irmak",
         "turkey",
         "2014"
+      ]
+    }
+  },
+  {
+    "id": "you-re-crazy-1975",
+    "type": "film",
+    "title": {
+      "en": "You're Crazy",
+      "tr": "You're Crazy"
+    },
+    "creator": "Ergin Orbey",
+    "country": "turkey",
+    "countryLabel": {
+      "en": "Turkey",
+      "tr": "Turkey"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
+    "letterboxdUrl": "https://boxd.it/fVey",
+    "year": "1975",
+    "watchedDate": "2023-01-09",
+    "note": {
+      "en": "Watched on 2023-01-09. Rated Rating not recorded.",
+      "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
+    },
+    "rating": "Rating not recorded",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "watched",
+        "ergin-orbey",
+        "turkey",
+        "1975"
+      ],
+      "tr": [
+        "letterboxd",
+        "watched",
+        "ergin-orbey",
+        "turkey",
+        "1975"
       ]
     }
   },
@@ -28527,51 +28527,6 @@ const filmDiaryEntries = [
     }
   },
   {
-    "id": "demirk-rat-chief-1991",
-    "type": "film",
-    "title": {
-      "en": "Demirk\u0131rat: Chief",
-      "tr": "Demirk\u0131rat: Chief"
-    },
-    "creator": "Unknown",
-    "country": "unknown",
-    "countryLabel": {
-      "en": "Unknown",
-      "tr": "Unknown"
-    },
-    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
-    "letterboxdUrl": "https://boxd.it/H9WI",
-    "year": "1991",
-    "watchedDate": "2025-06-02",
-    "note": {
-      "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-      "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-    },
-    "rating": "Rating not recorded",
-    "essay": {
-      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-    },
-    "quotes": {
-      "en": [],
-      "tr": []
-    },
-    "tags": {
-      "en": [
-        "letterboxd",
-        "watched",
-        "unknown",
-        "1991"
-      ],
-      "tr": [
-        "letterboxd",
-        "watched",
-        "unknown",
-        "1991"
-      ]
-    }
-  },
-  {
     "id": "demirk-rat-coup-1991",
     "type": "film",
     "title": {
@@ -28661,53 +28616,6 @@ const filmDiaryEntries = [
         "watched",
         "can-d-ndar-b-lent-apl",
         "unknown",
-        "1991"
-      ]
-    }
-  },
-  {
-    "id": "demirk-rat-pressure-1991",
-    "type": "film",
-    "title": {
-      "en": "Demirk\u0131rat: Pressure",
-      "tr": "Demirk\u0131rat: Pressure"
-    },
-    "creator": "Can D\u00fcndar, B\u00fclent \u00c7apl\u0131",
-    "country": "turkey",
-    "countryLabel": {
-      "en": "Turkey",
-      "tr": "Turkey"
-    },
-    "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/4/2/1029942-demirkrat-pressure-0-230-0-345-crop.jpg?v=c8383c2699",
-    "letterboxdUrl": "https://boxd.it/HdlG",
-    "year": "1991",
-    "watchedDate": "2025-06-02",
-    "note": {
-      "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-      "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-    },
-    "rating": "Rating not recorded",
-    "essay": {
-      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-    },
-    "quotes": {
-      "en": [],
-      "tr": []
-    },
-    "tags": {
-      "en": [
-        "letterboxd",
-        "watched",
-        "can-d-ndar-b-lent-apl",
-        "turkey",
-        "1991"
-      ],
-      "tr": [
-        "letterboxd",
-        "watched",
-        "can-d-ndar-b-lent-apl",
-        "turkey",
         "1991"
       ]
     }
@@ -37357,6 +37265,100 @@ const filmDiaryEntries = [
         "phil-lord-christopher-miller",
         "united-states",
         "2026"
+      ]
+    }
+  },
+  {
+    "id": "turtles-can-fly-2004",
+    "type": "film",
+    "title": {
+      "en": "Turtles Can Fly",
+      "tr": "Turtles Can Fly"
+    },
+    "creator": "Bahman Ghobadi",
+    "country": "iran",
+    "countryLabel": {
+      "en": "Iran",
+      "tr": "Iran"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/e0/jw/p5/ev/turtles%20can%20fly-1200-1200-675-675-crop-000000.jpg?v=1345e5cea6",
+    "letterboxdUrl": "https://boxd.it/e9vM8d",
+    "year": "2004",
+    "watchedDate": "2026-04-28",
+    "note": {
+      "en": "Watched on 2026-04-28. Rated 4/5.",
+      "tr": "2026-04-28 tarihinde izlendi. Puan: 4/5."
+    },
+    "rating": "4/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "bahman-ghobadi",
+        "iran",
+        "2004"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "bahman-ghobadi",
+        "iran",
+        "2004"
+      ]
+    }
+  },
+  {
+    "id": "everything-is-illuminated-2005",
+    "type": "film",
+    "title": {
+      "en": "Everything Is Illuminated",
+      "tr": "Everything Is Illuminated"
+    },
+    "creator": "Liev Schreiber",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/do/8h/y1/b6/eveyrthing%20is%20illuminated-1200-1200-675-675-crop-000000.jpg?v=1c66644777",
+    "letterboxdUrl": "https://boxd.it/ehqUpj",
+    "year": "2005",
+    "watchedDate": "2026-05-08",
+    "note": {
+      "en": "Watched on 2026-05-08. Rated 3.5/5.",
+      "tr": "2026-05-08 tarihinde izlendi. Puan: 3.5/5."
+    },
+    "rating": "3.5/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>Kemal Basmaci bunu begendi =)</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "liev-schreiber",
+        "united-states",
+        "2005"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "liev-schreiber",
+        "united-states",
+        "2005"
       ]
     }
   }

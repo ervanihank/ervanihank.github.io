@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-30",
-  "generatedAt": "2026-04-30T19:10:31.019532+00:00",
+  "lastUpdated": "2026-05-08",
+  "generatedAt": "2026-05-08T16:15:56.790782+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -99,6 +99,150 @@
           "library",
           "feride-cicekoglu",
           "turkey"
+        ]
+      }
+    },
+    {
+      "id": "those-who-leave-and-those-who-stay-(neapolitan-novels,-#3)-ferrante",
+      "type": "book",
+      "title": {
+        "en": "Those Who Leave and Those Who Stay",
+        "tr": "Those Who Leave and Those Who Stay (Neapolitan Novels, #3)"
+      },
+      "creator": "Elena Ferrante",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "year": "2014",
+      "readDate": "2026/05/08",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1411338052i/23156040.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/23156040",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2014"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2014"
+        ]
+      }
+    },
+    {
+      "id": "ways-of-seeing-berger",
+      "type": "book",
+      "title": {
+        "en": "Ways of Seeing",
+        "tr": "Ways of Seeing"
+      },
+      "creator": "John Berger",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "year": "1990",
+      "readDate": "2026/05/02",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1703328414i/2784.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/2784",
+      "bookClubUrl": null,
+      "rating": "3/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "john-berger",
+          "united-kingdom",
+          "1990"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "john-berger",
+          "united-kingdom",
+          "1990"
+        ]
+      }
+    },
+    {
+      "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
+      "type": "book",
+      "title": {
+        "en": "Storia del nuovo cognome",
+        "tr": "The Story of a New Name (Neapolitan Novels, #2)"
+      },
+      "creator": "Elena Ferrante",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "year": "2013",
+      "readDate": "2026/04/28",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1641699224i/17465515.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/17465515",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2013"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2013"
         ]
       }
     },
@@ -10452,6 +10596,100 @@
   ],
   "films": [
     {
+      "id": "everything-is-illuminated-2005",
+      "type": "film",
+      "title": {
+        "en": "Everything Is Illuminated",
+        "tr": "Everything Is Illuminated"
+      },
+      "creator": "Liev Schreiber",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/do/8h/y1/b6/eveyrthing%20is%20illuminated-1200-1200-675-675-crop-000000.jpg?v=1c66644777",
+      "letterboxdUrl": "https://boxd.it/ehqUpj",
+      "year": "2005",
+      "watchedDate": "2026-05-08",
+      "note": {
+        "en": "Watched on 2026-05-08. Rated 3.5/5.",
+        "tr": "2026-05-08 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>Kemal Basmaci bunu begendi =)</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "liev-schreiber",
+          "united-states",
+          "2005"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "liev-schreiber",
+          "united-states",
+          "2005"
+        ]
+      }
+    },
+    {
+      "id": "turtles-can-fly-2004",
+      "type": "film",
+      "title": {
+        "en": "Turtles Can Fly",
+        "tr": "Turtles Can Fly"
+      },
+      "creator": "Bahman Ghobadi",
+      "country": "iran",
+      "countryLabel": {
+        "en": "Iran",
+        "tr": "Iran"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/e0/jw/p5/ev/turtles%20can%20fly-1200-1200-675-675-crop-000000.jpg?v=1345e5cea6",
+      "letterboxdUrl": "https://boxd.it/e9vM8d",
+      "year": "2004",
+      "watchedDate": "2026-04-28",
+      "note": {
+        "en": "Watched on 2026-04-28. Rated 4/5.",
+        "tr": "2026-04-28 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "bahman-ghobadi",
+          "iran",
+          "2004"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "bahman-ghobadi",
+          "iran",
+          "2004"
+        ]
+      }
+    },
+    {
       "id": "project-hail-mary-2026",
       "type": "film",
       "title": {
@@ -19006,51 +19244,6 @@
       }
     },
     {
-      "id": "demirk-rat-chief-1991",
-      "type": "film",
-      "title": {
-        "en": "Demirkırat: Chief",
-        "tr": "Demirkırat: Chief"
-      },
-      "creator": "Can Dundar, Bulent Capli",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Türkiye"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
-      "letterboxdUrl": "https://boxd.it/H9WI",
-      "year": "1991",
-      "watchedDate": "2025-06-02",
-      "note": {
-        "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-        "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "unknown",
-          "1991"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "unknown",
-          "1991"
-        ]
-      }
-    },
-    {
       "id": "demirk-rat-coup-1991",
       "type": "film",
       "title": {
@@ -19140,53 +19333,6 @@
           "watched",
           "can-d-ndar-b-lent-apl",
           "unknown",
-          "1991"
-        ]
-      }
-    },
-    {
-      "id": "demirk-rat-pressure-1991",
-      "type": "film",
-      "title": {
-        "en": "Demirkırat: Pressure",
-        "tr": "Demirkırat: Pressure"
-      },
-      "creator": "Can Dündar, Bülent Çaplı",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Turkey"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/4/2/1029942-demirkrat-pressure-0-230-0-345-crop.jpg?v=c8383c2699",
-      "letterboxdUrl": "https://boxd.it/HdlG",
-      "year": "1991",
-      "watchedDate": "2025-06-02",
-      "note": {
-        "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-        "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "can-d-ndar-b-lent-apl",
-          "turkey",
-          "1991"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "can-d-ndar-b-lent-apl",
-          "turkey",
           "1991"
         ]
       }
@@ -27701,53 +27847,6 @@
       }
     },
     {
-      "id": "delisin-1975",
-      "type": "film",
-      "title": {
-        "en": "Delisin",
-        "tr": "Delisin"
-      },
-      "creator": "Ergin Orbey",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Turkey"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
-      "letterboxdUrl": "https://boxd.it/fVey",
-      "year": "1975",
-      "watchedDate": "2023-01-09",
-      "note": {
-        "en": "Watched on 2023-01-09. Rated Rating not recorded.",
-        "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "ergin-orbey",
-          "turkey",
-          "1975"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "ergin-orbey",
-          "turkey",
-          "1975"
-        ]
-      }
-    },
-    {
       "id": "don-t-worry-i-m-fine-2006",
       "type": "film",
       "title": {
@@ -29483,6 +29582,53 @@
           "a-an-irmak",
           "turkey",
           "2014"
+        ]
+      }
+    },
+    {
+      "id": "you-re-crazy-1975",
+      "type": "film",
+      "title": {
+        "en": "You're Crazy",
+        "tr": "You're Crazy"
+      },
+      "creator": "Ergin Orbey",
+      "country": "turkey",
+      "countryLabel": {
+        "en": "Turkey",
+        "tr": "Turkey"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
+      "letterboxdUrl": "https://boxd.it/fVey",
+      "year": "1975",
+      "watchedDate": "2023-01-09",
+      "note": {
+        "en": "Watched on 2023-01-09. Rated Rating not recorded.",
+        "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
+      },
+      "rating": "Rating not recorded",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "watched",
+          "ergin-orbey",
+          "turkey",
+          "1975"
+        ],
+        "tr": [
+          "letterboxd",
+          "watched",
+          "ergin-orbey",
+          "turkey",
+          "1975"
         ]
       }
     },
@@ -47813,6 +47959,21 @@
   ],
   "bookClub": [
     {
+      "book": "Görme Biçimleri",
+      "englishTitle": "Ways of Seeing",
+      "authors": [
+        "John Berger"
+      ],
+      "date": "May 2026",
+      "sortKey": "2026-05-01",
+      "moderator": "Rana",
+      "nobel": "",
+      "rating": "",
+      "participants": "",
+      "photoUrl": "assets/images/bookclub/Ways of Seeing (Gorme Bicimleri).jpeg",
+      "slug": "gorme-bicimleri"
+    },
+    {
       "book": "Lolita",
       "englishTitle": "Lolita",
       "authors": [
@@ -48229,6 +48390,150 @@
           "library",
           "feride-cicekoglu",
           "turkey"
+        ]
+      }
+    },
+    {
+      "id": "those-who-leave-and-those-who-stay-(neapolitan-novels,-#3)-ferrante",
+      "type": "book",
+      "title": {
+        "en": "Those Who Leave and Those Who Stay",
+        "tr": "Those Who Leave and Those Who Stay (Neapolitan Novels, #3)"
+      },
+      "creator": "Elena Ferrante",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "year": "2014",
+      "readDate": "2026/05/08",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1411338052i/23156040.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/23156040",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2014"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2014"
+        ]
+      }
+    },
+    {
+      "id": "ways-of-seeing-berger",
+      "type": "book",
+      "title": {
+        "en": "Ways of Seeing",
+        "tr": "Ways of Seeing"
+      },
+      "creator": "John Berger",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "year": "1990",
+      "readDate": "2026/05/02",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1703328414i/2784.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/2784",
+      "bookClubUrl": null,
+      "rating": "3/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "john-berger",
+          "united-kingdom",
+          "1990"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "john-berger",
+          "united-kingdom",
+          "1990"
+        ]
+      }
+    },
+    {
+      "id": "the-story-of-a-new-name-(neapolitan-novels,-#2)-ferrante",
+      "type": "book",
+      "title": {
+        "en": "Storia del nuovo cognome",
+        "tr": "The Story of a New Name (Neapolitan Novels, #2)"
+      },
+      "creator": "Elena Ferrante",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "year": "2013",
+      "readDate": "2026/04/28",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1641699224i/17465515.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/17465515",
+      "bookClubUrl": null,
+      "rating": "4/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2013"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "elena-ferrante",
+          "italy",
+          "2013"
         ]
       }
     },
@@ -58580,6 +58885,100 @@
       }
     },
     {
+      "id": "everything-is-illuminated-2005",
+      "type": "film",
+      "title": {
+        "en": "Everything Is Illuminated",
+        "tr": "Everything Is Illuminated"
+      },
+      "creator": "Liev Schreiber",
+      "country": "unitedStates",
+      "countryLabel": {
+        "en": "United States",
+        "tr": "United States"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/do/8h/y1/b6/eveyrthing%20is%20illuminated-1200-1200-675-675-crop-000000.jpg?v=1c66644777",
+      "letterboxdUrl": "https://boxd.it/ehqUpj",
+      "year": "2005",
+      "watchedDate": "2026-05-08",
+      "note": {
+        "en": "Watched on 2026-05-08. Rated 3.5/5.",
+        "tr": "2026-05-08 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Review</h3><p>Kemal Basmaci bunu begendi =)</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "liev-schreiber",
+          "united-states",
+          "2005"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "liev-schreiber",
+          "united-states",
+          "2005"
+        ]
+      }
+    },
+    {
+      "id": "turtles-can-fly-2004",
+      "type": "film",
+      "title": {
+        "en": "Turtles Can Fly",
+        "tr": "Turtles Can Fly"
+      },
+      "creator": "Bahman Ghobadi",
+      "country": "iran",
+      "countryLabel": {
+        "en": "Iran",
+        "tr": "Iran"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/e0/jw/p5/ev/turtles%20can%20fly-1200-1200-675-675-crop-000000.jpg?v=1345e5cea6",
+      "letterboxdUrl": "https://boxd.it/e9vM8d",
+      "year": "2004",
+      "watchedDate": "2026-04-28",
+      "note": {
+        "en": "Watched on 2026-04-28. Rated 4/5.",
+        "tr": "2026-04-28 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "bahman-ghobadi",
+          "iran",
+          "2004"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "bahman-ghobadi",
+          "iran",
+          "2004"
+        ]
+      }
+    },
+    {
       "id": "project-hail-mary-2026",
       "type": "film",
       "title": {
@@ -67134,51 +67533,6 @@
       }
     },
     {
-      "id": "demirk-rat-chief-1991",
-      "type": "film",
-      "title": {
-        "en": "Demirkırat: Chief",
-        "tr": "Demirkırat: Chief"
-      },
-      "creator": "Can Dundar, Bulent Capli",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Türkiye"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/8/6/3/4/1028634-demirkrat-chief-0-230-0-345-crop.jpg?v=9ebc1f8256",
-      "letterboxdUrl": "https://boxd.it/H9WI",
-      "year": "1991",
-      "watchedDate": "2025-06-02",
-      "note": {
-        "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-        "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "unknown",
-          "1991"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "unknown",
-          "1991"
-        ]
-      }
-    },
-    {
       "id": "demirk-rat-coup-1991",
       "type": "film",
       "title": {
@@ -67268,53 +67622,6 @@
           "watched",
           "can-d-ndar-b-lent-apl",
           "unknown",
-          "1991"
-        ]
-      }
-    },
-    {
-      "id": "demirk-rat-pressure-1991",
-      "type": "film",
-      "title": {
-        "en": "Demirkırat: Pressure",
-        "tr": "Demirkırat: Pressure"
-      },
-      "creator": "Can Dündar, Bülent Çaplı",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Turkey"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/9/4/2/1029942-demirkrat-pressure-0-230-0-345-crop.jpg?v=c8383c2699",
-      "letterboxdUrl": "https://boxd.it/HdlG",
-      "year": "1991",
-      "watchedDate": "2025-06-02",
-      "note": {
-        "en": "Watched on 2025-06-02. Rated Rating not recorded.",
-        "tr": "2025-06-02 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "can-d-ndar-b-lent-apl",
-          "turkey",
-          "1991"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "can-d-ndar-b-lent-apl",
-          "turkey",
           "1991"
         ]
       }
@@ -75829,53 +76136,6 @@
       }
     },
     {
-      "id": "delisin-1975",
-      "type": "film",
-      "title": {
-        "en": "Delisin",
-        "tr": "Delisin"
-      },
-      "creator": "Ergin Orbey",
-      "country": "turkey",
-      "countryLabel": {
-        "en": "Turkey",
-        "tr": "Turkey"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
-      "letterboxdUrl": "https://boxd.it/fVey",
-      "year": "1975",
-      "watchedDate": "2023-01-09",
-      "note": {
-        "en": "Watched on 2023-01-09. Rated Rating not recorded.",
-        "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
-      },
-      "rating": "Rating not recorded",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [],
-        "tr": []
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "watched",
-          "ergin-orbey",
-          "turkey",
-          "1975"
-        ],
-        "tr": [
-          "letterboxd",
-          "watched",
-          "ergin-orbey",
-          "turkey",
-          "1975"
-        ]
-      }
-    },
-    {
       "id": "don-t-worry-i-m-fine-2006",
       "type": "film",
       "title": {
@@ -77611,6 +77871,53 @@
           "a-an-irmak",
           "turkey",
           "2014"
+        ]
+      }
+    },
+    {
+      "id": "you-re-crazy-1975",
+      "type": "film",
+      "title": {
+        "en": "You're Crazy",
+        "tr": "You're Crazy"
+      },
+      "creator": "Ergin Orbey",
+      "country": "turkey",
+      "countryLabel": {
+        "en": "Turkey",
+        "tr": "Turkey"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/3/7/9/4/9/3/tmdb/6VecP2B3hsX7VJj2fb8YTRLQYwq-1200-1200-675-675-crop-000000.jpg?v=f104351675",
+      "letterboxdUrl": "https://boxd.it/fVey",
+      "year": "1975",
+      "watchedDate": "2023-01-09",
+      "note": {
+        "en": "Watched on 2023-01-09. Rated Rating not recorded.",
+        "tr": "2023-01-09 tarihinde izlendi. Puan: Rating not recorded."
+      },
+      "rating": "Rating not recorded",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "watched",
+          "ergin-orbey",
+          "turkey",
+          "1975"
+        ],
+        "tr": [
+          "letterboxd",
+          "watched",
+          "ergin-orbey",
+          "turkey",
+          "1975"
         ]
       }
     },
