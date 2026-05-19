@@ -37361,5 +37361,99 @@ const filmDiaryEntries = [
         "2005"
       ]
     }
+  },
+  {
+    "id": "after-the-hunt-2025",
+    "type": "film",
+    "title": {
+      "en": "After the Hunt",
+      "tr": "After the Hunt"
+    },
+    "creator": "Luca Guadagnino",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/mq/lj/ws/sy/fmlBcsE2py3L3mVIhJjallXG2Ck-1200-1200-675-675-crop-000000.jpg?v=c436ce2e79",
+    "letterboxdUrl": "https://boxd.it/eqIrFf",
+    "year": "2025",
+    "watchedDate": "2026-05-19",
+    "note": {
+      "en": "Watched on 2026-05-19. Rated 2.5/5.",
+      "tr": "2026-05-19 tarihinde izlendi. Puan: 2.5/5."
+    },
+    "rating": "2.5/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "luca-guadagnino",
+        "united-states",
+        "2025"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "luca-guadagnino",
+        "united-states",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "sir-t-2025",
+    "type": "film",
+    "title": {
+      "en": "Sir\u0101t",
+      "tr": "Sir\u0101t"
+    },
+    "creator": "Oliver Laxe",
+    "country": "spain",
+    "countryLabel": {
+      "en": "Spain",
+      "tr": "Spain"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/3/7/7/7/7/tmdb/58MtlV69aVMskYj7X3aoi1Q0ItD-1200-1200-675-675-crop-000000.jpg?v=d9ed433926",
+    "letterboxdUrl": "https://boxd.it/eqIixh",
+    "year": "2025",
+    "watchedDate": "2026-05-19",
+    "note": {
+      "en": "Watched on 2026-05-19. Rated 4/5.",
+      "tr": "2026-05-19 tarihinde izlendi. Puan: 4/5."
+    },
+    "rating": "4/5",
+    "essay": {
+      "en": "<h3>Diary Review</h3><p>\u201cIt\u2019s not for hearing, it\u2019s for dancing.\u201d</p><p>And this movie is definitely not for watching, it&#x27;s for feeling!</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu film icin notlarimi sadece Ingilizce yazdim ve zoraki bir Turkce ceviri yapmak istemedim. Lutfen Ingilizce versiyona bakiniz.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "oliver-laxe",
+        "spain",
+        "2025"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "oliver-laxe",
+        "spain",
+        "2025"
+      ]
+    }
   }
 ];
