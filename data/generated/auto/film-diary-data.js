@@ -37455,5 +37455,52 @@ const filmDiaryEntries = [
         "2025"
       ]
     }
+  },
+  {
+    "id": "we-need-to-talk-about-kevin-2011",
+    "type": "film",
+    "title": {
+      "en": "We Need to Talk About Kevin",
+      "tr": "We Need to Talk About Kevin"
+    },
+    "creator": "Lynne Ramsay",
+    "country": "unitedKingdom",
+    "countryLabel": {
+      "en": "United Kingdom",
+      "tr": "United Kingdom"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/82/ea/p5/w4/we-need-to-talk-about-kevin-1200-1200-675-675-crop-000000.jpg?v=6502031bba",
+    "letterboxdUrl": "https://boxd.it/esu005",
+    "year": "2011",
+    "watchedDate": "2026-05-21",
+    "note": {
+      "en": "Watched on 2026-05-21. Rated 3.5/5.",
+      "tr": "2026-05-21 tarihinde izlendi. Puan: 3.5/5."
+    },
+    "rating": "3.5/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "lynne-ramsay",
+        "united-kingdom",
+        "2011"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "lynne-ramsay",
+        "united-kingdom",
+        "2011"
+      ]
+    }
   }
 ];
