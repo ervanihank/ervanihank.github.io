@@ -37502,5 +37502,144 @@ const filmDiaryEntries = [
         "2011"
       ]
     }
+  },
+  {
+    "id": "the-currents-2025",
+    "type": "film",
+    "title": {
+      "en": "The Currents",
+      "tr": "The Currents"
+    },
+    "creator": "Unknown",
+    "country": "unknown",
+    "countryLabel": {
+      "en": "Unknown",
+      "tr": "Unknown"
+    },
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BOTczYWEyM2UtMWI4OC00ZDk4LTgzMzAtNjNjYWU2YTQ0NTViXkEyXkFqcGc@._V1_.jpg",
+    "letterboxdUrl": "https://boxd.it/ezgbCT",
+    "year": "2025",
+    "watchedDate": "2026-05-29",
+    "note": {
+      "en": "Watched on 2026-05-29. Rated 3/5.",
+      "tr": "2026-05-29 tarihinde izlendi. Puan: 3/5."
+    },
+    "rating": "3/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "unknown",
+        "2025"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "unknown",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "the-hedgehog-2009",
+    "type": "film",
+    "title": {
+      "en": "The Hedgehog",
+      "tr": "The Hedgehog"
+    },
+    "creator": "Mona Achache",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/xa/kb/td/ml/hedgehog-1200-1200-675-675-crop-000000.jpg?v=bf3f5c8098",
+    "letterboxdUrl": "https://boxd.it/eBcxAb",
+    "year": "2009",
+    "watchedDate": "2026-05-31",
+    "note": {
+      "en": "Watched on 2026-05-31. Rated 3/5.",
+      "tr": "2026-05-31 tarihinde izlendi. Puan: 3/5."
+    },
+    "rating": "3/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "mona-achache",
+        "france",
+        "2009"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "mona-achache",
+        "france",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "the-little-sister-2025",
+    "type": "film",
+    "title": {
+      "en": "The Little Sister",
+      "tr": "The Little Sister"
+    },
+    "creator": "Hafsia Herzi",
+    "country": "france",
+    "countryLabel": {
+      "en": "France",
+      "tr": "France"
+    },
+    "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/c0/lc/gl/3k/zTzgDnCxLLXB0lw27SR9mb8HJvK-1200-1200-675-675-crop-000000.jpg?v=c8d48fe6b0",
+    "letterboxdUrl": "https://boxd.it/eFz77p",
+    "year": "2025",
+    "watchedDate": "2026-06-05",
+    "note": {
+      "en": "Watched on 2026-06-05. Rated 3/5.",
+      "tr": "2026-06-05 tarihinde izlendi. Puan: 3/5."
+    },
+    "rating": "3/5",
+    "essay": {
+      "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+      "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "letterboxd",
+        "diary",
+        "hafsia-herzi",
+        "france",
+        "2025"
+      ],
+      "tr": [
+        "letterboxd",
+        "diary",
+        "hafsia-herzi",
+        "france",
+        "2025"
+      ]
+    }
   }
 ];

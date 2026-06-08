@@ -1,8 +1,104 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-05-26T10:21:53.942136
+// Generated: 2026-06-08T14:01:02.511768
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
+  {
+    "id": "the-story-of-the-lost-child-(neapolitan-novels,-#4)-ferrante",
+    "type": "book",
+    "title": {
+      "en": "Storia della bambina perduta",
+      "tr": "The Story of the Lost Child (Neapolitan Novels, #4)"
+    },
+    "creator": "Elena Ferrante",
+    "country": "italy",
+    "countryLabel": {
+      "en": "Italy",
+      "tr": "Italy"
+    },
+    "year": "2015",
+    "readDate": "2026/06/08",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1582072522i/25242224.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/25242224",
+    "bookClubUrl": null,
+    "rating": "2/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2015"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "elena-ferrante",
+        "italy",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "mulksuzler-guin",
+    "type": "book",
+    "title": {
+      "en": "The Dispossessed: An Ambiguous Utopia",
+      "tr": "Mülksüzler"
+    },
+    "creator": "Ursula K. Le Guin",
+    "country": "unitedStates",
+    "countryLabel": {
+      "en": "United States",
+      "tr": "United States"
+    },
+    "year": "2013",
+    "readDate": "2026/06/01",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1456432634i/9269408.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/9269408",
+    "bookClubUrl": null,
+    "rating": "4/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "ursula-k.-le-guin",
+        "united-states",
+        "2013"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "ursula-k.-le-guin",
+        "united-states",
+        "2013"
+      ]
+    }
+  },
   {
     "id": "those-who-leave-and-those-who-stay-(neapolitan-novels,-#3)-ferrante",
     "type": "book",
