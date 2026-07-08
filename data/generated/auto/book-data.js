@@ -1,13 +1,61 @@
 // Auto-generated from Goodreads export CSV
-// Generated: 2026-06-08T14:01:02.511768
+// Generated: 2026-07-08T13:25:12.401190
 // Edit goodreads_library_export.csv and re-run generate_book_dataset.py to update
 
 const bookEntries = [
   {
+    "id": "bahcivan-ve-olum-gospodinov",
+    "type": "book",
+    "title": {
+      "en": "Death and the Gardener",
+      "tr": "Bahçıvan ve Ölüm"
+    },
+    "creator": "Georgi Gospodinov",
+    "country": "bulgaria",
+    "countryLabel": {
+      "en": "Bulgaria",
+      "tr": "Bulgaria"
+    },
+    "year": "2025",
+    "readDate": "2026/06/09",
+    "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756534101i/240946806.jpg",
+    "goodreadsUrl": "https://www.goodreads.com/book/show/240946806",
+    "bookClubUrl": null,
+    "rating": "5/5",
+    "note": {
+      "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+      "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+    },
+    "essay": {
+      "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+      "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+    },
+    "quotes": {
+      "en": [],
+      "tr": []
+    },
+    "tags": {
+      "en": [
+        "goodreads",
+        "library",
+        "georgi-gospodinov",
+        "bulgaria",
+        "2025"
+      ],
+      "tr": [
+        "goodreads",
+        "library",
+        "georgi-gospodinov",
+        "bulgaria",
+        "2025"
+      ]
+    }
+  },
+  {
     "id": "the-story-of-the-lost-child-(neapolitan-novels,-#4)-ferrante",
     "type": "book",
     "title": {
-      "en": "Storia della bambina perduta",
+      "en": "The Story of the Lost Child",
       "tr": "The Story of the Lost Child (Neapolitan Novels, #4)"
     },
     "creator": "Elena Ferrante",

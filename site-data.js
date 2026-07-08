@@ -2,8 +2,8 @@
 // Use tools/update_site_data.py or ./update_site_data.sh
 
 const siteData = {
-  "lastUpdated": "2026-06-08",
-  "generatedAt": "2026-06-08T18:01:02.611939+00:00",
+  "lastUpdated": "2026-07-08",
+  "generatedAt": "2026-07-08T17:25:17.165162+00:00",
   "sources": {
     "auto": {
       "books": "data/generated/auto/book-data.js",
@@ -106,10 +106,58 @@ const siteData = {
       }
     },
     {
+      "id": "bahcivan-ve-olum-gospodinov",
+      "type": "book",
+      "title": {
+        "en": "Death and the Gardener",
+        "tr": "Bahçıvan ve Ölüm"
+      },
+      "creator": "Georgi Gospodinov",
+      "country": "bulgaria",
+      "countryLabel": {
+        "en": "Bulgaria",
+        "tr": "Bulgaria"
+      },
+      "year": "2025",
+      "readDate": "2026/06/09",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756534101i/240946806.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/240946806",
+      "bookClubUrl": null,
+      "rating": "5/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "georgi-gospodinov",
+          "bulgaria",
+          "2025"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "georgi-gospodinov",
+          "bulgaria",
+          "2025"
+        ]
+      }
+    },
+    {
       "id": "the-story-of-the-lost-child-(neapolitan-novels,-#4)-ferrante",
       "type": "book",
       "title": {
-        "en": "Storia della bambina perduta",
+        "en": "The Story of the Lost Child",
         "tr": "The Story of the Lost Child (Neapolitan Novels, #4)"
       },
       "creator": "Elena Ferrante",
@@ -10694,6 +10742,290 @@ const siteData = {
     }
   ],
   "films": [
+    {
+      "id": "maddie-s-secret-2025",
+      "type": "film",
+      "title": {
+        "en": "Maddie's Secret",
+        "tr": "Maddie's Secret"
+      },
+      "creator": "Unknown",
+      "country": "unknown",
+      "countryLabel": {
+        "en": "Unknown",
+        "tr": "Unknown"
+      },
+      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYjg0ODRhYzctODVjZC00Y2VlLThlNjItM2ZlZDM5NzU5ODFkXkEyXkFqcGc@._V1_.jpg",
+      "letterboxdUrl": "https://boxd.it/f61E2d",
+      "year": "2025",
+      "watchedDate": "2026-07-05",
+      "note": {
+        "en": "Watched on 2026-07-05. Rated 2/5.",
+        "tr": "2026-07-05 tarihinde izlendi. Puan: 2/5."
+      },
+      "rating": "2/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "unknown",
+          "2025"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "unknown",
+          "2025"
+        ]
+      }
+    },
+    {
+      "id": "sorry-we-missed-you-2019",
+      "type": "film",
+      "title": {
+        "en": "Sorry We Missed You",
+        "tr": "Sorry We Missed You"
+      },
+      "creator": "Ken Loach",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/1i/rb/7g/e8/sorry-we-missed-you-1200-1200-675-675-crop-000000.jpg?v=9811eeb0ba",
+      "letterboxdUrl": "https://boxd.it/f09WWF",
+      "year": "2019",
+      "watchedDate": "2026-06-29",
+      "note": {
+        "en": "Watched on 2026-06-29. Rated 3.5/5.",
+        "tr": "2026-06-29 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "ken-loach",
+          "united-kingdom",
+          "2019"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "ken-loach",
+          "united-kingdom",
+          "2019"
+        ]
+      }
+    },
+    {
+      "id": "deniz-g-kta-l-deniz-2026",
+      "type": "film",
+      "title": {
+        "en": "Deniz Göktaş: Ölü Deniz",
+        "tr": "Deniz Göktaş: Ölü Deniz"
+      },
+      "creator": "Deniz Göktaş",
+      "country": "unknown",
+      "countryLabel": {
+        "en": "Unknown",
+        "tr": "Unknown"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/1/5/8/7/1/3/3/tmdb/z7PfDbA3C4edvvvTm31l1dntWRn-1200-1200-675-675-crop-000000.jpg?v=146e089676",
+      "letterboxdUrl": "https://boxd.it/eXIZtf",
+      "year": "2026",
+      "watchedDate": "2026-06-26",
+      "note": {
+        "en": "Watched on 2026-06-26. Rated 4.5/5.",
+        "tr": "2026-06-26 tarihinde izlendi. Puan: 4.5/5."
+      },
+      "rating": "4.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "deniz-g-kta",
+          "unknown",
+          "2026"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "deniz-g-kta",
+          "unknown",
+          "2026"
+        ]
+      }
+    },
+    {
+      "id": "la-chimera-2023",
+      "type": "film",
+      "title": {
+        "en": "La Chimera",
+        "tr": "La Chimera"
+      },
+      "creator": "Alice Rohrwacher",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/s4/qu/cr/yr/la-chimera-1200-1200-675-675-crop-000000.jpg?v=01fedaa12c",
+      "letterboxdUrl": "https://boxd.it/eV4ZOf",
+      "year": "2023",
+      "watchedDate": "2026-06-23",
+      "note": {
+        "en": "Watched on 2026-06-23. Rated 4/5.",
+        "tr": "2026-06-23 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "alice-rohrwacher",
+          "italy",
+          "2023"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "alice-rohrwacher",
+          "italy",
+          "2023"
+        ]
+      }
+    },
+    {
+      "id": "rose-of-nevada-2025",
+      "type": "film",
+      "title": {
+        "en": "Rose of Nevada",
+        "tr": "Rose of Nevada"
+      },
+      "creator": "Mark Jenkin",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/p8/5h/ju/vb/xKeYArWgmP7oEyDxsz7aK9fETm-1200-1200-675-675-crop-000000.jpg?v=029e71e047",
+      "letterboxdUrl": "https://boxd.it/eV6Nxv",
+      "year": "2025",
+      "watchedDate": "2026-06-23",
+      "note": {
+        "en": "Watched on 2026-06-23. Rated 3.5/5.",
+        "tr": "2026-06-23 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "mark-jenkin",
+          "united-kingdom",
+          "2025"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "mark-jenkin",
+          "united-kingdom",
+          "2025"
+        ]
+      }
+    },
+    {
+      "id": "amores-perros-2000",
+      "type": "film",
+      "title": {
+        "en": "Amores Perros",
+        "tr": "Amores Perros"
+      },
+      "creator": "Alejandro González Iñárritu",
+      "country": "mexico",
+      "countryLabel": {
+        "en": "Mexico",
+        "tr": "Mexico"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/c8/73/s2/zd/amores-1200-1200-675-675-crop-000000.jpg?v=414fdc6946",
+      "letterboxdUrl": "https://boxd.it/eLJnAr",
+      "year": "2000",
+      "watchedDate": "2026-06-12",
+      "note": {
+        "en": "Watched on 2026-06-12. Rated 4/5.",
+        "tr": "2026-06-12 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [
+          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
+        ]
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "alejandro-gonz-lez-i-rritu",
+          "mexico",
+          "2000"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "alejandro-gonz-lez-i-rritu",
+          "mexico",
+          "2000"
+        ]
+      }
+    },
     {
       "id": "the-little-sister-2025",
       "type": "film",
@@ -29636,7 +29968,7 @@ const siteData = {
       }
     },
     {
-      "id": "the-chaos-class-failed-the-class-1975",
+      "id": "the-chaos-class-failed-the-class-1976",
       "type": "film",
       "title": {
         "en": "The Chaos Class Failed the Class",
@@ -29650,7 +29982,7 @@ const siteData = {
       },
       "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/wt/45/l2/d1/chaos-1200-1200-675-675-crop-000000.jpg?v=43908473f6",
       "letterboxdUrl": "https://boxd.it/1iSQ",
-      "year": "1975",
+      "year": "1976",
       "watchedDate": "2023-01-09",
       "note": {
         "en": "Watched on 2023-01-09. Rated Rating not recorded.",
@@ -29671,14 +30003,14 @@ const siteData = {
           "watched",
           "ertem-e-ilmez",
           "turkey",
-          "1975"
+          "1976"
         ],
         "tr": [
           "letterboxd",
           "watched",
           "ertem-e-ilmez",
           "turkey",
-          "1975"
+          "1976"
         ]
       }
     },
@@ -35076,57 +35408,6 @@ const siteData = {
           "damien-chazelle",
           "united-states",
           "2014"
-        ]
-      }
-    },
-    {
-      "id": "amores-perros-2000",
-      "type": "film",
-      "title": {
-        "en": "Amores Perros",
-        "tr": "Amores Perros"
-      },
-      "creator": "Alejandro González Iñárritu",
-      "country": "mexico",
-      "countryLabel": {
-        "en": "Mexico",
-        "tr": "Mexico"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/c8/73/s2/zd/amores-1200-1200-675-675-crop-000000.jpg?v=414fdc6946",
-      "letterboxdUrl": "https://boxd.it/24ykZj",
-      "year": "2000",
-      "watchedDate": "2021-08-16",
-      "note": {
-        "en": "Watched on 2021-08-16. Rated 3.5/5.",
-        "tr": "2021-08-16 tarihinde izlendi. Puan: 3.5/5."
-      },
-      "rating": "3.5/5",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [
-          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
-        ],
-        "tr": [
-          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
-        ]
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "diary",
-          "alejandro-gonz-lez-i-rritu",
-          "mexico",
-          "2000"
-        ],
-        "tr": [
-          "letterboxd",
-          "diary",
-          "alejandro-gonz-lez-i-rritu",
-          "mexico",
-          "2000"
         ]
       }
     },
@@ -48773,10 +49054,58 @@ const siteData = {
       }
     },
     {
+      "id": "bahcivan-ve-olum-gospodinov",
+      "type": "book",
+      "title": {
+        "en": "Death and the Gardener",
+        "tr": "Bahçıvan ve Ölüm"
+      },
+      "creator": "Georgi Gospodinov",
+      "country": "bulgaria",
+      "countryLabel": {
+        "en": "Bulgaria",
+        "tr": "Bulgaria"
+      },
+      "year": "2025",
+      "readDate": "2026/06/09",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756534101i/240946806.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/240946806",
+      "bookClubUrl": null,
+      "rating": "5/5",
+      "note": {
+        "en": "I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.",
+        "tr": "Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum."
+      },
+      "essay": {
+        "en": "<h3>Reading Note</h3><p>I read this book before I started writing regular notes on books. I am keeping this entry as a memory marker in my reading journey.</p>",
+        "tr": "<h3>Okuma Notu</h3><p>Bu kitabi kitaplar uzerine duzenli notlar tutmaya baslamadan once okumustum. Bu kaydi okuma yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "goodreads",
+          "library",
+          "georgi-gospodinov",
+          "bulgaria",
+          "2025"
+        ],
+        "tr": [
+          "goodreads",
+          "library",
+          "georgi-gospodinov",
+          "bulgaria",
+          "2025"
+        ]
+      }
+    },
+    {
       "id": "the-story-of-the-lost-child-(neapolitan-novels,-#4)-ferrante",
       "type": "book",
       "title": {
-        "en": "Storia della bambina perduta",
+        "en": "The Story of the Lost Child",
         "tr": "The Story of the Lost Child (Neapolitan Novels, #4)"
       },
       "creator": "Elena Ferrante",
@@ -59356,6 +59685,290 @@ const siteData = {
           "peyami-safa",
           "turkey",
           "1968"
+        ]
+      }
+    },
+    {
+      "id": "maddie-s-secret-2025",
+      "type": "film",
+      "title": {
+        "en": "Maddie's Secret",
+        "tr": "Maddie's Secret"
+      },
+      "creator": "Unknown",
+      "country": "unknown",
+      "countryLabel": {
+        "en": "Unknown",
+        "tr": "Unknown"
+      },
+      "coverUrl": "https://m.media-amazon.com/images/M/MV5BYjg0ODRhYzctODVjZC00Y2VlLThlNjItM2ZlZDM5NzU5ODFkXkEyXkFqcGc@._V1_.jpg",
+      "letterboxdUrl": "https://boxd.it/f61E2d",
+      "year": "2025",
+      "watchedDate": "2026-07-05",
+      "note": {
+        "en": "Watched on 2026-07-05. Rated 2/5.",
+        "tr": "2026-07-05 tarihinde izlendi. Puan: 2/5."
+      },
+      "rating": "2/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "unknown",
+          "2025"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "unknown",
+          "2025"
+        ]
+      }
+    },
+    {
+      "id": "sorry-we-missed-you-2019",
+      "type": "film",
+      "title": {
+        "en": "Sorry We Missed You",
+        "tr": "Sorry We Missed You"
+      },
+      "creator": "Ken Loach",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/1i/rb/7g/e8/sorry-we-missed-you-1200-1200-675-675-crop-000000.jpg?v=9811eeb0ba",
+      "letterboxdUrl": "https://boxd.it/f09WWF",
+      "year": "2019",
+      "watchedDate": "2026-06-29",
+      "note": {
+        "en": "Watched on 2026-06-29. Rated 3.5/5.",
+        "tr": "2026-06-29 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "ken-loach",
+          "united-kingdom",
+          "2019"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "ken-loach",
+          "united-kingdom",
+          "2019"
+        ]
+      }
+    },
+    {
+      "id": "deniz-g-kta-l-deniz-2026",
+      "type": "film",
+      "title": {
+        "en": "Deniz Göktaş: Ölü Deniz",
+        "tr": "Deniz Göktaş: Ölü Deniz"
+      },
+      "creator": "Deniz Göktaş",
+      "country": "unknown",
+      "countryLabel": {
+        "en": "Unknown",
+        "tr": "Unknown"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/alternative-backdrop/1/5/8/7/1/3/3/tmdb/z7PfDbA3C4edvvvTm31l1dntWRn-1200-1200-675-675-crop-000000.jpg?v=146e089676",
+      "letterboxdUrl": "https://boxd.it/eXIZtf",
+      "year": "2026",
+      "watchedDate": "2026-06-26",
+      "note": {
+        "en": "Watched on 2026-06-26. Rated 4.5/5.",
+        "tr": "2026-06-26 tarihinde izlendi. Puan: 4.5/5."
+      },
+      "rating": "4.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "deniz-g-kta",
+          "unknown",
+          "2026"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "deniz-g-kta",
+          "unknown",
+          "2026"
+        ]
+      }
+    },
+    {
+      "id": "la-chimera-2023",
+      "type": "film",
+      "title": {
+        "en": "La Chimera",
+        "tr": "La Chimera"
+      },
+      "creator": "Alice Rohrwacher",
+      "country": "italy",
+      "countryLabel": {
+        "en": "Italy",
+        "tr": "Italy"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/s4/qu/cr/yr/la-chimera-1200-1200-675-675-crop-000000.jpg?v=01fedaa12c",
+      "letterboxdUrl": "https://boxd.it/eV4ZOf",
+      "year": "2023",
+      "watchedDate": "2026-06-23",
+      "note": {
+        "en": "Watched on 2026-06-23. Rated 4/5.",
+        "tr": "2026-06-23 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "alice-rohrwacher",
+          "italy",
+          "2023"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "alice-rohrwacher",
+          "italy",
+          "2023"
+        ]
+      }
+    },
+    {
+      "id": "rose-of-nevada-2025",
+      "type": "film",
+      "title": {
+        "en": "Rose of Nevada",
+        "tr": "Rose of Nevada"
+      },
+      "creator": "Mark Jenkin",
+      "country": "unitedKingdom",
+      "countryLabel": {
+        "en": "United Kingdom",
+        "tr": "United Kingdom"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/p8/5h/ju/vb/xKeYArWgmP7oEyDxsz7aK9fETm-1200-1200-675-675-crop-000000.jpg?v=029e71e047",
+      "letterboxdUrl": "https://boxd.it/eV6Nxv",
+      "year": "2025",
+      "watchedDate": "2026-06-23",
+      "note": {
+        "en": "Watched on 2026-06-23. Rated 3.5/5.",
+        "tr": "2026-06-23 tarihinde izlendi. Puan: 3.5/5."
+      },
+      "rating": "3.5/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I watched this movie before I started writing long-form notes on films. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu filmi filmler uzerine uzun notlar tutmaya baslamadan once izlemistim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [],
+        "tr": []
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "mark-jenkin",
+          "united-kingdom",
+          "2025"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "mark-jenkin",
+          "united-kingdom",
+          "2025"
+        ]
+      }
+    },
+    {
+      "id": "amores-perros-2000",
+      "type": "film",
+      "title": {
+        "en": "Amores Perros",
+        "tr": "Amores Perros"
+      },
+      "creator": "Alejandro González Iñárritu",
+      "country": "mexico",
+      "countryLabel": {
+        "en": "Mexico",
+        "tr": "Mexico"
+      },
+      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/c8/73/s2/zd/amores-1200-1200-675-675-crop-000000.jpg?v=414fdc6946",
+      "letterboxdUrl": "https://boxd.it/eLJnAr",
+      "year": "2000",
+      "watchedDate": "2026-06-12",
+      "note": {
+        "en": "Watched on 2026-06-12. Rated 4/5.",
+        "tr": "2026-06-12 tarihinde izlendi. Puan: 4/5."
+      },
+      "rating": "4/5",
+      "essay": {
+        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
+        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
+      },
+      "quotes": {
+        "en": [
+          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
+        ],
+        "tr": [
+          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
+        ]
+      },
+      "tags": {
+        "en": [
+          "letterboxd",
+          "diary",
+          "alejandro-gonz-lez-i-rritu",
+          "mexico",
+          "2000"
+        ],
+        "tr": [
+          "letterboxd",
+          "diary",
+          "alejandro-gonz-lez-i-rritu",
+          "mexico",
+          "2000"
         ]
       }
     },
@@ -78301,7 +78914,7 @@ const siteData = {
       }
     },
     {
-      "id": "the-chaos-class-failed-the-class-1975",
+      "id": "the-chaos-class-failed-the-class-1976",
       "type": "film",
       "title": {
         "en": "The Chaos Class Failed the Class",
@@ -78315,7 +78928,7 @@ const siteData = {
       },
       "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/wt/45/l2/d1/chaos-1200-1200-675-675-crop-000000.jpg?v=43908473f6",
       "letterboxdUrl": "https://boxd.it/1iSQ",
-      "year": "1975",
+      "year": "1976",
       "watchedDate": "2023-01-09",
       "note": {
         "en": "Watched on 2023-01-09. Rated Rating not recorded.",
@@ -78336,14 +78949,14 @@ const siteData = {
           "watched",
           "ertem-e-ilmez",
           "turkey",
-          "1975"
+          "1976"
         ],
         "tr": [
           "letterboxd",
           "watched",
           "ertem-e-ilmez",
           "turkey",
-          "1975"
+          "1976"
         ]
       }
     },
@@ -83741,57 +84354,6 @@ const siteData = {
           "damien-chazelle",
           "united-states",
           "2014"
-        ]
-      }
-    },
-    {
-      "id": "amores-perros-2000",
-      "type": "film",
-      "title": {
-        "en": "Amores Perros",
-        "tr": "Amores Perros"
-      },
-      "creator": "Alejandro González Iñárritu",
-      "country": "mexico",
-      "countryLabel": {
-        "en": "Mexico",
-        "tr": "Mexico"
-      },
-      "coverUrl": "https://a.ltrbxd.com/resized/sm/upload/c8/73/s2/zd/amores-1200-1200-675-675-crop-000000.jpg?v=414fdc6946",
-      "letterboxdUrl": "https://boxd.it/24ykZj",
-      "year": "2000",
-      "watchedDate": "2021-08-16",
-      "note": {
-        "en": "Watched on 2021-08-16. Rated 3.5/5.",
-        "tr": "2021-08-16 tarihinde izlendi. Puan: 3.5/5."
-      },
-      "rating": "3.5/5",
-      "essay": {
-        "en": "<h3>Diary Note</h3><p>I haven't taken notes on this film. I am keeping this entry as a memory marker in my viewing journey.</p>",
-        "tr": "<h3>Gunluk Notu</h3><p>Bu film icin not almadim. Bu kaydi izleme yolculugumun bir hafiza izi olarak koruyorum.</p>"
-      },
-      "quotes": {
-        "en": [
-          "I only kept quotations for this movie in Turkish. Please check the Turkish version."
-        ],
-        "tr": [
-          "\"Çünkü biz aslında biraz da kaybettiklerimiziz\""
-        ]
-      },
-      "tags": {
-        "en": [
-          "letterboxd",
-          "diary",
-          "alejandro-gonz-lez-i-rritu",
-          "mexico",
-          "2000"
-        ],
-        "tr": [
-          "letterboxd",
-          "diary",
-          "alejandro-gonz-lez-i-rritu",
-          "mexico",
-          "2000"
         ]
       }
     },

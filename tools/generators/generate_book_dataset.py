@@ -1397,6 +1397,18 @@ def resolve_english_title(row, title, author, title_overrides, title_cache, look
     return title
 
 
+def parse_goodreads_rating(value):
+    """Parse Goodreads ratings such as 5, 5.0, or 4.5."""
+    try:
+        rating = float((value or "").strip())
+    except ValueError:
+        return None
+
+    if rating <= 0:
+        return None
+    return int(rating) if rating.is_integer() else rating
+
+
 def normalize_country_code(country_name):
     """Map country labels to journal country code."""
     if not country_name:
@@ -1608,7 +1620,7 @@ def parse_goodreads_csv(
                 else:
                     goodreads_url = None
 
-                local_rating = int(rating) if rating.isdigit() and int(rating) > 0 else None
+                local_rating = parse_goodreads_rating(rating)
                 override_title = title_overrides.get(book_id_source) or title_overrides.get(title)
                 existing_english_title = ((existing_entry or {}).get("title") or {}).get("en")
                 if override_title:
